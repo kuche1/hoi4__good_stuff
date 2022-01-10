@@ -1,0 +1,2 @@
+NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 6900
+
