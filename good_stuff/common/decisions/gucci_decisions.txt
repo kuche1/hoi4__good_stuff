@@ -62,4 +62,49 @@ political_actions = {
 
 	}
 
+    gucci_set_ideology_to_faschism = {
+
+		cost = 200
+
+		visible = {
+			always = yes
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+
+		icon = generic_industry
+
+		complete_effect = {
+            set_politics = {
+                ruling_party = fascism
+            }
+		}
+
+	}
+
+    gucci_set_ideology_to_communism = {
+
+		cost = 150
+
+		visible = {
+			always = yes
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+
+		icon = generic_industry
+
+		complete_effect = {
+            set_politics = {
+                ruling_party = communism
+            }
+		}
+
+	}
+
 }
+
