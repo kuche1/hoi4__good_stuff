@@ -42,7 +42,7 @@ political_actions = {
 
     gucci_allow_creating_factions = {
 
-		cost = 0
+		cost = 20
 
 		visible = {
 			always = yes
@@ -86,7 +86,7 @@ political_actions = {
 
     gucci_set_ideology_to_communism = {
 
-		cost = 150
+		cost = 200
 
 		visible = {
 			always = yes
