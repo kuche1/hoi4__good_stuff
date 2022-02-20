@@ -5,7 +5,8 @@ NDefines.NDiplomacy.TENSION_DECAY = 0.4 -- reports as 0.5, bit works properly --
 NDefines.NDiplomacy.TENSION_SIZE_FACTOR = 0.85 -- default 1.0
 NDefines.NDiplomacy.TENSION_TIME_SCALE_MIN = 0 -- default 0.25
 
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.2, 0.1, 0.05, 0.03, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.2, 0.1, 0.05, 0.04, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+-- pri 0.03 na X pochva da mu lagi (na intela)
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 30 -- default 10
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 75 -- default 25
 
