@@ -2,12 +2,12 @@ on_actions = {
 	on_monthly = {
 		effect = {
 			every_state = {
-				limit = { 
+				limit = {
 					AND = {
 						NOT = {
 							is_core_of = THIS.controller
 						}
-						compliance > 34
+						compliance > 39
 					}
 				}
 				add_core_of = THIS.controller
