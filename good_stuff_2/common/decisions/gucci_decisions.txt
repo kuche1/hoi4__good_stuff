@@ -1,4 +1,4 @@
-political_actions = {
+gucci_efforts = {
 
     gucci_gas_jews = {
 
