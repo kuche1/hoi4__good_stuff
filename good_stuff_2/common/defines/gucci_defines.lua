@@ -29,10 +29,10 @@ NDefines.NGame.LAG_DAYS_FOR_PAUSE = 1440 -- default 25
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 4 -- default 20
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 1 -- default 5
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 2 -- default 10
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 0 -- default 24
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 512 -- default 24
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 512 -- setting this to 0 brakes the AI-- default 24
-NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 0 -- default 5
+NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 512 -- default 5
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 6900 -- default 500
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 6900 -- default 500
-NDefines.NMilitary.MAX_AIR_EXPERIENCE = 6909 -- default 500
+NDefines.NMilitary.MAX_AIR_EXPERIENCE = 6910 -- default 500
 
