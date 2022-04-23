@@ -3,8 +3,8 @@
 import os
 import sys
 
-dir_source = '/home/me/.steam/steam/steamapps/common/Hearts of Iron IV/history/states/'
-dir_dest = '/home/me/hoi4-mod-folder/disable_asia/history/states/'
+dir_source = os.path.expanduser('~') + '/.steam/steam/steamapps/common/Hearts of Iron IV/history/states/'
+dir_dest = os.path.expanduser('~') + '/.local/share/Paradox Interactive/Hearts of Iron IV/mod/disable_russia/history/states/'
 owner_old = 'owner = ' + sys.argv[1]
 owner_new = 'owner ='
 
