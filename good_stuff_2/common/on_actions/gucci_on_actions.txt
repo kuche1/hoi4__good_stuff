@@ -1,4 +1,11 @@
 on_actions = {
+	on_startup = {
+        effect = {
+			every_country = {
+				set_technology = { bicycle_infantry = 1 popup = no }
+			}
+		}
+	}
 	on_monthly = {
 		effect = {
 			every_state = {
