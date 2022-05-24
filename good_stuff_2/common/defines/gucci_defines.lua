@@ -11,7 +11,7 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 30 -- default 10
 
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 36 -- default 12
 
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.3, 0.06, 0.05, 0.04, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.25, 0.175, 0.1, 0.025, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 -- these need to be re-tested with certain parts of the world disabled
 --
 -- r5 5600x
@@ -22,9 +22,7 @@ NDefines.NGame.GAME_SPEED_SECONDS = { 0.3, 0.06, 0.05, 0.04, 0.0 } -- default { 
 -- 0.04 is too low
 --
 -- i5 750
--- 0.61 is too high
--- 0.3 - testing
--- 0.05 is good eraly game, but too low for mid to late game
+-- game runs fine on 0.05 in 1936 with only europe and russia on the map
 
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 336 -- default 10
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 2880 -- default 25
