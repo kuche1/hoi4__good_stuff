@@ -4,7 +4,7 @@ import os
 import sys
 
 dir_source = os.path.expanduser('~') + '/.steam/steam/steamapps/common/Hearts of Iron IV/history/states/'
-dir_dest = os.path.expanduser('~') + '/.local/share/Paradox Interactive/Hearts of Iron IV/mod/disable_oceania/history/states/'
+dir_dest = os.path.expanduser('~') + '/.local/share/Paradox Interactive/Hearts of Iron IV/mod/disable_middle_east/history/states/'
 owner_old = 'owner = ' + sys.argv[1]
 owner_new = 'owner ='
 
