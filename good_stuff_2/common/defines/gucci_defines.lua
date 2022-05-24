@@ -3,7 +3,7 @@ NDefines.NCountry.EVENT_PROCESS_OFFSET = 40 -- increases performance -- default 
 NDefines.NCountry.INTERPOLATED_FRONT_STEPS_SHORT = 1 -- default 2
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 500 -- disables special forces limit -- default 24
 
-NDefines.NDiplomacy.TENSION_DECAY = 0.26 -- reports as 0.5, but works properly -- default 0.1
+NDefines.NDiplomacy.TENSION_DECAY = 0.2 -- reports as 0.5, but works properly -- default 0.1
 NDefines.NDiplomacy.TENSION_SIZE_FACTOR = 0.7 -- default 1.0
 NDefines.NDiplomacy.TENSION_TIME_SCALE_MIN = 0 -- default 0.25
 
@@ -11,7 +11,9 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 30 -- default 10
 
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 36 -- default 12
 
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.3, 0.05, 0.04, 0.03, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.3, 0.06, 0.05, 0.04, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+-- these need to be re-tested with certain parts of the world disabled
+--
 -- r5 5600x
 -- idkman its too fast
 --
@@ -36,6 +38,10 @@ NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 512 -- default 5
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 5000 -- default 500
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 5000 -- default 500
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 5000 -- default 500
+
+NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 90.0 -- default 30.0
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.8 -- default 2
+NDefines.NTechnology.MIN_RESEARCH_SPEED = 0.07 -- default 0.1
 
 NDefines_Graphics.NGraphics.CAPITAL_ICON_CUTOFF = 1500 -- default 1100
 NDefines_Graphics.NGraphics.CAMERA_ZOOM_SPEED_DISTANCE_MULT = 20.0 -- default 6.0
