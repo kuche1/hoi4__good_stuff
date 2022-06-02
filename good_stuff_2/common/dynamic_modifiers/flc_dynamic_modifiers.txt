@@ -1,0 +1,13 @@
+FLC_military_factory_modifier = {
+	enable = { always = yes } # was num_of_civilian_factories > 200 but i will use this to keep UI consistent with when decision category updates
+	# no icon, to prevent other players inferring civ count
+
+	consumer_goods_factor = FLC_penalty_military_factories
+}
+
+FLC_naval_factory_modifier = {
+	enable = { always = yes } # was num_of_civilian_factories > 200 but i will use this to keep UI consistent with when decision category updates
+	# no icon, to prevent other players inferring civ count
+
+	consumer_goods_factor = FLC_penalty_naval_factories
+}

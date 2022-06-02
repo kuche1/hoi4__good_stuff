@@ -12,8 +12,8 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 30 -- default 10
 
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 4 -- default 12 -- used to be 36, but that seems to lower the performance
 
---NDefines.NGame.GAME_SPEED_SECONDS = { 0.175, 0.1375, 0.1, 0.0625, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.1375, 0.102083333, 0.066666666, 0.03125, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.175, 0.1375, 0.1, 0.0625, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+--NDefines.NGame.GAME_SPEED_SECONDS = { 0.1375, 0.102083333, 0.066666666, 0.03125, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --
 -- these need to be re-tested with certain parts of the world disabled
 --

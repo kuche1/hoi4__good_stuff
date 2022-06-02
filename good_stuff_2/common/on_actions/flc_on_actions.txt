@@ -1,0 +1,83 @@
+on_actions = {
+	on_weekly = {
+		effect = {
+				################################################
+				#####		Military Factory Penalties	  #####
+				##############################################
+				if = {
+					limit = {
+						OR = {
+							num_of_military_factories < 50 # military <= 50
+							check_variable = { FLC_producing_military_factories < 51 }
+						}
+					}
+					clear_variable = FLC_penalty_military_factories
+					remove_dynamic_modifier = { modifier = FLC_military_factory_modifier }
+				}
+
+			for_each_scope_loop = { # i could make it affect every country, but we're mostly worried about the majors snowballing, and this saves performance
+				array = global.majors
+				
+				if = {
+					limit = { num_of_military_factories > 50 }
+
+					### Calculating producing military factories ###
+					set_variable = { FLC_producing_military_factories = num_of_military_factories }
+					subtract_from_variable = { FLC_producing_military_factories = num_of_available_military_factories }
+					
+					if = {
+						limit = { check_variable = { FLC_producing_military_factories > 50 } }
+						set_variable = { FLC_penalty_military_factories = FLC_producing_military_factories }
+						subtract_from_variable = { FLC_penalty_military_factories = 50 }
+						divide_variable = { FLC_penalty_military_factories = 555 } # 1 factory -> 100/555 -> 0.18018018% consumer goods
+						clamp_variable = {
+							var = FLC_penalty_military_factories
+							max = 0.5
+						}
+						add_dynamic_modifier = { modifier = FLC_military_factory_modifier }
+					}
+					
+				}
+			}
+			
+			################################################
+			#####		Naval Factory Penalties	      #####
+			##############################################
+				if = {
+					limit = {
+						OR = {
+							num_of_naval_factories < 40
+							check_variable = { FLC_producing_naval_factories < 41 }
+						}
+					}
+					clear_variable = FLC_penalty_naval_factories
+					remove_dynamic_modifier = { modifier = FLC_naval_factory_modifier }
+				}
+
+			for_each_scope_loop = { # i could make it affect every country, but we're mostly worried about the majors snowballing, and this saves performance
+				array = global.majors
+				
+				if = {
+					limit = { num_of_naval_factories > 40 }
+
+					### Calculating producing military factories ###
+					set_variable = { FLC_producing_naval_factories = num_of_naval_factories }
+					subtract_from_variable = { FLC_producing_naval_factories = num_of_available_naval_factories }
+					
+					if = {
+						limit = { check_variable = { FLC_producing_naval_factories > 40 } }
+						set_variable = { FLC_penalty_naval_factories = FLC_producing_naval_factories }
+						subtract_from_variable = { FLC_penalty_naval_factories = 40 }
+						divide_variable = { FLC_penalty_naval_factories = 1000 } # 1 factory -> 0.01% factor
+						clamp_variable = {
+							var = FLC_penalty_naval_factories
+							max = 0.5
+						}
+						add_dynamic_modifier = { modifier = FLC_naval_factory_modifier }
+					}
+					
+				}
+			}
+		}
+	}
+}

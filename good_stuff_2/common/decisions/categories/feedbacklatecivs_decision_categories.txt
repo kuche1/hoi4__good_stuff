@@ -1,0 +1,11 @@
+feedback_late_civs = {
+	icon = GFX_decision_category_generic_economy
+	visible = { 
+		OR = {
+			has_variable = FLC_penalty_military_factories
+			has_variable = FLC_penalty_naval_factories
+		}
+	}
+	visible_when_empty = yes # working solely as a GUI, no decisions used
+	priority = 1000 # pretty important
+}
