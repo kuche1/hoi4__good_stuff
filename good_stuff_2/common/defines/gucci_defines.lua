@@ -11,13 +11,13 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 30 -- default 10
 
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 8 -- default 12 -- used to be 36, but that seems to lower the performance
 
-NDefines.NGame.GAME_SPEED_SECONDS = { 0.175, 0.1375, 0.1, 0.0625, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
---NDefines.NGame.GAME_SPEED_SECONDS = { 0.1375, 0.102083333, 0.066666666, 0.03125, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.175, 0.13333333333333333, 0.09166666666666667, 0.05, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --
 -- these need to be re-tested with certain parts of the world disabled
 --
 -- r5 5600x
--- idkman its too fast
+--     south america disabled
+--         0.0625 too slow
 --
 -- r5 3600
 -- 0.125 is too high
