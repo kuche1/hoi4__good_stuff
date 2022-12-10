@@ -31,9 +31,9 @@ NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 336 -- default 10
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 2880 -- default 25
 
 -- template editing cost
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 4 -- default 20
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 1 -- default 5
-NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 2 -- default 10
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 8 -- default 20
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 2 -- default 5
+NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 4 -- default 10
 
 -- max armiy size
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 256 -- default 24
