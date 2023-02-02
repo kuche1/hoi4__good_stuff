@@ -42,7 +42,7 @@ gucci_efforts = {
 
     gucci_allow_creating_factions = {
 
-		cost = 20
+		cost = 50
 
 		visible = {
 			always = yes
@@ -64,7 +64,7 @@ gucci_efforts = {
 
     gucci_set_ideology_to_faschism = {
 
-		cost = 200
+		cost = 150
 
 		visible = {
 			always = yes
@@ -86,7 +86,7 @@ gucci_efforts = {
 
     gucci_set_ideology_to_communism = {
 
-		cost = 200
+		cost = 150
 
 		visible = {
 			always = yes
