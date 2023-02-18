@@ -1,10 +1,16 @@
 on_actions = {
 
-	on_startup = {
+	on_monthly = {
+	#on_daily = { # debug
+
 		effect = {
 
 			for_each_scope_loop = {
 				array = global.countries
+
+				################## variable initialization
+				################## ideally this should be put under `on_startup`
+				################## however doing so makes the mod not work with load games
 
 				# set defines
 
@@ -12,7 +18,7 @@ on_actions = {
 
 				set_variable = {
 					var = FLC_MILS_PENALTY
-					value = 0.06 # consumer goods penalty for each factory
+					value = 0.04 # consumer goods penalty for each factory
 				}
 
 				set_variable = {
@@ -31,14 +37,14 @@ on_actions = {
 
 				set_variable = {
 					var = FLC_MILS_CONST_PENALTY
-					value = -0.008 # construction penalty for each factory; -0.001 stands for 0.1%
+					value = -0.006 # construction penalty for each factory; -0.001 stands for 0.1%
 				}
 
 				# DOCS
 
 				set_variable = {
 					var = FLC_DOCS_PENALTY
-					value = 0.04 # consumer goods penalty for each factory
+					value = 0.03 # consumer goods penalty for each factory
 				}
 
 				set_variable = {
@@ -86,20 +92,10 @@ on_actions = {
 
 				add_dynamic_modifier = { modifier = FLC_military_factory_modifier }
 				add_dynamic_modifier = { modifier = FLC_naval_factory_modifier }
-			}
 
-		}
-	}
-
-	on_monthly = {
-	#on_daily = { # debug
-
-		effect = {
-
-			# do the job
-
-			for_each_scope_loop = {
-				array = global.countries
+				##################
+				################## do the job
+				##################
 
 				# mils consumer goods
 
