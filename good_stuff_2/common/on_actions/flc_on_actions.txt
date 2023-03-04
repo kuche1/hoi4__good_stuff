@@ -14,11 +14,12 @@ on_actions = {
 
 				# set defines
 
-				# MILS
+				# mils
 
 				set_variable = {
 					var = FLC_MILS_PENALTY
-					value = 0.04 # consumer goods penalty for each factory
+					value = 0.042 # consumer goods penalty for each factory
+					# changing this to something as accurate as `0.0001` causes great shit to happen
 				}
 
 				set_variable = {
@@ -31,116 +32,49 @@ on_actions = {
 				}
 
 				set_variable = {
-					var = FLC_MILS_PENALTY_MAX
-					value = 0.35 # max penalty; 1.0 stands for 100%
-				}
-
-				set_variable = {
 					var = FLC_MILS_CONST_PENALTY
-					value = -0.006 # construction penalty for each factory; -0.001 stands for 0.1%
-				}
-
-				# DOCS
-
-				set_variable = {
-					var = FLC_DOCS_PENALTY
-					value = 0.03 # consumer goods penalty for each factory
-				}
-
-				set_variable = {
-					var = FLC_DOCS_PENALTY_DIV
-					value = 100
-				}
-				divide_variable = {
-					var = FLC_DOCS_PENALTY_DIV
-					value = FLC_DOCS_PENALTY
-				}
-
-				set_variable = {
-					var = FLC_DOCS_PENALTY_MAX
-					value = 0.35 # max penalty; 1.0 stands for 100%
-				}
-
-				set_variable = {
-					var = FLC_DOCS_CONST_PENALTY
-					value = -0.004 # construction penalty for each factory; -0.001 stands for 0.1%
-				}
-
-				# clear modifiers
-
-				set_variable = {
-					var = FLC_penalty_military_factories
-					value = 0
-				}
-
-				set_variable = {
-					var = FLC_penalty_naval_factories
-					value = 0
-				}
-
-				set_variable = {
-					var = FLC_mils_construction_speed
-					value = 0
-				}
-
-				set_variable = {
-					var = FLC_docs_construction_speed
-					value = 0
+					value = -0.007 # construction penalty for each factory; -0.001 stands for 0.1%
+					# changine this to something as accurate as `0.0001` causes great shit to happen
 				}
 
 				# add modifiers
 
 				add_dynamic_modifier = { modifier = FLC_military_factory_modifier }
-				add_dynamic_modifier = { modifier = FLC_naval_factory_modifier }
 
 				##################
 				################## do the job
 				##################
 
-				# mils consumer goods
+				# number of factories
 
-				set_variable = { FLC_penalty_military_factories = num_of_military_factories }
+				set_variable = {
+					var = FLC_total_factories
+					value = num_of_military_factories
+				}
+				add_to_variable = {
+					var = FLC_total_factories
+					value = num_of_naval_factories
+				}
+
+				# consumer goods
+
+				set_variable = {
+					FLC_penalty_military_factories = FLC_total_factories
+				}
 				divide_variable = {
 					var = FLC_penalty_military_factories
 					value = FLC_MILS_PENALTY_DIV
 				}
-				clamp_variable = {
-					var = FLC_penalty_military_factories
-					max = FLC_MILS_PENALTY_MAX
-				}
 
-				# docs consumer goods
-
-				set_variable = { FLC_penalty_naval_factories = num_of_naval_factories }
-				divide_variable = {
-					var = FLC_penalty_naval_factories
-					value = FLC_DOCS_PENALTY_DIV
-				}
-				clamp_variable = {
-					var = FLC_penalty_naval_factories
-					max = FLC_DOCS_PENALTY_MAX
-				}
-
-				# mils construction speed
+				# construction speed
 
 				set_variable = {
 					var = FLC_mils_construction_speed
-					value = num_of_military_factories
+					value = FLC_total_factories
 				}
 				multiply_variable = {
 					var = FLC_mils_construction_speed
 					value = FLC_MILS_CONST_PENALTY
-				}
-
-				# docs construction speed
-
-				set_variable = {
-					var = FLC_docs_construction_speed
-					value = num_of_naval_factories
-				}
-				multiply_variable = {
-					var = FLC_docs_construction_speed
-					value = FLC_DOCS_CONST_PENALTY
 				}
 
 			}

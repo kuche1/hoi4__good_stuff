@@ -3,7 +3,6 @@ feedback_late_civs = {
 	visible = { 
 		OR = {
 			has_variable = FLC_penalty_military_factories
-			has_variable = FLC_penalty_naval_factories
 		}
 	}
 	visible_when_empty = yes # working solely as a GUI, no decisions used

@@ -7,8 +7,8 @@
 -------- convenience
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 400 -- disables special forces limit -- default 24
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 33 -- makes naval invasions take less time -- default 168
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 336 -- default 10
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 2880 -- default 25
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 250 -- default 10
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 2000 -- default 25
 
 -- template editing cost
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 8 -- default 20
@@ -16,9 +16,9 @@ NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 2 -- default 5
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 4 -- default 10
 
 -- max armiy size
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 32 -- default 24
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 32 -- setting this to 0 brakes the AI -- default 24
-NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 8 -- default 5
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 30 -- default 24
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 30 -- setting this to 0 brakes the AI -- default 24
+NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 7 -- default 5
 
 -- max experience and pp
 NDefines.NCountry.POLITICAL_POWER_UPPER_CAP = 4000.0 -- default 2000.0
@@ -46,24 +46,8 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35 -- default 10
 -- NDefines_Graphics.NGraphics.NAVAL_UNIT_MOVEMENT_SPEED = 9999 -- default 12
 
 -------- speed buttons
-NDefines.NGame.GAME_SPEED_SECONDS = {0.13, 0.10333333333333333, 0.07666666666666667, 0.05, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = {0.18, 0.14, 0.1, 0.06, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 -- shitty laptop:
---     game runs too fast (in >=mid game)         0.05
---     game runs fine but can probably be tweaked 0.09166666666666667
---     game runs too low                          0.13333333333333333
-
--- NDefines.NGame.GAME_SPEED_SECONDS = { 0.175, 0.13333333333333333, 0.09166666666666667, 0.05, 0.0 } -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
---
--- these need to be re-tested with certain parts of the world disabled
---
--- r5 5600x
---     south america disabled
---         0.0625 too slow
---
--- r5 3600
--- 0.125 is too high
--- 0.04 is too low
---
--- i5 750
--- game runs fine on 0.05 in 1936 with only europe and russia on the map
--- 0.025 game runs too quickly, cannot catch up even in early game: europe + russia + USA
+--     with optimized map v2:
+--         MP lag during war   on 0.13
+--         MP lag during piece on 0.05
