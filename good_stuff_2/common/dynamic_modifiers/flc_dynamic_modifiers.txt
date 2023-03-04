@@ -4,4 +4,5 @@ FLC_military_factory_modifier = {
 
 	consumer_goods_factor = FLC_penalty_military_factories
 	production_speed_arms_factory_factor = FLC_mils_construction_speed
+	production_speed_dockyard_factor = FLC_docs_construction_speed
 }
