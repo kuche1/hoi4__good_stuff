@@ -1,9 +1,329 @@
 on_actions = {
 	on_startup = {
         effect = {
+
+			################################### give bycicles to everyone
+
 			every_country = {
 				set_technology = { bicycle_infantry = 1 popup = no }
 			}
+
+			################################### optimize some of the map
+
+			# curiosity: you can use `this` instead of a country tag
+
+			######################### brazil
+
+			set_temp_variable = {ROOT.marks = urg}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = bra}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = arg}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = bra}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = par}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = bra}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = bol}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = bra}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = chl}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = bra}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = pru}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = bra}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = ecu}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = bra}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = col}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = bra}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = ven}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = bra}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			######################### mexico
+
+			set_temp_variable = {ROOT.marks = gua}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = mex}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = gua}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = mex}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = els}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = mex}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = hon}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = mex}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = nic}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = mex}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = cos}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = mex}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			######################### saudi arabia
+
+			set_temp_variable = {ROOT.marks = yem}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = sau}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = oma}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = sau}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
 		}
 	}
 	on_monthly = {
