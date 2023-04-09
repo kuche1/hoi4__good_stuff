@@ -7,8 +7,8 @@
 -------- convenience
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 400 -- disables special forces limit -- default 24
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 33 -- makes naval invasions take less time -- default 168
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 250 -- default 10
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 2000 -- default 25
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100 -- default 10
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 250 -- default 25
 
 -- template editing cost
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 8 -- default 20
@@ -46,14 +46,17 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35 -- default 10
 -- NDefines_Graphics.NGraphics.NAVAL_UNIT_MOVEMENT_SPEED = 9999 -- default 12
 
 -------- speed buttons
-NDefines.NGame.GAME_SPEED_SECONDS = {0.16, 0.12, 0.08, 0.04, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = {0.16, 0.11333333333333334, 0.06666666666666667, 0.02, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --  generate new indexes with:
 --      gen_idx = lambda start, end, idx: start + idx * (end-start)/3
---      start = 0.06 ; end = 0.18
---      [gen_idx(start, end, 3), gen_idx(start, end, 2), gen_idx(start, end, 1), gen_idx(start, 0.18, 0)]
+--      start = 0.02 ; end = 0.16
+--      f'{{{gen_idx(start, end, 3)}, {gen_idx(start, end, 2)}, {gen_idx(start, end, 1)}, {gen_idx(start, 0.18, 0)}, 0.0}}'
 --
 --  with new mod optimizations + debug_smooth
 --      amd ryzen 5 1600:
+--          0.02 - minor slowdown at 1936 jul while using rustdesk
+--          0.03 - no slowdown until at least 1936 mar
+--          0.04 - no slowdown until at least 1938 may
 --          0.06 - no slowdown until at least 1937 jul
 --
 -- shitty laptop:
