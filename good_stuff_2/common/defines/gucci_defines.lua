@@ -46,7 +46,16 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35 -- default 10
 -- NDefines_Graphics.NGraphics.NAVAL_UNIT_MOVEMENT_SPEED = 9999 -- default 12
 
 -------- speed buttons
-NDefines.NGame.GAME_SPEED_SECONDS = {0.18, 0.14, 0.1, 0.06, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = {0.16, 0.12, 0.08, 0.04, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+--  generate new indexes with:
+--      gen_idx = lambda start, end, idx: start + idx * (end-start)/3
+--      start = 0.06 ; end = 0.18
+--      [gen_idx(start, end, 3), gen_idx(start, end, 2), gen_idx(start, end, 1), gen_idx(start, 0.18, 0)]
+--
+--  with new mod optimizations + debug_smooth
+--      amd ryzen 5 1600:
+--          0.06 - no slowdown until at least 1937 jul
+--
 -- shitty laptop:
 --     with optimized map v2:
 --         MP lag during war   on 0.13
