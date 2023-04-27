@@ -7,8 +7,8 @@
 -------- convenience
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 400 -- disables special forces limit -- default 24
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 33 -- makes naval invasions take less time -- default 168
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100 -- default 10
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 250 -- default 25
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 80 -- default 10
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 200 -- default 25
 
 -- template editing cost
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 8 -- default 20
@@ -16,9 +16,9 @@ NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 2 -- default 5
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 4 -- default 10
 
 -- max armiy size
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 30 -- default 24
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 30 -- setting this to 0 brakes the AI -- default 24
-NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 7 -- default 5
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 26 -- default 24
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 26 -- setting this to 0 brakes the AI -- default 24
+NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 11 -- default 5
 
 -- max experience and pp
 NDefines.NCountry.POLITICAL_POWER_UPPER_CAP = 4000.0 -- default 2000.0
@@ -35,7 +35,7 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35 -- default 10
 -- NDefines.NDiplomacy.TENSION_SIZE_FACTOR = 0.8 -- default 1.0
 -- NDefines.NDiplomacy.TENSION_TIME_SCALE_MIN = 0 -- default 0.25
 
--- NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = -- 0.7 -- default 2
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.9 -- used to be 0.7 at some point -- default 2
 -- NDefines.NTechnology.MIN_RESEARCH_SPEED = 0.1 -- default 0.1
 
 -------- can't remember
@@ -46,18 +46,20 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35 -- default 10
 -- NDefines_Graphics.NGraphics.NAVAL_UNIT_MOVEMENT_SPEED = 9999 -- default 12
 
 -------- speed buttons
-NDefines.NGame.GAME_SPEED_SECONDS = {0.16, 0.11333333333333334, 0.06666666666666667, 0.02, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = {0.18, 0.126, 0.072, 0.018, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --  generate new indexes with:
 --      gen_idx = lambda start, end, idx: start + idx * (end-start)/3
---      start = 0.02 ; end = 0.16
+--      end = 0.18 ; start = 0.018
 --      f'{{{gen_idx(start, end, 3)}, {gen_idx(start, end, 2)}, {gen_idx(start, end, 1)}, {gen_idx(start, 0.18, 0)}, 0.0}}'
 --
 --  with new mod optimizations + debug_smooth
---      amd ryzen 5 1600:
+--      amd ryzen 5 1600
 --          0.02 - minor slowdown at 1936 jul while using rustdesk
 --          0.03 - no slowdown until at least 1936 mar
 --          0.04 - no slowdown until at least 1938 may
 --          0.06 - no slowdown until at least 1937 jul
+--      amd ryzen 5 5600
+--          0.02 - no slowdown until at least 1940
 --
 -- shitty laptop:
 --     with optimized map v2:
