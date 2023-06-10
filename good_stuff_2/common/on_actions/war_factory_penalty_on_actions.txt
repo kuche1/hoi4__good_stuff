@@ -34,6 +34,11 @@ on_actions = {
 					# changine this to something as accurate as `0.0001` causes great shit to happen
 				}
 
+				set_variable = {
+					var = FLC_FLAT_WAR_FACTORY_CONST_PENALTY
+					value = -0.050 # -0.001 stands for 0.1%
+				}
+
 				# add modifiers
 
 				add_dynamic_modifier = { modifier = FLC_military_factory_modifier }
@@ -82,6 +87,11 @@ on_actions = {
 				multiply_variable = {
 					var = FLC_mils_construction_speed
 					value = FLC_MILS_CONST_PENALTY
+				}
+
+				add_to_variable = {
+					var = FLC_mils_construction_speed
+					value = FLC_FLAT_WAR_FACTORY_CONST_PENALTY
 				}
 
 			}

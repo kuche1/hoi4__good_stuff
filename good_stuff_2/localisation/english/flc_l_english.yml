@@ -1,4 +1,0 @@
-﻿l_english:
- feedback_late_civs: "$MODIFIER_CONSUMER_GOODS_FACTOR$ Penalty"
- feedback_late_civs_desc: "Your industry tanks as your §G$arms_factory_plural$§! and §5$dockyard_plural$§! count increases. §1This penalty is updated monthly§!.\n\nNumber of factories: [?FLC_total_factories|Y0]\n\n§H$MODIFIER_CONSUMER_GOODS_FACTOR$§!\n        §1Total§! cost: [?FLC_penalty_military_factories|%Y1]\n        Per factory: [?FLC_MILS_PENALTY|Y3]§H%§!\n§HConstruction Speed§!\n        §1Total§!: [?FLC_mils_construction_speed|%Y3]\n        Per factory: [?FLC_MILS_CONST_PENALTY|%Y3]"
- FLC_military_factory_modifier:0 "Military Factory Cost"
