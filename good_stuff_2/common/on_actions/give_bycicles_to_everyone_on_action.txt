@@ -1,0 +1,10 @@
+
+on_actions = {
+	on_startup = {
+        effect = {
+			every_country = {
+				set_technology = { bicycle_infantry = 1 popup = no }
+			}
+		}
+	}
+}

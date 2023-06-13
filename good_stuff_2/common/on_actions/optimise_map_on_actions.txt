@@ -2,12 +2,6 @@ on_actions = {
 	on_startup = {
         effect = {
 
-			################################### give bycicles to everyone
-
-			every_country = {
-				set_technology = { bicycle_infantry = 1 popup = no }
-			}
-
 			################################### optimize some of the map
 
 			# curiosity: you can use `this` instead of a country tag
@@ -324,21 +318,6 @@ on_actions = {
 				clr_state_flag = marked_for_transfer
 			}
 
-		}
-	}
-	on_monthly = {
-		effect = {
-			every_state = {
-				limit = {
-					AND = {
-						NOT = {
-							is_core_of = THIS.controller
-						}
-						compliance > 49
-					}
-				}
-				add_core_of = THIS.controller
-			}
 		}
 	}
 }
