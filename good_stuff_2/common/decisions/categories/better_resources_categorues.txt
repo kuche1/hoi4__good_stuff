@@ -1,0 +1,10 @@
+better_resources = {
+	icon = GFX_decision_category_generic_economy
+	visible = { 
+		OR = {
+			has_variable = used_up_rubber
+		}
+	}
+	visible_when_empty = yes # working solely as a GUI, no decisions used
+	priority = 1000 # pretty important
+}

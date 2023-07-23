@@ -1,0 +1,314 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			for_each_scope_loop = {
+				array = global.countries
+
+				# init vars
+
+				set_variable = {
+					saved_up_rubber = 0
+				}
+				set_variable = {
+					used_up_rubber = 0
+				}
+
+				set_variable = {
+					saved_up_aluminium = 0
+				}
+				set_variable = {
+					used_up_aluminium = 0
+				}
+
+				set_variable = {
+					saved_up_chromium = 0
+				}
+				set_variable = {
+					used_up_chromium = 0
+				}
+
+				set_variable = {
+					saved_up_tungsten = 0
+				}
+				set_variable = {
+					used_up_tungsten = 0
+				}
+
+				set_variable = {
+					saved_up_steel = 0
+				}
+				set_variable = {
+					used_up_steel = 0
+				}
+
+				# add modifier
+
+				add_dynamic_modifier = {
+                    modifier = better_resources_modifier
+                }
+			}
+		}
+	}
+
+	on_weekly = {
+		effect = {
+
+			###########
+			########### rubber
+			###########
+
+			set_variable = {
+				current_resource_amount = resource@rubber
+			}
+			subtract_from_variable = {
+				var = current_resource_amount
+				value = used_up_rubber
+			}
+
+			# if we have surplus of resources put them in the stockpile
+			if = {
+				limit = {
+					check_variable = {
+						var = current_resource_amount
+						value = 0
+						compare = greater_than
+					}
+				}
+				add_to_variable = {
+					var = saved_up_rubber
+					value = current_resource_amount
+				}
+				set_variable = {
+					used_up_rubber = 0
+				}
+			}
+			# if we have a deficit of a resource
+			else = {
+				set_variable = {
+					used_up_rubber = current_resource_amount
+				}
+				multiply_variable = {
+					var = used_up_rubber
+					value = -1
+				}
+			}
+
+			clamp_variable = {
+				var = used_up_rubber
+				min = 0 
+				max = saved_up_rubber
+			}
+
+			subtract_from_variable = {
+				var = saved_up_rubber
+				value = used_up_rubber
+			}
+
+			###########
+			########### aluminium
+			###########
+
+			set_variable = {
+				current_resource_amount = resource@aluminium
+			}
+			subtract_from_variable = {
+				var = current_resource_amount
+				value = used_up_aluminium
+			}
+
+			# if we have surplus of resources put them in the stockpile
+			if = {
+				limit = {
+					check_variable = {
+						var = current_resource_amount
+						value = 0
+						compare = greater_than
+					}
+				}
+				add_to_variable = {
+					var = saved_up_aluminium
+					value = current_resource_amount
+				}
+				set_variable = {
+					used_up_aluminium = 0
+				}
+			}
+			# if we have a deficit of a resource
+			else = {
+				set_variable = {
+					used_up_aluminium = current_resource_amount
+				}
+				multiply_variable = {
+					var = used_up_aluminium
+					value = -1
+				}
+			}
+
+			clamp_variable = {
+				var = used_up_aluminium
+				min = 0 
+				max = saved_up_aluminium
+			}
+
+			subtract_from_variable = {
+				var = saved_up_aluminium
+				value = used_up_aluminium
+			}
+
+			###########
+			########### chromium
+			###########
+
+			set_variable = {
+				current_resource_amount = resource@chromium
+			}
+			subtract_from_variable = {
+				var = current_resource_amount
+				value = used_up_chromium
+			}
+
+			# if we have surplus of resources put them in the stockpile
+			if = {
+				limit = {
+					check_variable = {
+						var = current_resource_amount
+						value = 0
+						compare = greater_than
+					}
+				}
+				add_to_variable = {
+					var = saved_up_chromium
+					value = current_resource_amount
+				}
+				set_variable = {
+					used_up_chromium = 0
+				}
+			}
+			# if we have a deficit of a resource
+			else = {
+				set_variable = {
+					used_up_chromium = current_resource_amount
+				}
+				multiply_variable = {
+					var = used_up_chromium
+					value = -1
+				}
+			}
+
+			clamp_variable = {
+				var = used_up_chromium
+				min = 0 
+				max = saved_up_chromium
+			}
+
+			subtract_from_variable = {
+				var = saved_up_chromium
+				value = used_up_chromium
+			}
+
+			###########
+			########### tungsten
+			###########
+
+			set_variable = {
+				current_resource_amount = resource@tungsten
+			}
+			subtract_from_variable = {
+				var = current_resource_amount
+				value = used_up_tungsten
+			}
+
+			# if we have surplus of resources put them in the stockpile
+			if = {
+				limit = {
+					check_variable = {
+						var = current_resource_amount
+						value = 0
+						compare = greater_than
+					}
+				}
+				add_to_variable = {
+					var = saved_up_tungsten
+					value = current_resource_amount
+				}
+				set_variable = {
+					used_up_tungsten = 0
+				}
+			}
+			# if we have a deficit of a resource
+			else = {
+				set_variable = {
+					used_up_tungsten = current_resource_amount
+				}
+				multiply_variable = {
+					var = used_up_tungsten
+					value = -1
+				}
+			}
+
+			clamp_variable = {
+				var = used_up_tungsten
+				min = 0 
+				max = saved_up_tungsten
+			}
+
+			subtract_from_variable = {
+				var = saved_up_tungsten
+				value = used_up_tungsten
+			}
+
+			###########
+			########### steel
+			###########
+
+			set_variable = {
+				current_resource_amount = resource@steel
+			}
+			subtract_from_variable = {
+				var = current_resource_amount
+				value = used_up_steel
+			}
+
+			# if we have surplus of resources put them in the stockpile
+			if = {
+				limit = {
+					check_variable = {
+						var = current_resource_amount
+						value = 0
+						compare = greater_than
+					}
+				}
+				add_to_variable = {
+					var = saved_up_steel
+					value = current_resource_amount
+				}
+				set_variable = {
+					used_up_steel = 0
+				}
+			}
+			# if we have a deficit of a resource
+			else = {
+				set_variable = {
+					used_up_steel = current_resource_amount
+				}
+				multiply_variable = {
+					var = used_up_steel
+					value = -1
+				}
+			}
+
+			clamp_variable = {
+				var = used_up_steel
+				min = 0 
+				max = saved_up_steel
+			}
+
+			subtract_from_variable = {
+				var = saved_up_steel
+				value = used_up_steel
+			}
+
+		}
+	}
+}

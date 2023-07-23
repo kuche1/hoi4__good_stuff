@@ -47,7 +47,6 @@ on_actions = {
 	}
 
 	on_monthly = {
-
 		effect = {
 
 			for_each_scope_loop = {
