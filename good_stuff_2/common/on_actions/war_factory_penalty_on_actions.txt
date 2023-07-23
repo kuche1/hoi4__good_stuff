@@ -46,53 +46,48 @@ on_actions = {
 		}
 	}
 
-	on_monthly = {
+	on_weekly = {
 		effect = {
 
-			for_each_scope_loop = {
-				array = global.countries
+			##################
+			################## do the job
+			##################
 
-				##################
-				################## do the job
-				##################
+			# number of factories
 
-				# number of factories
+			set_variable = {
+				var = FLC_total_factories
+				value = num_of_military_factories
+			}
+			add_to_variable = {
+				var = FLC_total_factories
+				value = num_of_naval_factories
+			}
 
-				set_variable = {
-					var = FLC_total_factories
-					value = num_of_military_factories
-				}
-				add_to_variable = {
-					var = FLC_total_factories
-					value = num_of_naval_factories
-				}
+			# consumer goods
 
-				# consumer goods
+			set_variable = {
+				FLC_penalty_military_factories = FLC_total_factories
+			}
+			divide_variable = {
+				var = FLC_penalty_military_factories
+				value = FLC_MILS_PENALTY_DIV
+			}
 
-				set_variable = {
-					FLC_penalty_military_factories = FLC_total_factories
-				}
-				divide_variable = {
-					var = FLC_penalty_military_factories
-					value = FLC_MILS_PENALTY_DIV
-				}
+			# construction speed
 
-				# construction speed
+			set_variable = {
+				var = FLC_mils_construction_speed
+				value = FLC_total_factories
+			}
+			multiply_variable = {
+				var = FLC_mils_construction_speed
+				value = FLC_MILS_CONST_PENALTY
+			}
 
-				set_variable = {
-					var = FLC_mils_construction_speed
-					value = FLC_total_factories
-				}
-				multiply_variable = {
-					var = FLC_mils_construction_speed
-					value = FLC_MILS_CONST_PENALTY
-				}
-
-				add_to_variable = {
-					var = FLC_mils_construction_speed
-					value = FLC_FLAT_WAR_FACTORY_CONST_PENALTY
-				}
-
+			add_to_variable = {
+				var = FLC_mils_construction_speed
+				value = FLC_FLAT_WAR_FACTORY_CONST_PENALTY
 			}
 
 		}
