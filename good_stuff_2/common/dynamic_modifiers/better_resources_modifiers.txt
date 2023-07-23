@@ -3,7 +3,7 @@ better_resources_modifier = {
         always = yes
     }
 
-	icon = GFX_idea_unknown # debug # no icon, to prevent other players inferring factory count
+	#icon = GFX_idea_unknown # debug # no icon, to prevent other players inferring factory count
 
 	country_resource_rubber = used_up_rubber
 	country_resource_aluminium = used_up_aluminium
