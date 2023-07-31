@@ -1,3 +1,3 @@
 ﻿l_english:
  better_resources: "Resources"
- better_resources_desc: "If you have a surplus of resources they are saved up for when you have a deficit\n\nrubber [?saved_up_rubber|Y0]\naluminium [?saved_up_aluminium|Y0]\nchromium [?saved_up_chromium|Y0]\ntungsten [?saved_up_tungsten|Y0]\nsteel [?saved_up_steel|Y0]\n"
+ better_resources_desc: "If you have a surplus of resources they are saved up for when you have a deficit\n\nrubber [?saved_up_rubber|Y0] ([?used_up_rubber|Y0])\naluminium [?saved_up_aluminium|Y0] ([?used_up_aluminium|Y0])\nchromium [?saved_up_chromium|Y0] ([?used_up_chromium|Y0])\ntungsten [?saved_up_tungsten|Y0] ([?used_up_tungsten|Y0])\nsteel [?saved_up_steel|Y0] ([?used_up_steel|Y0])\n"
