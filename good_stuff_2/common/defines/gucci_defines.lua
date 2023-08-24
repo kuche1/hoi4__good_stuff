@@ -7,8 +7,6 @@
 -------- convenience
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 400 -- disables special forces limit -- default 24
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 33 -- makes naval invasions take less time -- default 168
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 80 -- default 10
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 200 -- default 25
 
 -- template editing cost
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 8 -- default 20
@@ -21,7 +19,7 @@ NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 26 -- setting this to 0 brakes 
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 11 -- default 5
 
 -- max experience and pp
-NDefines.NCountry.POLITICAL_POWER_UPPER_CAP = 4000.0 -- default 2000.0
+NDefines.NCountry.POLITICAL_POWER_UPPER_CAP = 6000.0 -- default 2000.0
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 5000 -- default 500
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 5000 -- default 500
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 5000 -- default 500
@@ -35,7 +33,7 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35 -- default 10
 -- NDefines.NDiplomacy.TENSION_SIZE_FACTOR = 0.8 -- default 1.0
 -- NDefines.NDiplomacy.TENSION_TIME_SCALE_MIN = 0 -- default 0.25
 
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.9 -- used to be 0.7 at some point -- default 2
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.8 -- used to be 0.7 at some point -- default 2
 -- NDefines.NTechnology.MIN_RESEARCH_SPEED = 0.1 -- default 0.1
 
 -------- can't remember
@@ -45,7 +43,10 @@ NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.9 -- used to be 0.7 at s
 -- NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 5 -- increases performance -- default 20
 -- NDefines_Graphics.NGraphics.NAVAL_UNIT_MOVEMENT_SPEED = 9999 -- default 12
 
--------- speed buttons
+-------- multiplayer
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 90 -- default 10
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 225 -- default 25
+
 NDefines.NGame.GAME_SPEED_SECONDS = {0.22000000000000003, 0.154, 0.088, 0.022, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --  generate new indexes with:
 --      start = 0.018

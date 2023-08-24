@@ -15,7 +15,7 @@ on_actions = {
 
 				set_variable = {
 					var = FLC_MILS_PENALTY
-					value = 0.081 # consumer goods penalty for each factory
+					value = 0.096 # consumer goods penalty for each factory
 					# changing this to something as accurate as `0.0001` causes great shit to happen
 				}
 
