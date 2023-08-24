@@ -46,11 +46,17 @@ NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.9 -- used to be 0.7 at s
 -- NDefines_Graphics.NGraphics.NAVAL_UNIT_MOVEMENT_SPEED = 9999 -- default 12
 
 -------- speed buttons
-NDefines.NGame.GAME_SPEED_SECONDS = {0.18, 0.126, 0.072, 0.018, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = {0.22000000000000003, 0.154, 0.088, 0.022, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --  generate new indexes with:
+--      start = 0.018
+--      end = 0.18
 --      gen_idx = lambda start, end, idx: start + idx * (end-start)/3
---      end = 0.18 ; start = 0.018
 --      f'{{{gen_idx(start, end, 3)}, {gen_idx(start, end, 2)}, {gen_idx(start, end, 1)}, {gen_idx(start, 0.18, 0)}, 0.0}}'
+--
+--  2023.08.23: debug_smooth + optimizations:
+--      amd ryzen 5600G (using windows):
+--          0.18 - late game (sov & chi vs ger) - can't keep up with 5600X
+--          0.018 - early game (before war with japan) - can't keep up with 5600X
 --
 --  with new mod optimizations + debug_smooth
 --      amd ryzen 5 1600
