@@ -45,8 +45,8 @@ NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.8 -- used to be 0.7 at s
 
 -------- compliance
 -- NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.075 -- base compliance grow
-COMPLIANCE_GROWTH_IS_AT_PEACE = 20 -- default 20
-COMPLIANCE_GROWTH_HAS_CLAIM = 10 -- default 5
+NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = 20 -- default 20
+NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = 10 -- default 5
 
 -------- multiplayer
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 110 -- default 10
