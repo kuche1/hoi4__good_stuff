@@ -45,19 +45,25 @@ NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.8 -- used to be 0.7 at s
 
 -------- compliance
 -- NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.075 -- base compliance grow
-NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = 20 -- default 20
-NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = 10 -- default 5
+NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = 40 -- default 10
+NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = 20 -- default 5
+NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = 0 -- `-0.5` stands for loose half your compliance on controller change (this does include changing ideology) -- default -0.5
 
 -------- multiplayer
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 110 -- default 10
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 275 -- default 25
 
-NDefines.NGame.GAME_SPEED_SECONDS = {0.24, 0.16799999999999998, 0.096, 0.024, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = {0.16799999999999998, 0.07, 0.05, 0.03, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --  generate new indexes with:
 --      start = 0.022
 --      end = 0.22
 --      gen_idx = lambda start, end, idx: start + idx * (end-start)/3
 --      f'{{{gen_idx(start, end, 3)}, {gen_idx(start, end, 2)}, {gen_idx(start, end, 1)}, {gen_idx(start, 0.18, 0)}, 0.0}}'
+--
+--  2023.08.29: debug_smooth + optimizations:
+--      amd ryzen 5600G (using windows):
+--          0.024 - 1936 - can't keep up with 5600X
+--          NOTE: 0.072 should be overkill
 --
 --  2023.08.25: debug_smooth + optimizations:
 --      amd ryzen 5600G (using windows):
