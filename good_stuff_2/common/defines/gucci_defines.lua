@@ -45,7 +45,7 @@ NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.8 -- used to be 0.7 at s
 
 -------- compliance
 -- NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.075 -- base compliance grow
-NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = 100 -- default 10
+NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = 100 -- `10` stands for `10%` -- default 10
 NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = 50 -- default 5
 --NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = 0 -- TODO wtf does this even do? the following comment is not true -- `-0.5` stands for loose half your compliance on controller change (this does include changing ideology) -- default -0.5
 
