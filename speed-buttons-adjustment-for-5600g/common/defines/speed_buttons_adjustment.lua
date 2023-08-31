@@ -1,0 +1,42 @@
+
+NDefines.NGame.GAME_SPEED_SECONDS = {0.16799999999999998, 0.065, 0.06, 0.055, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+--  generate new indexes with:
+--      start = 0.022
+--      end = 0.22
+--      gen_idx = lambda start, end, idx: start + idx * (end-start)/3
+--      f'{{{gen_idx(start, end, 3)}, {gen_idx(start, end, 2)}, {gen_idx(start, end, 1)}, {gen_idx(start, 0.18, 0)}, 0.0}}'
+--
+--  2023.08.30: debug_smooth + optimizations:
+--      amd ryzen 5600G (using windows):
+--          0.05 - can't keep up 1938
+--          0.07 - absolutely perfect for up to 1945 (have not ran any tests after that)
+--  conclusion:
+--      aim for something <=0.07 and >0.05
+--
+--  2023.08.29: debug_smooth + optimizations:
+--      amd ryzen 5600G (using windows):
+--          0.024 - 1936 - can't keep up with 5600X
+--          NOTE: 0.072 should be overkill
+--
+--  2023.08.25: debug_smooth + optimizations:
+--      amd ryzen 5600G (using windows):
+--          0.022 - 1936 - can't keep up with 5600X
+--
+--  2023.08.23: debug_smooth + optimizations:
+--      amd ryzen 5600G (using windows):
+--          0.18 - late game (sov & chi vs ger) - can't keep up with 5600X
+--          0.018 - early game (before war with japan) - can't keep up with 5600X
+--
+--  with new mod optimizations + debug_smooth
+--      amd ryzen 5 1600
+--          0.02 - minor slowdown at 1936 jul while using rustdesk
+--          0.03 - no slowdown until at least 1936 mar
+--          0.04 - no slowdown until at least 1938 may
+--          0.06 - no slowdown until at least 1937 jul
+--      amd ryzen 5 5600
+--          0.02 - no slowdown until at least 1940
+--
+-- shitty laptop:
+--     with optimized map v2:
+--         MP lag during war   on 0.13
+--         MP lag during piece on 0.05
