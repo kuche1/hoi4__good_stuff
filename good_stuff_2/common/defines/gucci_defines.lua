@@ -53,12 +53,17 @@ NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = 80 -- default 5
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 110 -- default 10
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 275 -- default 25
 
-NDefines.NGame.GAME_SPEED_SECONDS = {0.16799999999999998, 0.07, 0.05, 0.03, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = {0.16799999999999998, 0.07, 0.06, 0.05, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --  generate new indexes with:
 --      start = 0.022
 --      end = 0.22
 --      gen_idx = lambda start, end, idx: start + idx * (end-start)/3
 --      f'{{{gen_idx(start, end, 3)}, {gen_idx(start, end, 2)}, {gen_idx(start, end, 1)}, {gen_idx(start, 0.18, 0)}, 0.0}}'
+--
+--  2023.08.30: debug_smooth + optimizations:
+--      amd ryzen 5600G (using windows):
+--          0.05 - absolotely shit for 1943
+--          0.07 - absolutely perfect for up to 1945 (have not ran any tests after that)
 --
 --  2023.08.29: debug_smooth + optimizations:
 --      amd ryzen 5600G (using windows):
