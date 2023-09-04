@@ -3,4 +3,5 @@ tags={
 	"Gameplay"
 }
 name="speed-buttons-adjustment-for-5600g"
-supported_version="1.12.14"
+supported_version="1.12.*"
+remote_file_id="3028609434"
