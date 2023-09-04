@@ -6,6 +6,12 @@ NDefines.NGame.GAME_SPEED_SECONDS = {0.18, 0.09, 0.07, 0.05, 0.03} -- default { 
 --      gen_idx = lambda start, end, idx: start + idx * (end-start)/3
 --      f'{{{gen_idx(start, end, 3)}, {gen_idx(start, end, 2)}, {gen_idx(start, end, 1)}, {gen_idx(start, 0.18, 0)}, 0.0}}'
 --
+--  2023.09.04: debug_smooth + optimizations + additional optimizations:
+--      amd ryzen 5600G (using somewhat debloated windows):
+--          speed5 up until 1939
+--          speed2 not good enough 1940 (probably because of the significantly lowered LAG_DAYS_FOR_PAUSE)
+--              at some point speed3 1943 is OK and at some point speed1 1942 is not OK ... WTF
+--
 --  2023.09.02: debug_smooth + optimizations:
 --      amd ryzen 5600G (using somewhat debloated windows):
 --          0.2 - 1944 not always OK
