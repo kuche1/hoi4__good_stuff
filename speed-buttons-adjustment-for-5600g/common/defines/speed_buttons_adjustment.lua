@@ -1,10 +1,15 @@
 
-NDefines.NGame.GAME_SPEED_SECONDS = {0.2, 0.075, 0.07, 0.068, 0.0} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = {0.18, 0.09, 0.07, 0.05, 0.03} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --  generate new indexes with:
 --      start = 0.022
 --      end = 0.22
 --      gen_idx = lambda start, end, idx: start + idx * (end-start)/3
 --      f'{{{gen_idx(start, end, 3)}, {gen_idx(start, end, 2)}, {gen_idx(start, end, 1)}, {gen_idx(start, 0.18, 0)}, 0.0}}'
+--
+--  2023.09.02: debug_smooth + optimizations:
+--      amd ryzen 5600G (using somewhat debloated windows):
+--          0.2 - 1944 not always OK
+--          0.075 - 1944 not ok
 --
 --  2023.08.31: debug_smooth + optimizations:
 --      amd ryzen 5600G (using windows):
