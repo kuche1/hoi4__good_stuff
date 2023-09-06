@@ -1,5 +1,5 @@
 
-NDefines.NGame.GAME_SPEED_SECONDS = {0.18, 0.09, 0.07, 0.05, 0.03} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = {0.18, 0.07, 0.055, 0.04, 0.025} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --  generate new indexes with:
 --      start = 0.022
 --      end = 0.22
@@ -8,9 +8,9 @@ NDefines.NGame.GAME_SPEED_SECONDS = {0.18, 0.09, 0.07, 0.05, 0.03} -- default { 
 --
 --  2023.09.04: debug_smooth + optimizations + additional optimizations:
 --      amd ryzen 5600G (using somewhat debloated windows):
---          speed5 up until 1939
---          speed2 not good enough 1940 (probably because of the significantly lowered LAG_DAYS_FOR_PAUSE)
---              at some point speed3 1943 is OK and at some point speed1 1942 is not OK ... WTF
+--          0.03 up until 1939
+--          0.09 not good enough 1940 (probably because of the significantly lowered LAG_DAYS_FOR_PAUSE)
+--              at some point 0.07 1943 is OK and at some point 0.18 1942 is not OK ... WTF
 --
 --  2023.09.02: debug_smooth + optimizations:
 --      amd ryzen 5600G (using somewhat debloated windows):
