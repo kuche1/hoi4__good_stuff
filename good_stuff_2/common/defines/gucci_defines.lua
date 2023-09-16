@@ -34,7 +34,7 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35 -- default 10
 -- NDefines.NDiplomacy.TENSION_SIZE_FACTOR = 0.8 -- default 1.0
 -- NDefines.NDiplomacy.TENSION_TIME_SCALE_MIN = 0 -- default 0.25
 
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.8 -- used to be 0.7 at some point -- default 2
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.5 -- used to be 0.7 at some point -- default 2
 -- NDefines.NTechnology.MIN_RESEARCH_SPEED = 0.1 -- default 0.1
 
 -------- can't remember

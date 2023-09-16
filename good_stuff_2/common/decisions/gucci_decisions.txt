@@ -11,11 +11,11 @@ gucci_efforts = {
 		fire_only_once = no
 
 		modifier = {
-            political_power_gain = 3.2
+            political_power_gain = 4.1
 			stability_weekly = 0.01
-			consumer_goods_factor = 0.4
-			industrial_capacity_factory = -0.4
-            weekly_manpower = -19165
+			consumer_goods_factor = 0.2
+			industrial_capacity_factory = -0.3
+            weekly_manpower = -5749
             army_attack_factor = 0.2
             army_core_attack_factor = 0.1
             army_defence_factor = 0.15
