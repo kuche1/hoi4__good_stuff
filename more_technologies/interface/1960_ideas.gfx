@@ -1,0 +1,159 @@
+spriteTypes = {	
+
+spriteType = {
+		name = "GFX_idea_unindustrialized"
+		texturefile = "gfx/interface/ideas/unindustrialized.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_uninterested"
+		texturefile = "gfx/interface/ideas/uninterested.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_northrop"
+		texturefile = "gfx/interface/ideas/northrop.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_martin"
+		texturefile = "gfx/interface/ideas/martin.dds"
+	}
+	
+	
+spriteType = {
+		name = "GFX_idea_republic"
+		texturefile = "gfx/interface/ideas/republic.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_convair"
+		texturefile = "gfx/interface/ideas/convair.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_mcdonnell"
+		texturefile = "gfx/interface/ideas/mcdonnell.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_sukhoi"
+		texturefile = "gfx/interface/ideas/sukhoi.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_lavochkin"
+		texturefile = "gfx/interface/ideas/lavochkin.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_myasishchev"
+		texturefile = "gfx/interface/ideas/myasishchev.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_OKB21"
+		texturefile = "gfx/interface/ideas/OKB21.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_beriev"
+		texturefile = "gfx/interface/ideas/beriev.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_petlyakov"
+		texturefile = "gfx/interface/ideas/petlyakov.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_kurt_tank"
+		texturefile = "gfx/interface/ideas/kurt_tank.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_arado"
+		texturefile = "gfx/interface/ideas/arado.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_henschel_aviation"
+		texturefile = "gfx/interface/ideas/idea_henschel.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_horten"
+		texturefile = "gfx/interface/ideas/horten.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_ewr"
+		texturefile = "gfx/interface/ideas/ewr.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_raytheon"
+		texturefile = "gfx/interface/ideas/raytheon.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_telefunken"
+		texturefile = "gfx/interface/ideas/telefunken.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_niip"
+		texturefile = "gfx/interface/ideas/niip.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_marietta"
+		texturefile = "gfx/interface/ideas/marietta.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_ruhrstahl"
+		texturefile = "gfx/interface/ideas/ruhrstahl.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_vympel"
+		texturefile = "gfx/interface/ideas/vympel.dds"
+	}	
+	
+spriteType = {
+		name = "GFX_idea_uralvagonzavod"
+		texturefile = "gfx/interface/ideas/uralvagonzavod.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_gdls"
+		texturefile = "gfx/interface/ideas/gdls.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_krauss_maffei"
+		texturefile = "gfx/interface/ideas/krauss_maffei.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_dassault"
+		texturefile = "gfx/interface/ideas/dassault.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_gloster"
+		texturefile = "gfx/interface/ideas/gloster.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_fiat_aviazione"
+		texturefile = "gfx/interface/ideas/fiat_aviazione.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_united_nations"
+		texturefile = "gfx/interface/ideas/united_nations.dds"
+	}
+		
+}

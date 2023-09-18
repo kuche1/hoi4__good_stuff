@@ -1,0 +1,296 @@
+
+country_event = {
+
+id = usa.70 #Elections of 1948
+	title = usa.70.t
+	desc = usa.70.d
+	picture = GFX_report_event_usa_election_generic
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1948.1.1
+		date < 1949.1.1
+	}
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = USA_voter_registration_act
+						has_completed_focus = USA_union_representation_act
+					}
+				}
+				country_event = { id = usa.32 days = 730 } # midterms
+			}
+			else = {
+				country_event = { id = usa.35 days = 730 } # midterms
+			}
+		}
+	}
+
+	option = { 	
+		name = usa.70.a
+		ai_chance = {
+			factor = 75			
+		}	
+		
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		
+		create_country_leader = {
+			name = "Thomas E. Dewey"
+			desc = "POLITICS_THOMAS_DEWEY_DESC"
+			picture = "portrait_USA_thomas_dewey.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = usa.70.b
+		ai_chance = {
+			factor = 25
+		}		
+		
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+
+		create_country_leader = {
+			name = "Harry S. Truman"
+			desc = "POLITICS_HARRY_TRUMAN_DESC"
+			picture = "Portrait_USA_Harry_Truman.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+country_event = {
+
+id = usa.71 #Elections of 1952
+	title = usa.71.t
+	desc = usa.71.d
+	picture = GFX_report_event_usa_election_generic
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1952.1.1
+		date < 1953.1.1
+	}
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = USA_voter_registration_act
+						has_completed_focus = USA_union_representation_act
+					}
+				}
+				country_event = { id = usa.32 days = 730 } # midterms
+			}
+			else = {
+				country_event = { id = usa.35 days = 730 } # midterms
+			}
+		}
+	}
+
+	option = { 	
+		name = usa.71.a
+		ai_chance = {
+			factor = 75			
+		}	
+		
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		
+		create_country_leader = {
+			name = "Dwight D. Eisenhower"
+			desc = "POLITICS_DWIGHT_EISENHOWER_DESC"
+			picture = "portrait_USA_dwight_eisenhower.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = usa.71.b
+		ai_chance = {
+			factor = 25
+		}		
+		
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party } 
+
+		create_country_leader = {
+			name = "Adlai Stevenson"
+			desc = "POLITICS_ADLAI_STEVENSON_DESC"
+			picture = "Portrait_USA_adlai_stevenson.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+country_event = {
+
+id = usa.72 #Elections of 1956
+	title = usa.72.t
+	desc = usa.72.d
+	picture = GFX_report_event_usa_election_generic
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1956.1.1
+		date < 1957.1.1
+	}
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = USA_voter_registration_act
+						has_completed_focus = USA_union_representation_act
+					}
+				}
+				country_event = { id = usa.32 days = 730 } # midterms
+			}
+			else = {
+				country_event = { id = usa.35 days = 730 } # midterms
+			}
+		}
+	}
+
+	option = { 	
+		name = usa.72.a
+		ai_chance = {
+			factor = 75			
+		}	
+		
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		
+		create_country_leader = {
+			name = "Dwight D. Eisenhower"
+			desc = "POLITICS_DWIGHT_EISENHOWER_DESC"
+			picture = "portrait_USA_dwight_eisenhower.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = usa.72.b
+		ai_chance = {
+			factor = 25
+		}		
+		
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party } 
+
+		create_country_leader = {
+			name = "Adlai Stevenson"
+			desc = "POLITICS_ADLAI_STEVENSON_DESC"
+			picture = "Portrait_USA_adlai_stevenson.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+country_event = {
+
+id = usa.73 #Elections of 1960
+	title = usa.73.t
+	desc = usa.73.d
+	picture = GFX_report_event_usa_election_generic
+	
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1960.1.1
+		date < 1961.1.1
+	}
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = USA_voter_registration_act
+						has_completed_focus = USA_union_representation_act
+					}
+				}
+				country_event = { id = usa.32 days = 730 } # midterms
+			}
+			else = {
+				country_event = { id = usa.35 days = 730 } # midterms
+			}
+		}
+	}
+
+	option = { 	
+		name = usa.73.a
+		ai_chance = {
+			factor = 75			
+		}	
+		
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		
+		create_country_leader = {
+			name = "Richard Nixon"
+			desc = "POLITICS_NIXON_DESC"
+			picture = "portrait_USA_nixon.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = usa.73.b
+		ai_chance = {
+			factor = 25
+		}		
+		
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party } 
+
+		create_country_leader = {
+			name = "John F. Kennedy"
+			desc = "POLITICS_JFK_DESC"
+			picture = "Portrait_USA_jfk.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+}

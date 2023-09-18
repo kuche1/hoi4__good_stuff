@@ -1,0 +1,136 @@
+# This file must be evaluated after the file(s) defining the archetypes being duplicated.
+# The equipment attributes alias, type, variant_name, and derived_variant_name are not duplicated.
+
+# duplicate_archetypes = {
+
+	# medium_tank_recovery_chassis = {
+		# archetype = medium_tank_chassis
+		# type = { recovery }
+		# for_each = {
+			# variant_name = { find_and_replace = { "chassis" "equipment" } }
+		# }
+	# }
+	# modern_tank_recovery_chassis = {
+		# archetype = modern_tank_chassis
+		# type = { recovery }
+		# for_each = {
+			# variant_name = { find_and_replace = { "chassis" "equipment" } }
+		# }
+	# }
+# }
+
+
+
+	# medium_tank_aa_equipment_1 = {
+		# year = 1939
+
+		# archetype = medium_tank_aa_chassis
+# #		family = medium_tank_equipment_1
+		# priority = 70
+		# visual_level = 0
+		# can_convert_from = { 
+			# medium_tank_equipment_1 
+		# }
+		# upgrades = {
+			# tank_reliability_upgrade
+			# tank_engine_upgrade
+			# tank_armor_upgrade
+			# tank_aa_upgrade
+		# }
+		# #Misc Abilities
+		# maximum_speed = 8
+		# reliability = 0.8
+
+		# #Defensive Abilities
+		# defense = 2.5
+		# breakthrough = 2.5
+		# hardness = 0.65
+		# armor_value = 45
+
+		# #Offensive Abilities
+		# soft_attack = 4.5
+		# hard_attack = 3
+		# ap_attack = 40
+		# air_attack = 22
+
+		# build_cost_ic = 12
+		
+		# resources = {
+			# #oil = 1
+			# tungsten = 2
+			# steel = 2
+		# }
+		# fuel_consumption = 0.9
+	# }
+
+	# medium_tank_aa_equipment_2 = {
+		# year = 1941
+
+		# archetype = medium_tank_aa_chassis
+		# parent = medium_tank_aa_equipment_1
+# #		family = medium_tank_equipment_2
+		# priority = 70
+		# visual_level = 1
+		# can_convert_from = { 
+			# medium_tank_equipment_1 
+			# medium_tank_equipment_2
+		# }
+
+		# #Misc Abilities
+		# maximum_speed = 9
+		
+		# #Defensive Abilities
+		# defense = 3
+		# breakthrough = 3
+		# armor_value = 50
+
+		# #Offensive Abilities
+		# soft_attack = 6
+		# hard_attack = 4.5
+		# ap_attack = 60
+		# air_attack = 32
+		
+		# build_cost_ic = 13
+		
+		# resources = {
+			# #oil = 1
+			# tungsten = 2
+			# steel = 3
+		# }
+	# }
+
+	# medium_tank_aa_equipment_3 = {
+		# year = 1943
+
+		# archetype = medium_tank_aa_chassis
+		# parent = medium_tank_aa_equipment_2
+# #		family = medium_tank_equipment_3
+		# priority = 70
+		# visual_level = 2
+		# can_convert_from = { 
+			# medium_tank_equipment_2
+			# medium_tank_equipment_3
+		# }
+		
+		# #Misc Abilities
+		# maximum_speed = 10
+		
+		# #Defensive Abilities
+		# defense = 3.5
+		# breakthrough = 3.5
+		# armor_value = 58
+
+		# #Offensive Abilities
+		# soft_attack = 7.5
+		# hard_attack = 6
+		# ap_attack = 70
+		# air_attack = 43
+		
+		# build_cost_ic = 14
+		
+		# resources = {
+			# #oil = 2
+			# tungsten = 2
+			# steel = 4
+		# }		
+	# }

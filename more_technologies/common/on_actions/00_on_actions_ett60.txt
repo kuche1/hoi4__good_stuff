@@ -1,0 +1,27 @@
+on_actions = {
+	# country 
+	on_startup = {		
+		effect = {
+			random_country = {
+				limit = { is_ai = no }
+				country_event = { id = ett60.1 }
+			}
+		}
+	}
+	on_startup = {		
+		effect = {
+			random_country = {
+				limit = { is_ai = no }	
+				country_event = { id = inc_res.1 }
+			}
+		}
+	}
+	on_startup = {		
+		effect = {
+			random_country = {
+				limit = { is_ai = no }		
+				country_event = { id = shackles.1 }
+			}
+		}
+	}
+}

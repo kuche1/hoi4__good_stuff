@@ -1,0 +1,105 @@
+equipment_modules = {
+
+
+	###Turret Types: paratank can use one man turret only for historical######
+	
+	tank_light_one_man_tank_turret_p = {
+		abbreviation = "l1mp"
+		category = tank_para_turret_type
+		sfx = sfx_ui_sd_module_turret
+		
+		allowed_module_categories = {
+			special_type_slot_5 = {
+				oscillating_turret_type
+			}
+		}
+		
+		add_stats = {
+			build_cost_ic = 0.5
+			breakthrough = 6
+		}
+		xp_cost = 2
+		multiply_stats = {
+			
+		}
+
+	}
+	
+	tank_light_two_man_tank_turret_p = {
+		abbreviation = "l1mp"
+		category = tank_para_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			special_type_slot_5 = {
+				oscillating_turret_type
+			}
+		}
+		
+		add_stats = {
+			build_cost_ic = 0.75
+			breakthrough = 8
+		}
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+		multiply_stats = {
+			
+		}
+
+	}
+	
+	tank_light_three_man_tank_turret_p = {
+		abbreviation = "l1mp"
+		category = tank_para_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			special_type_slot_5 = {
+				oscillating_turret_type
+			}
+		}
+		
+		add_stats = {
+			build_cost_ic = 1
+			maximum_speed = -0.25
+			breakthrough = 12
+		}
+		dismantle_cost_ic = 0.5
+		xp_cost = 2
+		multiply_stats = {
+			
+		}
+
+	}
+	
+	tank_light_fixed_superstructure_turret_p = {
+		abbreviation = "lfsp"
+		category = tank_para_turret_type
+		sfx = sfx_ui_sd_module_turret
+		forbid_equipment_type = anti_air
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_medium_main_armament
+			}
+		}
+		forbid_equipment_type_exact_match_for_category = {
+			tank_medium_main_armament = armor
+		}
+
+		xp_cost = 2
+		add_stats = {
+			build_cost_ic = 0.75
+			reliability = 0.2
+			defense = 3
+		}
+
+		multiply_stats = {
+			breakthrough = -0.25
+		}
+
+	}
+	
+	
+	####Weapons#####
+}

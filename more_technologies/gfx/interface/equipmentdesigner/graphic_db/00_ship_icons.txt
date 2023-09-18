@@ -1,0 +1,13 @@
+default = {
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = { 
+				GFX_Generic_battlecruiser_1
+				GFX_Generic_battleship_1
+			}		
+			models = {
+				#GER_light_plane_entity
+			}
+		}
+	}
+}

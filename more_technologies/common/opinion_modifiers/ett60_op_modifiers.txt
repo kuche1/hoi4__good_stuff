@@ -1,0 +1,9 @@
+opinion_modifiers = {
+
+	sov_sik_no_faction = {
+		value = -100
+	}
+	sov_prc_no_faction = {
+		value = -100
+	}
+}

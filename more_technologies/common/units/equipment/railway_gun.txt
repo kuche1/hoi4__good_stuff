@@ -1,0 +1,98 @@
+equipments = {
+
+	railway_gun_equipment = {
+		year = 1934
+
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = railway_gun
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 5
+
+		#Offensive Abilities
+		railway_gun_attack = 25
+		
+		manpower = 1000
+	}
+
+	railway_gun_equipment_1 = {
+		year = 1934
+
+		archetype = railway_gun_equipment
+		priority = 50
+		visual_level = 0
+		active = no
+
+		build_cost_ic = 800.0
+		resources = {
+			steel = 4
+			tungsten = 2
+			chromium = 2
+		}		
+	}
+
+	theater_missile_equipment = {
+		year = 1934
+
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = railway_gun
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 5
+
+		#Offensive Abilities
+		railway_gun_attack = 37
+		
+		manpower = 650
+	}
+
+	theater_missile_equipment_1 = {
+		year = 1934
+
+		archetype = theater_missile_equipment
+		priority = 50
+		visual_level = 0
+		active = no
+
+		manpower = 650
+		build_cost_ic = 1000.0
+		resources = {
+			aluminium = 4
+			tungsten = 2
+			chromium = 2
+		}		
+	}
+
+	theater_missile_equipment_2 = {
+		year = 1934
+
+		archetype = theater_missile_equipment
+		parent = theater_missile_equipment_1
+		priority = 50
+		visual_level = 0
+		active = no
+		
+		manpower = 650
+		railway_gun_attack = 46
+		build_cost_ic = 1200.0
+		resources = {
+			aluminium = 4
+			tungsten = 2
+			chromium = 2
+		}		
+	}
+}

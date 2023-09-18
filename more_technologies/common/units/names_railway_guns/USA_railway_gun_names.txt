@@ -1,0 +1,26 @@
+﻿USA_RG_HISTORICAL = {
+	for_countries = { USA }
+
+	type = railway_gun
+	
+	fallback_name = "%d. Tactical Missile Wing"
+
+	ordered = {
+		1 = {"Battery C, 52nd Coast Artillery (Railway) Regiment"}
+		2 = {"Battery D, 52nd Coast Artillery (Railway) Regiment"}
+		3 = {"Battery E, 52nd Coast Artillery (Railway) Regiment"}
+		4 = {"Battery F, 52nd Coast Artillery (Railway) Regiment"}
+		5 = {"Battery A, 41st Coast Artillery (Railway) Regiment"}
+		6 = {"Battery B, 41st Coast Artillery (Railway) Regiment"}
+		7 = {"Battery A, 52nd Coast Artillery (Railway) Regiment"}
+		8 = {"Battery B, 52nd Coast Artillery (Railway) Regiment"}
+		9 = {"Battery F, 16th Coast Artillery Regiment "} #fictionals below
+		10 = {"38th Tactical Missile Wing"}
+		11 = {"701st Tactical Missile Wing"}
+		12 = {"303rd Tactical Missile Wing"}
+		13 = {"485th Tactical Missile Wing"}
+		14 = {"486th Tactical Missile Wing"}
+		15 = {"487th Tactical Missile Wing	"}
+		16 = {"501st Tactical Missile Wing"}
+	}
+}

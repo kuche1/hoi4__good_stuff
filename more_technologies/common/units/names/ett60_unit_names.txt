@@ -1,0 +1,19 @@
+﻿USA = {
+	
+	naval_helicopter_equipment = {
+		prefix = ""
+		generic = { "Helicopter Combat Support Squadron" "HC" }
+		generic_pattern = AIR_WING_NAME_USA_CARRIER
+		unique = {
+		}	
+	} 
+	
+	naval_helicopter = {
+		prefix = ""
+		generic = { "Helicopter Combat Support Squadron" "HC" }
+		generic_pattern = AIR_WING_NAME_USA_CARRIER
+		unique = {
+		}	
+	}
+
+}

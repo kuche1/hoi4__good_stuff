@@ -1,0 +1,232 @@
+equipments = {
+	
+	utility_helicopter_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		picture = archetype_motorized_equipment		
+		is_buildable = no
+		type = {
+			#infantry #Removing inf type 
+			mechanized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		maximum_speed = 25
+		reliability = 0.8
+		
+		#Defensive Abilities
+		defense = -19
+		breakthrough = 20
+		hardness = 0.4
+		armor_value = 13
+
+		#Offensive Abilities
+		ap_attack = 13
+		soft_attack = 8
+		
+		fuel_consumption = 8
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+		
+		build_cost_ic = 20 
+		resources = {
+			aluminium = 2
+			#oil = 1
+			rubber = 1
+		}
+	}
+	
+	utility_helicopter_equipment_1 = {
+		year = 1952
+
+		archetype = utility_helicopter_equipment
+		priority = 40
+		visual_level = 0
+	}
+
+	utility_helicopter_equipment_2 = {
+		year = 1959
+
+		archetype = utility_helicopter_equipment
+		parent = utility_helicopter_equipment_1
+		priority = 40
+		visual_level = 1
+
+		maximum_speed = 27
+
+		#Defensive Abilities
+		defense = -17
+		breakthrough = 24
+		hardness = 0.45
+		armor_value = 15
+
+		fuel_consumption = 8
+		#Offensive Abilities
+		ap_attack = 16
+		soft_attack = 11
+		
+		build_cost_ic = 24
+		resources = {
+			aluminium = 3
+			rubber = 1
+			#oil = 1
+		}
+	}
+		
+	cargo_helicopter_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		picture = archetype_motorized_equipment		
+		is_buildable = no
+		type = {
+			#infantry #Removing inf type 
+			mechanized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		maximum_speed = 25
+		reliability = 0.8
+		
+		#Defensive Abilities
+		defense = 10
+		hardness = 0.4
+		armor_value = 13
+		
+		fuel_consumption = 10
+		#Offensive Abilities
+		#ap_attack = 13
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 28 
+		resources = {
+			aluminium = 2
+			#oil = 1
+			rubber = 1
+		}
+	}
+	
+	cargo_helicopter_equipment_1 = {
+		year = 1952
+
+		archetype = cargo_helicopter_equipment
+		priority = 40
+		visual_level = 0
+	}
+	
+	scout_helicopter_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		picture = archetype_motorized_equipment		
+		is_buildable = no
+		type = {
+			infantry 
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		maximum_speed = 25
+		reliability = 0.8
+		
+		#Defensive Abilities
+		defense = 1
+		breakthrough = 3
+		hardness = 0.1
+		armor_value = 4
+
+		#Offensive Abilities
+		ap_attack = 2
+		soft_attack = 12
+		
+		fuel_consumption = 8
+
+		#Space taken in convoy
+		lend_lease_cost = 2
+		
+		build_cost_ic = 15 
+		resources = {
+			aluminium = 2
+			#oil = 1
+			rubber = 1
+		}
+	}
+	
+	scout_helicopter_equipment_1 = {
+		year = 1946
+
+		archetype = scout_helicopter_equipment
+		priority = 40
+		visual_level = 0
+	}
+
+	scout_helicopter_equipment_2 = {
+		year = 1952
+
+		archetype = scout_helicopter_equipment
+		parent = scout_helicopter_equipment_1
+		priority = 40
+		visual_level = 1
+
+		maximum_speed = 27
+
+		#Defensive Abilities
+		defense = 3
+		breakthrough = 5
+		hardness = 0.15
+		armor_value = 8
+
+		fuel_consumption = 8
+		#Offensive Abilities
+		ap_attack = 4
+		soft_attack = 16
+		
+		build_cost_ic = 18
+		resources = {
+			aluminium = 2
+			rubber = 1
+			#oil = 1
+		}
+	}
+
+	scout_helicopter_equipment_3 = {
+		year = 1957
+
+		archetype = scout_helicopter_equipment
+		parent = scout_helicopter_equipment_2
+		priority = 40
+		visual_level = 1
+
+		maximum_speed = 27
+
+		#Defensive Abilities
+		defense = 5
+		breakthrough = 7
+		hardness = 0.15
+		armor_value = 12
+
+		fuel_consumption = 8
+		#Offensive Abilities
+		ap_attack = 6
+		soft_attack = 20
+		
+		build_cost_ic = 21
+		resources = {
+			aluminium = 2
+			rubber = 1
+			#oil = 1
+		}
+	}
+}

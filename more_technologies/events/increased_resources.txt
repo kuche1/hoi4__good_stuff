@@ -1,0 +1,3124 @@
+﻿add_namespace = inc_res
+
+country_event = {
+	id = inc_res.1
+	
+	title = inc_res.1.t
+	desc = inc_res.1.d
+	picture = GFX_report_event_resources
+	
+	fire_only_once = yes
+	
+	#hidden = no
+	
+	
+	is_triggered_only = yes
+	
+	#no extra resources
+	option = {
+		name = inc_res.1.a
+		custom_effect_tooltip = inc_res.1.a.d
+		set_global_flag = resource_event_happened
+	}
+	
+	#some extra resources
+	option = {
+		name = inc_res.1.b
+		custom_effect_tooltip = inc_res.1.b.d
+		set_global_flag = resource_event_happened
+		
+		
+		add_resource = {
+				type = oil
+				amount = 1
+		}		
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 10
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 5
+				state = 38
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 5
+				state = 41
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 43
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 47
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 48
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 48
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 70
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 75
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 1
+				state = 75
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 76
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 6
+				state = 77
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 1
+				state = 81
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 3
+				state = 82
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 3
+				state = 83
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 84
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 88
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 88
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 89
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 6
+				state = 89
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 90
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 91
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 11
+				state = 91
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 92
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 1
+				state = 92
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 9
+				state = 100
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 3
+				state = 101
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 3
+				state = 101
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 101
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 102
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 7
+				state = 104
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 113
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 141
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 3
+				state = 148
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 152
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 11
+				state = 152
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 21
+				state = 170
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 32
+				state = 171
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 28
+				state = 172
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 6
+				state = 174
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 14
+				state = 174
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 180
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 183
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 185
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 211
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 212
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 63
+				state = 214
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 229
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 3
+				state = 229
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 232
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 7
+				state = 267
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 267
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 3
+				state = 267
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 9
+				state = 267
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 273
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 274
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 3
+				state = 274
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 275
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 276
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 20
+				state = 278
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 5
+				state = 279
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 283
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 284
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 4
+				state = 285
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 285
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 286
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 288
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 7
+				state = 288
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 38
+				state = 289
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 5
+				state = 289
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 289
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 291
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 3
+				state = 292
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 11
+				state = 292
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 292
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 1
+				state = 294
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 5
+				state = 295
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 9
+				state = 295
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 297
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 298
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 4
+				state = 302
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 6
+				state = 305
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 306
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 36
+				state = 309
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 4
+				state = 313
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 313
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 10
+				state = 322
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 322
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 3
+				state = 325
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 9
+				state = 325
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 330
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 1
+				state = 330
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 335
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 346
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 346
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 348
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 349
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 350
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 357
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 358
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 360
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 23
+				state = 405
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 1
+				state = 411
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 411
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 411
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 412
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 412
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 413
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 414
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 2
+				state = 415
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 8
+				state = 416
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 4
+				state = 418
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 419
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 419
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 3
+				state = 423
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 424
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 426
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 3
+				state = 428
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 3
+				state = 429
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 430
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 436
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 436
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 442
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 444
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 4
+				state = 445
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 446
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 448
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 453
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 456
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 1
+				state = 456
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 457
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 462
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 10
+				state = 471
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 18
+				state = 471
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 5
+				state = 472
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 472
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 28
+				state = 472
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 3
+				state = 473
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 12
+				state = 473
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 11
+				state = 478
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 480
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 481
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 482
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 483
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 14
+				state = 489
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 11
+				state = 489
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 99
+				state = 492
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 493
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 495
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 7
+				state = 496
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 6
+				state = 496
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 11
+				state = 496
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 497
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 497
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 498
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 498
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 499
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 11
+				state = 499
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 20
+				state = 499
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 22
+				state = 500
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 12
+				state = 501
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 502
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 12
+				state = 503
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 3
+				state = 505
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 507
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 509
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 5
+				state = 510
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 24
+				state = 511
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 5
+				state = 512
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 517
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 518
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 1
+				state = 519
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 521
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 9
+				state = 522
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 523
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 525
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 2
+				state = 525
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 538
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 539
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 3
+				state = 539
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 3
+				state = 540
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 541
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 8
+				state = 543
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 544
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 7
+				state = 544
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 545
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 547
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 7
+				state = 548
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 549
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 6
+				state = 549
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 551
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 552
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 554
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 22
+				state = 556
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 5
+				state = 556
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 556
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 557
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 6
+				state = 558
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 558
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 1
+				state = 558
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 12
+				state = 586
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 6
+				state = 592
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 14
+				state = 593
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 9
+				state = 594
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 3
+				state = 594
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 595
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 2
+				state = 595
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 9
+				state = 596
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 7
+				state = 597
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 598
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 12
+				state = 599
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 3
+				state = 599
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 600
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 4
+				state = 600
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 1
+				state = 602
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 602
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 602
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 1
+				state = 605
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 1
+				state = 607
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 608
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 609
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 5
+				state = 611
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 612
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 613
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 11
+				state = 613
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 3
+				state = 614
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 616
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 2
+				state = 616
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 3
+				state = 620
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 620
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 9
+				state = 622
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 3
+				state = 622
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 622
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 3
+				state = 623
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 625
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 3
+				state = 625
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 640
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 658
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 41
+				state = 658
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 660
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 2
+				state = 671
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 671
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 672
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 1
+				state = 674
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 1
+				state = 678
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 23
+				state = 681
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 5
+				state = 682
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 1
+				state = 683
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 683
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 9
+				state = 689
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 1
+				state = 717
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 719
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 9
+				state = 719
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 723
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 77
+				state = 724
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 1
+				state = 740
+		}
+		
+	}
+	
+	#all extra resources
+	option = {
+		name = inc_res.1.c
+		custom_effect_tooltip = inc_res.1.c.d
+		set_global_flag = resource_event_happened
+		
+		add_resource = {
+				type = oil
+				amount = 1
+				state = 7
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 10
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 10
+				state = 38
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 10
+				state = 41
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 43
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 47
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 48
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 48
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 70
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 75
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 1
+				state = 75
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 76
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 12
+				state = 77
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 1
+				state = 81
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 6
+				state = 82
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 5
+				state = 83
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 84
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 88
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 4
+				state = 88
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 89
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 12
+				state = 89
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 90
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 91
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 22
+				state = 91
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 92
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 92
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 18
+				state = 100
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 101
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 6
+				state = 101
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 101
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 102
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 14
+				state = 104
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 113
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 141
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 6
+				state = 148
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 152
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 22
+				state = 152
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 42
+				state = 170
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 64
+				state = 171
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 56
+				state = 172
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 12
+				state = 174
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 28
+				state = 174
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 180
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 183
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 185
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 4
+				state = 211
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 212
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 126
+				state = 214
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 4
+				state = 229
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 229
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 4
+				state = 232
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 13
+				state = 267
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 267
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 6
+				state = 267
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 18
+				state = 267
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 273
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 274
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 274
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 275
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 12
+				state = 276
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 40
+				state = 278
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 10
+				state = 279
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 283
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 20
+				state = 284
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 8
+				state = 285
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 285
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 12
+				state = 286
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 288
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 14
+				state = 288
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 76
+				state = 289
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 10
+				state = 289
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 12
+				state = 289
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 4
+				state = 291
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 5
+				state = 292
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 22
+				state = 292
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 12
+				state = 292
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 2
+				state = 294
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 10
+				state = 295
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 18
+				state = 295
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 297
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 298
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 8
+				state = 302
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 12
+				state = 305
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 306
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 72
+				state = 309
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 8
+				state = 313
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 313
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 20
+				state = 322
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 322
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 6
+				state = 325
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 18
+				state = 325
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 330
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 1
+				state = 330
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 335
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 346
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 12
+				state = 346
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 348
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 12
+				state = 349
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 350
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 357
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 358
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 360
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 46
+				state = 405
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 411
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 411
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 411
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 4
+				state = 412
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 412
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 413
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 414
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 4
+				state = 415
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 16
+				state = 416
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 8
+				state = 418
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 419
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 419
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 423
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 3
+				state = 424
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 426
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 428
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 5
+				state = 429
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 430
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 436
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 436
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 442
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 444
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 8
+				state = 445
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 446
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 448
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 453
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 456
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 456
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 12
+				state = 457
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 462
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 20
+				state = 471
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 36
+				state = 471
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 10
+				state = 472
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 12
+				state = 472
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 56
+				state = 472
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 6
+				state = 473
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 24
+				state = 473
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 22
+				state = 478
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 480
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 481
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 482
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 483
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 28
+				state = 489
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 22
+				state = 489
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 18
+				state = 492
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 493
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 495
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 14
+				state = 496
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 12
+				state = 496
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 22
+				state = 496
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 497
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 497
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 12
+				state = 498
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 12
+				state = 498
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 499
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 22
+				state = 499
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 40
+				state = 499
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 44
+				state = 500
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 24
+				state = 501
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 502
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 24
+				state = 503
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 6
+				state = 505
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 507
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 509
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 10
+				state = 510
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 48
+				state = 511
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 10
+				state = 512
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 4
+				state = 517
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 518
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 2
+				state = 519
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 4
+				state = 521
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 18
+				state = 522
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 4
+				state = 523
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 525
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 4
+				state = 525
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 538
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 539
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 6
+				state = 539
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 540
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 541
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 16
+				state = 543
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 544
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 14
+				state = 544
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 545
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 547
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 14
+				state = 548
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 4
+				state = 549
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 12
+				state = 549
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 1
+				state = 551
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 552
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 16
+				state = 554
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 44
+				state = 556
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 10
+				state = 556
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 556
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 557
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 12
+				state = 558
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 558
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 558
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 24
+				state = 586
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 12
+				state = 592
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 28
+				state = 593
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 18
+				state = 594
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 5
+				state = 594
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 3
+				state = 595
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 3
+				state = 595
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 18
+				state = 596
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 14
+				state = 597
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 12
+				state = 598
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 24
+				state = 599
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 6
+				state = 599
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 600
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 8
+				state = 600
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 2
+				state = 602
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 602
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 602
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 605
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 607
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 608
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 1
+				state = 609
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 10
+				state = 611
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 8
+				state = 612
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 20
+				state = 613
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 22
+				state = 613
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 614
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 616
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 4
+				state = 616
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 6
+				state = 620
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 2
+				state = 620
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 18
+				state = 622
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 5
+				state = 622
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 12
+				state = 622
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 6
+				state = 623
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 8
+				state = 625
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 6
+				state = 625
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 640
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 658
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 82
+				state = 658
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 4
+				state = 660
+		}
+		
+		add_resource = {
+				type = chromium
+				amount = 4
+				state = 671
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 12
+				state = 671
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 672
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 2
+				state = 674
+		}
+		
+		add_resource = {
+				type = oil
+				amount = 1
+				state = 678
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 46
+				state = 681
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 10
+				state = 682
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 2
+				state = 683
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 12
+				state = 683
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 18
+				state = 689
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 2
+				state = 717
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 719
+		}
+		
+		add_resource = {
+				type = aluminium
+				amount = 18
+				state = 719
+		}
+		
+		add_resource = {
+				type = steel
+				amount = 2
+				state = 723
+		}
+		
+		add_resource = {
+				type = rubber
+				amount = 154
+				state = 724
+		}
+		
+		add_resource = {
+				type = tungsten
+				amount = 2
+				state = 740
+		}
+
+	}
+	
+}

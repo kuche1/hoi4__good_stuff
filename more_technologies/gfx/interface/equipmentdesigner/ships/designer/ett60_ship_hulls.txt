@@ -1,0 +1,29 @@
+default = {
+	ship_hull_heavy_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/ENG_battlecruiser1.dds"
+				"gfx/interface/technologies/GER_battlecruiser1.dds"
+				"gfx/interface/technologies/SOV_battlecruiser1.dds"
+				"gfx/interface/technologies/USA_battlecruiser1.dds"
+			}
+		}
+	}
+	ship_hull_heavy_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/ENG_battlecruiser2.dds"
+				"gfx/interface/technologies/GER_battlecruiser2.dds"
+				"gfx/interface/technologies/SOV_battlecruiser2.dds"
+				"gfx/interface/technologies/USA_battlecruiser2.dds"
+			}
+		}
+	}
+	ship_hull_heavy_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/USA_battlecruiser3.dds"
+			}
+		}
+	}
+}

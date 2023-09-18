@@ -1,0 +1,744 @@
+# default = {
+	# # light_tank_chassis_1 = {
+		# # pool = {
+			# # icons = {
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_aa_equipment_1.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_artillery_equipment_1.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_artillery_equipment_1.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_destroyer_equipment_1.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_aa_equipment_1.dds"
+			# # }
+		# # }
+	# # }
+	# # light_tank_chassis_2 = {
+		# # pool = {
+			# # icons = {
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_light_tank_destroyer_equipment_2.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_light_tank_artillery_equipment_2.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_aa_equipment_2.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_destroyer_equipment_2.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_artillery_equipment_2.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_aa_equipment_2.dds"
+			# # }
+		# # }
+	# # }
+	# # light_tank_chassis_3 = {
+		# # pool = {
+			# # icons = {
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_light_tank_artillery_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_light_tank_aa_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_destroyer_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_light_tank_destroyer_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_artillery_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_aa_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_aa_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_artillery_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_destroyer_equipment_3.dds"
+			# # }
+		# # }
+	# # }
+	# light_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# #"gfx/interface/equipmentdesigner/tanks/designer/ett60/light_tank_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_3b.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_light_tank_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_light_tank_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/amphibious_tank_3.dds"
+			# }
+		# }
+	# }
+	# # medium_tank_chassis_1 = {
+		# # pool = {
+			# # icons = {
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_artillery_equipment_1.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_artillery_equipment_1.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_destroyer_equipment_1.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_aa_equipment_1.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_destroyer_equipment_1.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_aa_equipment_1.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/medium_tank_aa_equipment_1.dds"
+			# # }
+		# # }
+	# # }
+	# # medium_tank_chassis_2 = {
+		# # pool = {
+			# # icons = {
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_destroyer_equipment_2.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_aa_equipment_2.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_artillery_equipment_2.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_aa_equipment_2.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_artillery_equipment_2.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_destroyer_equipment_2.dds"
+			# # }
+		# # }
+	# # }
+	# # medium_tank_chassis_3 = {
+		# # pool = {
+			# # icons = {
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_artillery_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_destroyer_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_destroyer_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_aa_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_artillery_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_aa_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_medium_tank_artillery_equipment_3.dds"
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_medium_tank_aa_equipment_3.dds"
+			# # }
+		# # }
+	# # }
+	# # heavy_tank_chassis_1 = {
+		# # pool = {
+			# # icons = {
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_destroyer_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_aa_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_artillery_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_artillery_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_destroyer_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_aa_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_aa_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_destroyer_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_artillery_equipment_1.dds" 
+			# # }
+		# # }
+	# # }
+	# # heavy_tank_chassis_2 = {
+		# # pool = {
+			# # icons = {
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_artillery_equipment_2.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_destroyer_equipment_2.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_aa_equipment_2.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_destroyer_equipment_2.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_artillery_equipment_2.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_aa_equipment_2.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_aa_equipment_2.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_artillery_equipment_2.dds" 
+			# # }
+		# # }
+	# # }
+	# # heavy_tank_chassis_3 = {
+		# # pool = {
+			# # icons = {
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_aa_equipment_3.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_artillery_equipment_3.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_destroyer_equipment_3.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_artillery_equipment_3.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_destroyer_equipment_3.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_aa_equipment_3.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_artillery_equipment_3.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_aa_equipment_3.dds" 
+			# # }
+		# # }
+	# # }
+	# heavy_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/heavy_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_heavy_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_heavy_tank4.dds" 
+			# }
+		# }
+	# }	
+	# heavy_tank_chassis_5 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/heavy_tank5.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank5.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank5.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank5.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_heavy_tank5.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_heavy_tank5.dds" 
+			# }
+		# }
+	# }
+	# # modern_tank_chassis_1 = {
+		# # pool = {
+			# # icons = {
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_modern_tank_aa_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_modern_tank_destroyer_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_destroyer_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_artillery_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_aa_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_aa_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_artillery_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_destroyer_equipment_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/mbt_1.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_main_battle_tank.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/JAP_main_battle_tank.dds" 
+				# # "gfx/interface/equipmentdesigner/tanks/designer/ett60/prc_main_battle_tank.dds" 
+			# # }
+		# # }
+	# # }
+	# modern_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_destroyer_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_modern_tank_destroyer_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_modern_tank_aa_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_artillery_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_aa_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_destroyer_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_artillery_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/mbt_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_adv_main_tank.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_main_battle_tank2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_main_battle_tank2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/JAP_main_battle_tank2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_main_battle_tank2b.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_main_battle_tank2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_main_battle_tank2b.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_main_battle_tank2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_main_battle_tank2.dds"
+			# }
+		# }
+	# }
+	# modern_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_modern_tank_destroyer_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_aa_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_destroyer_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_aa_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_destroyer_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_artillery_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/mbt_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_main_battle_tank3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_main_battle_tank3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/JAP_main_battle_tank3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/ITA_main_battle_tank3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_main_battle_tank3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_main_battle_tank3.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_aa_equipment_4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_destroyer_equipment_4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_artillery_equipment_4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_aa_equipment_4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_destroyer_equipment_4.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/mbt_4.dds"  
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_main_battle_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_main_battle_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/JAP_main_battle_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/ITA_main_battle_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_main_battle_tank4b.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_main_battle_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_main_battle_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_main_battle_tank4.dds" 
+			# }
+		# }
+	# }
+# }
+# GER = {
+	# light_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_aa_equipment_1.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_artillery_equipment_1.dds"
+			# }
+		# }
+	# }
+	# light_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_aa_equipment_2.dds"
+			# }
+		# }
+	# }
+	# light_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_aa_equipment_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_artillery_equipment_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_destroyer_equipment_3.dds"
+			# }
+		# }
+	# }
+	# light_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_light_tank_3b.dds"
+			# }
+		# }
+	# }
+	# medium_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_medium_tank_artillery_equipment_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_medium_tank_aa_equipment_3.dds"
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_aa_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_destroyer_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_artillery_equipment_1.dds" 
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_aa_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_artillery_equipment_2.dds" 
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_artillery_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank_aa_equipment_3.dds" 
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank4.dds"
+			# }
+		# }
+	# }	
+	# heavy_tank_chassis_5 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_heavy_tank5.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_aa_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_artillery_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_destroyer_equipment_1.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_main_battle_tank2b.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_main_battle_tank2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_aa_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_destroyer_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_artillery_equipment_2.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_main_battle_tank3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_aa_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_destroyer_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_artillery_equipment_3.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_main_battle_tank4b.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_main_battle_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_artillery_equipment_4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_aa_equipment_4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/GER_modern_tank_destroyer_equipment_4.dds"
+			# }
+		# }
+	# }
+# }
+# USA = {
+	
+	# light_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_light_tank_destroyer_equipment_2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_light_tank_artillery_equipment_2.dds"
+			# }
+		# }
+	# }
+	# light_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_light_tank_artillery_equipment_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_light_tank_aa_equipment_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_light_tank_destroyer_equipment_3.dds"
+			# }
+		# }
+	# }
+	# medium_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_artillery_equipment_1.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_destroyer_equipment_1.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_aa_equipment_1.dds"
+			# }
+		# }
+	# }
+	# medium_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_destroyer_equipment_2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_aa_equipment_2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_artillery_equipment_2.dds"
+			# }
+		# }
+	# }
+	# medium_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_artillery_equipment_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_destroyer_equipment_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_medium_tank_aa_equipment_3.dds"
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_destroyer_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_aa_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_artillery_equipment_1.dds" 
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_artillery_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_aa_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_destroyer_equipment_2.dds"
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_aa_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_artillery_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank_destroyer_equipment_3.dds" 
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank4.dds" 
+			# }
+		# }
+	# }	
+	# heavy_tank_chassis_5 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_heavy_tank5.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_modern_tank_aa_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_modern_tank_destroyer_equipment_1.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_main_battle_tank2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_modern_tank_destroyer_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_modern_tank_aa_equipment_2.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_main_battle_tank3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_modern_tank_destroyer_equipment_3.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/USA_main_battle_tank4.dds" 
+			# }
+		# }
+	# }
+# }
+# SOV = {
+	# light_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_artillery_equipment_1.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_destroyer_equipment_1.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_aa_equipment_1.dds"
+			# }
+		# }
+	# }
+	# light_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_aa_equipment_2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_destroyer_equipment_2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_artillery_equipment_2.dds"
+			# }
+		# }
+	# }
+	# light_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_artillery_equipment_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_aa_equipment_3.dds"
+			# }
+		# }
+	# }
+	# light_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_light_tank_3.dds"
+			# }
+		# }
+	# }
+	# medium_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_artillery_equipment_1.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_destroyer_equipment_1.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_aa_equipment_1.dds"
+			# }
+		# }
+	# }
+	# medium_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_aa_equipment_2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_artillery_equipment_2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_destroyer_equipment_2.dds"
+			# }
+		# }
+	# }
+	# medium_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_destroyer_equipment_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_artillery_equipment_3.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_medium_tank_aa_equipment_3.dds"
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_artillery_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_destroyer_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_aa_equipment_1.dds"  
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_destroyer_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_artillery_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_aa_equipment_2.dds" 
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_artillery_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_destroyer_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank_aa_equipment_3.dds" 
+			# }
+		# }
+	# }
+	# heavy_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank4.dds" 
+			# }
+		# }
+	# }	
+	# heavy_tank_chassis_5 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_heavy_tank5.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_main_battle_tank.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_destroyer_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_artillery_equipment_1.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_aa_equipment_1.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_main_battle_tank2.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_destroyer_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_artillery_equipment_2.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_adv_main_tank.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_main_battle_tank3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_aa_equipment_3.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_destroyer_equipment_3.dds"
+			# }
+		# }
+	# }
+	# modern_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_main_battle_tank4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_aa_equipment_4.dds" 
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/SOV_modern_tank_destroyer_equipment_4.dds" 
+			# }
+		# }
+	# }
+# }
+ENG = {
+	light_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_light_tank_3.dds"
+			}
+		}
+	}
+	
+	heavy_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_heavy_tank4.dds" 
+			}
+		}
+	}	
+	heavy_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_heavy_tank5.dds" 
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_main_battle_tank2.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_main_battle_tank3.dds" 
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ett60/ENG_main_battle_tank4.dds" 
+			}
+		}
+	}
+}
+# FRA = {
+	
+	# light_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_light_tank_3.dds"
+			# }
+		# }
+	# }	
+	# heavy_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_heavy_tank4.dds" 
+			# }
+		# }
+	# }	
+	# heavy_tank_chassis_5 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_heavy_tank5.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_main_battle_tank.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_2 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_main_battle_tank2.dds"
+			# }
+		# }
+	# }
+	# modern_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_main_battle_tank3.dds"
+			# }
+		# }
+	# }
+	# modern_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/FRA_main_battle_tank4.dds" 
+			# }
+		# }
+	# }
+# }
+# ITA = {	
+	# modern_tank_chassis_3 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/ITA_main_battle_tank3.dds" 
+			# }
+		# }
+	# }
+	# modern_tank_chassis_4 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/ITA_main_battle_tank4.dds" 
+			# }
+		# }
+	# }
+# }
+# PRC = {
+	# modern_tank_chassis_1 = {
+		# pool = {
+			# icons = {
+				# "gfx/interface/equipmentdesigner/tanks/designer/ett60/prc_main_battle_tank.dds" 
+			# }
+		# }
+	# }	
+# }

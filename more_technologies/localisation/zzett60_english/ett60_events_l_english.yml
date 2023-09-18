@@ -1,0 +1,22 @@
+﻿l_english:
+ inc_res.1.t:0 "Increased Resources?"
+ inc_res.1.d:0 "Would you like to have extra resources, based on Increased Resources mod? If you wish, you can also have only half of extra resources. \nThis was added to the ETT1960 mod to ensure that industrial production remain viable past the 1940s, when, normally, industry grinds to a halt for lack of resources to produce more modern equipment. The mid option is preferred to make sure that resources still remain relevant."
+ inc_res.1.a:0 "I don't want any extra resources!"
+ inc_res.1.a.d:0 "No extra resources will be added."
+ inc_res.1.b:0 "Let me have them, but not too much."
+ inc_res.1.b.d:0 "Half of the resources will be added."
+ inc_res.1.c:0 "Give me all you got!"
+ inc_res.1.c.d:0 "All of the resources will be added."
+
+ shackles.1.t:0 "AI Shackles"
+ shackles.1.d:0 "By extending the timeline of the game into the 1960s, the ETT1960 mod also extends the issue of the minor AI nations building copious amounts of military equipment and training huge armies. This is a problem by the end of the 1940s and even more so into the 1950s and 1960s, which have a significant impact in the game performance. ETT1960 adds production and recruitment limitations to those minor countries in order to ensure a playable game. Some countries, like Brazil and Argentina, which had a reasonable industry but did not much care for conflicts abroad (until, in the case of Brazil for example, they were dragged to it) will have a limitation on recruitable manpower only, while others (like El Salvador), will have both manpower and industry capped. \nIf you decided to impose these limitations, called shackles, on the AI, it can be removed via a decision (costs 1pp) if you want to play with a minor nation. Or you can play without them from the beginning, for all countries, but it will most certainly adversely impact the game performance. Its your choice."
+ shackles.1.b:0 "I don't want to limit the AI."
+ shackles.1.b.d:0 "Minor countries will receive no limitations."
+ shackles.1.a:0 "Restrain the AI"
+ shackles.1.a.d:0 "Minor countries will be limited."
+
+ ett60.1.t:0 "Extended Tech Tree 1960"
+ ett60.1.d:0 "Welcome to the Extended Tech Tree 1960 mod. While I have been helped along the way, this is largely a one-member team effort, therefore I'd appreciate that if you encounter any bugs or problems, please let me know. You can reach me directly via our Discord server (link in Steam description)."
+ ett60.1.a:0 "Enjoy!"
+ 
+ 

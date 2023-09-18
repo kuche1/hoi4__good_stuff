@@ -1,0 +1,33 @@
+spriteTypes = { 
+
+	spriteType = {
+		name = "GFX_unit_category_jet_interceptor"
+		texturefile = "gfx/interface/category_jet_interceptor.dds"
+		legacy_lazy_load = no
+	} 
+
+	spriteType = {
+		name = "GFX_unit_category_jet_fighter"
+		texturefile = "gfx/interface/category_jet_fighter.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_category_night_fighter"
+		texturefile = "gfx/interface/category_night_fighter.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_category_jet_strat_bomber"
+		texturefile = "gfx/interface/category_jet_strat_bomber.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_category_jet_tac_bomber"
+		texturefile = "gfx/interface/category_jet_tac_bomber.dds"
+		legacy_lazy_load = no
+	}
+	
+}
