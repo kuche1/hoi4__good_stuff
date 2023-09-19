@@ -1,0 +1,2947 @@
+spriteTypes = {
+									
+	######################## GER								░██████╗░███████╗██████╗░
+	######################## GER								██╔════╝░██╔════╝██╔══██╗
+	######################## GER								██║░░██╗░█████╗░░██████╔╝
+	######################## GER								██║░░╚██╗██╔══╝░░██╔══██╗
+	######################## GER								╚██████╔╝███████╗██║░░██║
+	######################## GER								░╚═════╝░╚══════╝╚═╝░░╚═╝
+	
+	SpriteType = {
+		name = "GFX_GER_He_51"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_33/he51.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Hs_123"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_33/hs123.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_195"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/naval_33/ar195.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fi_156"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/scout_33/fi156.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Hs_126"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/scout_33/hs126.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_109AB"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_36/me109ab.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_109E3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_36/bf109e-3.png"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_109E4"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_36/bf109e-4.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_109E7b"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_36/bf109e7b.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_109F"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_36/bf109f.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_109G"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_36/bf109g.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_109K"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_36/bf109k.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_He_100"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_36/he100.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_He_112"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_36/he112.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_196"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/naval_36/ar196.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Fi_167"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/naval_36/fi167.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_109G8"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/scout_36/bf109g8.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bv_141"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/scout_36/bv141.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_22"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/naval_36/do22.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Hs_P_75"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/hsp75.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_BMW802"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/fwbmw802.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_209"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/me209.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_190_D9"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/fw190d9.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_190_F8"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/fw190f8.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_190_A8"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/fw190a8.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_190_A6_NF"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/fw190a6nightfighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_190_A6"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/fw190a6.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_190_A4B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/fw190a4jabo.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_190_A4"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/fw190a4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_190"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_40/fw190vanilla.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_280"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_43/he280.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Ta_152"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_43/ta152.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_309"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_43/me309.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_262T"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cv_fighter_45/me262t.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_P2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_45/fwp2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_162b"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_45/he162b.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_He_162"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_45/he162.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Ho_229"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_45/ho229.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_262"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_45/me262.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_250"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_47/fw250.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Ta_183"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_47/ta183.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_1110T"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cv_fighter_50/me1110t.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ta_283"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_50/ta283.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_1110"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_50/me1110.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_1101"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_50/me1101.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Ta_241_Marut"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cas_55/ta241marut.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_He_231"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cv_fighter_55/he231.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Pulqui_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_55/pulqui2.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Ha_300"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_55/ha300.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Vak_191"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cv_fighter_60/vak191.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Vj_101D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cv_fighter_60/vj101d.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_1262"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cas_60/fw1262.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_He_12"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_60/he12.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_He_31"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/fighter_60/he31.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_70"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cas_33/he70.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bv_Ha_137"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cas_36/bvha137.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_87"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cas_36/ju87.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Hs_129"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cas_40/hs129.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_187"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cas_43/ju187.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_329"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cas_45/me329.dds"		
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_1099"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cas_47/me1099.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_387"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/light/cas_50/ju387.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_59"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_33/he59.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_86"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_33/ju86.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_23"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_33/do23.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_23_vanilla"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_33/do23vanilla.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_24"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_36/do24.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_18"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_36/do18.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_115"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_36/he115.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_17Z"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_36/do17z.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Hs_130"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_36/hs130.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_111H"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_36/he111h.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_17E"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_36/do17e.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_88_vanilla"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_36/ju88vanilla.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_111_vanilla"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_36/he111vanilla.dds"	
+	}
+	SpriteType = {
+		name = "GFX_GER_He_111E"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_36/he111e.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_189"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_40/fw189.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bv_138"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_40/bv138.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_BV_P_111"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_40/bvp111.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_261"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_40/me261.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_E_530"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_40/are530.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_217K"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_40/do217k.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_217"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_40/do217.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_215"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_40/do215.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_191"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_43/fw191.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_288"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_43/ju288.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_188"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_43/ju188.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_TEW_16_43_19"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_45/artew164319.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_234B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_45/ar234b.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_234"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_45/ar234.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_343"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_47/he343.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_287"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_50/ju287.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Sanger_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_60/sanger2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_560"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/bomber_55/ar560.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_88G"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/ju88g.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bf_110_NFB"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/bf110nfb.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bf_110_NF"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/bf110nf.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bf_110E"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/bf110e.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bf_110D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/bf110d.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bf_110C"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/bf110c.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_E_561"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/are561.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_E_500"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/are500.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Hs_124"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/hs124.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_187"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/fw187.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_57"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/fw57.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bf_110_vanilla"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_36/bf110vanilla.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_215B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_40/do215b.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_240_N"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_40/ar240night.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_240"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_40/ar240.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_217"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_40/do217.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_210"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_40/me210.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_410"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_40/me410.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Hs_219"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_43/he219.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_335"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_43/do335.dds" 
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_234P"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/medium/heavy_fighter_45/ar234p.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bv_Ha_139"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_33/bvha139.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_19"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_33/do19.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Fw_200"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_36/fw200.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_89"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_36/ju89.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bv_222"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_40/bv222.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_177"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_40/he177.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Do_214"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_43/do214.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_290"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_43/ju290.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_264_PxPl4x"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_43/me264pushpull4x.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_264_px4x"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_43/me264push4x.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_264_6x"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_43/me2646x.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_277"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_43/he277.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_390"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_43/ju390.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Me_264_4x"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_43/me2644x.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ta_400"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_43/ta400.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bv_238"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_45/bv238.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ar_555"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_45/ar555.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ho_XVIII"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_47/hoxviii.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ju_EF_132"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_50/juef132.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_He_200"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_55/he200.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_Silbervogel"
+		texturefile = "gfx/interface/equipmentdesigner/planes/GER/large/large_60/silbervogel.dds"
+	}
+	
+	######################## SOV								░██████╗░█████╗░██╗░░░██╗							
+	######################## SOV							    ██╔════╝██╔══██╗██║░░░██║
+	######################## SOV								╚█████╗░██║░░██║╚██╗░██╔╝
+	######################## SOV								╚█████╗░██║░░██║╚██╗░██╔╝
+	######################## SOV								░╚═══██╗██║░░██║░╚████╔╝░
+	######################## SOV								██████╔╝╚█████╔╝░░╚██╔╝░░
+	######################## SOV								╚═════╝░░╚════╝░░░░╚═╝░░░
+	
+	SpriteType = {
+		name = "GFX_SOV_U_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_33/u-2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_I_180"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_36/i180.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mig_3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_36/mig3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_I_16"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_36/i16.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_9"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_40/yak9.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_7"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_40/yak7b.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_1M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_40/yak1m.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_40/yak1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Lagg_3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_40/lagg3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_La_11"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_43/la11.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_La_7"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_43/la7.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_La_5FN"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_43/la5fn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_La_5"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_43/la5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_La_152"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_45/la152.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_La_150"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_45/la150.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_I_212"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_45/i212.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_23"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_45/yak23.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_15"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_45/yak15.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mig_9"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_45/mig9.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_50"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_47/yak50.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_30"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_47/yak30.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_19"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_47/yak19.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_La_15"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_47/la15.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mig_15"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_47/mig15.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mig_SN"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_50/migsn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_25B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_50/yak25b.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_25"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_50/yak25.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mig_19"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_50/mig19.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mig_17"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_50/mig17.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Tu_91"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_55/tu91.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_M_17"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_55/m17.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_La_250"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_55/la250.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Su_7"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_55/su7.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Su_9"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_55/su9.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Tu_28"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_60/tu28.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mig_Ye_8"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_60/migye8.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mig_21"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/light_60/mig21.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Su_2B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/cas_36/su2b.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_LBSh"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/cas_36/lbsh.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Su_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/cas_36/su2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_SOV_Il_2T"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/cas_40/il2t.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_Il_16"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/cas_45/il16.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_Il_40"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/cas_50/il40.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_Il_102"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/cas_55/il102.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_Su_7B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/light/cas_60/su7b.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Tu_12"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_45/tu12.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Il_28"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_47/il28.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Be_6"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_50/be6.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_OKB1_EF_150"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_50/okb1ef150.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Tu_14"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_50/tu14.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Be_10"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_55/be10.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Tu_98"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_55/tu98.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Yak_28"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_55/yak28.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Be_12"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_60/be12.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_R_020"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_60/r020.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Tu_22"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/bomber_60/tu22.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Gr_1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/heavy_fighter_36/gr1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_G_38"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/heavy_fighter_36/g-38.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_ANT_62"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/heavy_fighter_40/ant62.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Tu_1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/heavy_fighter_40/tu-1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Pe_3bis"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/heavy_fighter_43/pe3bis.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Pe_3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/heavy_fighter_43/pe3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Po_Nb"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/heavy_fighter_45/polikarpovnb.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mig_5bis"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/heavy_fighter_45/mig5bis.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mig_5"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/medium/heavy_fighter_45/mig5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_tu_80"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_45/tu-80.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_tu_16"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_47/tu-16.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Tu_85"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_50/tu-85.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Mya_4"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_50/mya4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_Tu_95MS"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_65/tu95ms.dds" 
+	}
+	SpriteType = {
+		name = "GFX_SOV_Tu_95M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_55/tu95m.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_M_54"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_60/m54.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_M_52"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_60/m52.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_M_50B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_60/m50b.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_M_50"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_60/m50.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_DSB_LK"
+		texturefile = "gfx/interface/equipmentdesigner/planes/SOV/large/strat_60/DSB_LK_Darkstar.dds"
+	}
+	
+	######################## USA								██╗░░░██╗░██████╗░█████╗░
+	######################## USA								██║░░░██║██╔════╝██╔══██╗
+	######################## USA								██║░░░██║╚█████╗░███████║
+	######################## USA								██║░░░██║░╚═══██╗██╔══██║
+	######################## USA								╚██████╔╝██████╔╝██║░░██║
+	######################## USA								░╚═════╝░╚═════╝░╚═╝░░╚═╝
+	
+	SpriteType = {
+		name = "GFX_USA_BM2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_33/bm2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_12"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_33/a12.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_26"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_33/p-26.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F2A"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/f2a.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_64"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/p-64.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_48"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/p-48.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_42B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/p-42b.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_42"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/p-42.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_37"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/p-37.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_34"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/p-34.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_35B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/p-35b.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_35"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/p-35.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_36"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/p-36.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_40"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_36/p-40.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_66"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-66.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_60"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-60.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_57"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-57.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_56"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-56.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_55"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-55.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_54"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-54.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_53"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-53.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_52"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/P-52.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_46"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-46.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_43"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-43.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_39"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-39.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_51RAZOR"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-51razor.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_47RAZOR"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_40/p-47razor.dds"		
+	}
+	SpriteType = {
+		name = "GFX_USA_P_72"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_43/p-72.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_62"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_43/p-62.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_59"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_43/p-59.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_47N"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_43/p-47n.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F_6"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_43/f-6.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_51K"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_43/p-51k.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_63"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_43/p-63.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_47BUBBLE"	
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_43/p-47bubble.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_51BUBBLE"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_43/p-51bubble.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_AP_47"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_45/ap-47.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_D_35"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_45/d-35.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_47H"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_45/p-47h.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_75"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_45/p-75.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_304"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_45/p-304.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_83"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_45/p-83.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_81"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_45/p-81.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_P_80"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_45/p-80.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_XF_84H"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_47/xf-84h.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_RF_84"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_47/rf-84.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_85"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_47/f-85.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_94"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_47/f-94.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_90"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_47/f-90.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_89"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_47/f-89.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_88"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_47/f-88.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F_86D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_47/f-86d.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_86"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_47/f-86.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_L_205"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_50/l-205.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F2Y"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_50/f2y.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_N_102"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_50/n-102.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_D_36"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_50/d-36.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Skate"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_50/skate.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_GA_17"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_50/ga-17.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F_93"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_50/f-93.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_100"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_50/f-100.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_RF_101"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_55/rf-101.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F_107"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_55/f-107.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_103"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_55/f-103.dds"		
+	}
+	SpriteType = {
+		name = "GFX_USA_F_102"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_55/f-102.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_101"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_55/f-101.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_U_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_60/u-2.dds"		
+	}
+	SpriteType = {
+		name = "GFX_USA_F_108"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_60/f-108.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_5"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_60/f-5.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_106"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_60/f-106.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_104"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_60/f-104.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_104C"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_60/f-104c.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_104G"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_60/f-104g.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_4"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/fighter_60/f-4.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F4B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_33/f4b.dds"		
+	}
+	SpriteType = {
+		name = "GFX_USA_SBU_Corsair"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_33/sbucorsair.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_O2U"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_33/o2u.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F3F"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_33/f3f.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Wildcat"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_36/wildcat.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_Hellcat_5P"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_40/hellcat-5p.dds"
+	}  
+	SpriteType = {
+		name = "GFX_USA_Hellcat"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_40/hellcat.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Boeing_386"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_43/boeing386.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Boeing_394"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_43/boeing394.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_XF14C"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_43/xf14c.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_Corsair"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_43/corsair.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Boeing_387"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_45/boeing387.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XF8B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_45/xf8b.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XF2R"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_45/xf2r.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F6U"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_45/f6u.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_Bearcat"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_45/bearcat.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_FJ_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_47/fj-2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_MD_Mod_40"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_47/MDMod40.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_V_340"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_47/v-340.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_FJ_1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_47/fj-1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_FH_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_47/fh-2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_FH_1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_47/fh-1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Model_91"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_50/model91.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XF10F"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_50/xf10f.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F3D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_50/f3d.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F9F"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_50/f9f.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F11F"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_55/f11f.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F8"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_55/f8.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F5D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_55/f5d.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F4D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_55/f4d.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F3H"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_55/f3h.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F6D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_60/f6d.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XF8U3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_60/xf8u3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F_4_Navy"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_fighter_60/f-4cv.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_SB2U"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_36/sb2u.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_19"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_36/a-19.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_Buccaneer"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_40/buccaneer.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_Dauntless"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_40/dauntless.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_A_33"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_40/a-33.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_31"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_40/a-31.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_27"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_40/a-27.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_A_24"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_40/a-24.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_Helldiver"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_43/helldiver.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_XA_39"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_43/xa-39.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XA_40"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_43/xa-40.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_XA_32"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_43/xa-32.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_A_36"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_43/a-36.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XBTK"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_45/xbtk.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_XBTC"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_45/xbtc.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_A1D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_45/a1d.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_A_1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_45/a-1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_41"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_45/a-41.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_Savage"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_47/savage.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_84"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_47/f-84.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_A2D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_50/a2d.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_50/a-3.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_96"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_50/f-96.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_A_4"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_55/a-4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_OV_10"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_55/ov-10.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_45b"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_55/a-45b.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_A_45"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_55/a-45.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_6"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_60/a-6.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_A_5"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_60/a-5.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_F_105"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cas_60/f-105.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_Devastator_b"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_naval_36/devastatorb.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Devastator"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_naval_36/devastator.dds"	
+	}
+	SpriteType = {
+		name = "GFX_USA_Avenger"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_naval_40/avenger.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Destroyer"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_naval_43/destroyer.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Seawolf"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_naval_43/seawolf.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XF15C"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_naval_45/xf15c.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XTB2D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_naval_45/xtb2d.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Mauler"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_naval_47/mauler.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Guardian"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_naval_50/guardian.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Tracker"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_naval_55/tracker.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_6"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/light/cv_cas_60/a-6.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P2Y"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_33/p2y.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_6"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_33/b-6.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_23"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_36/b-23.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_27"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_40/b-27.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_20"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_40/a-20.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_PBJ_1H"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_40/pbj.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Mariner"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_40/mariner.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_25"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_40/b-25.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XA_38"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_43/xa-38.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_28"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_43/b-28.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_A_26"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_43/a-26.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_26"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_43/b-26.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XTB2F1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/cv_medium_bomber_45/xtb2f1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_42"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_45/b-42.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_43"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_45/b-43.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P2V"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_47/p2v.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_HU_16"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_47/hu16.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_48"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_47/b-48.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_46"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_47/b-46.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_45"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_47/b-45.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P5M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_50/p5m.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P4M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_50/p4m.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_57"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_50/b-57.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_59"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_50/b-59.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P6M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_55/p6m.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_CL_400"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_55/cl-400.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_66"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_55/b-66.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_YF_12"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_60/yf-12.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_YA_12"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_60/a-12.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_60/p-3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_68"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/bomber_60/b-68.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_YFM_1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_36/YFM-1_airacuda.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_38NF"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_36/p-38night.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F_5B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_36/f-5b.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_38"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_36/p-38.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_70"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_40/p-70.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_49"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_40/p-49.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XP_58"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_40/xp-58.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_71"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_43/p-71.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_67"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_43/p-67.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_P_61"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_43/p-61.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_XTSF1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/cv_heavy_fighter_45/xtsf1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_KF_Model_147"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/cv_heavy_fighter_45/kfmodel47.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Tigercat"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/cv_heavy_fighter_45/tigercat.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F_15"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_45/f-15.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F_82Night"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_45/f-82night.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F_82"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_45/f-82.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_F_87"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/medium/heavy_fighter_47/f-87.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_15"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_36/b-15.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_17G"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_36/b-17g.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_17F"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_36/b-17f.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_17E"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_36/b-17e.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_17BCD"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_36/b-17bcd.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_17"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_36/b-17.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_19"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_40/b-19.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Liberator_GR"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_40/liberator_gr_mkv.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_PB4Y"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_40/PB4Y.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_24M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_40/b-24m.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_24J"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_40/b-24j.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_24H"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_40/b-24h.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_24D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_40/b-24d.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_24"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_40/b-24.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_32"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_43/b-32.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_29D"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_43/b-29d.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_29C"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_43/b-29c.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_29B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_43/b-29b.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_29"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_43/b-29.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_JRM"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_45/jrm.dds" 
+	}
+	SpriteType = {
+		name = "GFX_USA_Model_306"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_45/model306.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_31"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_45/b-31.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_35"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_47/b-35.dds" 	
+	}
+	SpriteType = {
+		name = "GFX_USA_B_36"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_47/b-36.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_49"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_50/b-49.dds" 			
+	}
+	SpriteType = {
+		name = "GFX_USA_B_47"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_50/b-47.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_60"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_55/b-60.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_55"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_55/b-55.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_52B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_55/b-52b.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_58"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_60/b-58.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_B_52G"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_60/b-52g.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_XB_70"
+		texturefile = "gfx/interface/equipmentdesigner/planes/USA/heavy/strat_60/xb-70.dds"
+	}
+		
+	######################## ENG								███████╗███╗░░██╗░██████╗░
+	######################## ENG								██╔════╝████╗░██║██╔════╝░
+	######################## ENG								█████╗░░██╔██╗██║██║░░██╗░
+	######################## ENG								██╔══╝░░██║╚████║██║░░╚██╗
+	######################## ENG								███████╗██║░╚███║╚██████╔╝
+	######################## ENG								╚══════╝╚═╝░░╚══╝░╚═════╝░
+		
+	SpriteType = {
+		name = "GFX_ENG_Fulmar"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_36/fulmar.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Defiant"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_36/defiant.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Hurricane_MkIV"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_36/hurricanemkiv.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Hurricane"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_36/hurricane.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Typhoon_MkIb"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_40/typhoonmkib.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Typhoon"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_40/typhoon.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Spitfire_Mk21"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_40/spitfiremk21.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Spitfire_MkXIV"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_40/spitfiremkxiv.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Spitfire_MkIX"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_40/spitfiremkix.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Spitfire_MkV"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_40/spitfiremkv.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Spitfire_MkIb"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_40/spitfiremkib.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Spitfire"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_40/spitfire.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Spiteful"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_43/spiteful.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Tempest"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_43/tempest.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Tempest_MkV"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_43/tempestmkv.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Vampire"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_45/vampire.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Meteor"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_45/meteor.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_E_144"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_47/e144.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Venom"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_47/venom.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Swift"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_50/swift.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Javelin"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_50/javelin.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_P_1103"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_55/p1103.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Hunter"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_55/hunter.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_P_1121"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_60/p1121.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Lightning"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/light_60/lightning.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Seafire"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_light_40/seafire.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Seafang"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_light_43/seafang.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Wyvern"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_light_45/wyvern.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Seavampire"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_light_47/seavampire.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Attacker"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_light_50/attacker.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Seahawk"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_light_55/seahawk.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Scimitar"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_light_60/scimitar.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Wellesley"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cas_36/wellesley.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Battle"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cas_40/battle.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Firebrand"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cas_45/firebrand.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Venom_FB"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cas_47/venomfb.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Strikemaster"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cas_50/strikemaster.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Gnat"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cas_55/gnat.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Kestrel"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cas_60/kestrel.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Osprey"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_cas_36/osprey.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Skua"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_cas_40/skua.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Seafury"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_cas_43/seafury.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Firecrest"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_cas_45/firecrest.dds" 
+	}		
+	SpriteType = {
+		name = "GFX_ENG_Seavixen"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_cas_50/seavixen.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_AW_168"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_cas_55/aw168.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Buccaneer"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_cas_60/buccaneer.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Shark"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_nav_36/shark.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Roc"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_nav_40/roc.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Barracuda"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_nav_43/barracuda.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Spearfish"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_nav_45/spearfish.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Gannet"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_nav_50/gannet.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Seamew"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_nav_55/seamew.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Buccaneer"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/light/cv_cas_60/buccaneer.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Sperrin"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/large/large_45/sperrin.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Shackleton_Mk3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/large/large_47/shackletonmk3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Shackleton_Mk2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/large/large_47/shackletonmk2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Shackleton_Mk1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/large/large_47/shackletonmk1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Valiant"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/large/large_47/valiant.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Vulcan"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/large/large_50/vulcan.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_VictorB"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/large/large_55/victorb.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Victor"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/large/large_55/victor.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Concord"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/large/large_60/concord.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Blenheim"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_36/blenheim.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Mosquito_NF"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_40/mosquitonf.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Mosquito_PR"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_40/mosquitopr.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Mosquito_FB"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_40/mosquitofb.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Wellington"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_40/wellington.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Buckingham"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_43/buckingham.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Brigand"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_43/brigand.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Jet_Mosquito"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_45/jetmosquito.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_AW_56"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_47/aw56.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Canberra"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_50/canberra.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Hawker_P_1129"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_55/hawkerp1129.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_TSR_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ENG/medium/medium_60/tsr2.dds"
+	}
+	
+	######################## FRA								███████╗██████╗░░█████╗░
+	######################## FRA								██╔════╝██╔══██╗██╔══██╗
+	######################## FRA								█████╗░░██████╔╝███████║
+	######################## FRA								██╔══╝░░██╔══██╗██╔══██║
+	######################## FRA								██║░░░░░██║░░██║██║░░██║
+	######################## FRA								╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝
+		
+	SpriteType = {
+		name = "GFX_FRA_MS_406"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_36/ms406.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_M_150"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_36/m150.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_D_520"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_40/d520.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_VG_33"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_40/vg33.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_VB_10"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_43/vb10.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_VG_50"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_43/vg50.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_VB_15"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_45/vb15.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_SO_6020_Espadon"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_45/so6020espadon.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_Nord_1601"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_47/nord1601.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_Mystere"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_47/mystere.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_Ouragan"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_47/ouragan.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_Breguet_1002"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_50/breguet1002.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_Super_Mystere"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_50/supermystere.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_SO_4060"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_55/so4060.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_Nord_5000_Harpon"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_55/harpon.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_Etendard_II"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_55/etendardii.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_Mirage_IIIE"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_60/mirageiiie.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_Mirage_IIIC"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_60/mirageiiic.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_D_376"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_36/d376.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_D_790"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_40/d790.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_D_510"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_40/d510.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_MB_157"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_43/mb157.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_VG_90"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_47/vg90.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_NC_1080"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_50/nc1080.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Nord_2200"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_50/nord2200.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_SO_4060M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_55/so4060m.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Sirocco"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_55/sirocco.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Etendard_IV"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_fighter_60/etendardiv.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_LN_411"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cas_40/ln411.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_LN_42"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cas_43/ln42.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Narval"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cas_45/narval.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Nord_1601"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/fighter_47/nord1601.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Mystere_IV"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cas_50/mystereiv.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Breguet_1100"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cas_55/breguet1100.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Etendard_VI"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cas_60/etendardvi.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Ni_140"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_cas_36/ni140.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_LN_401"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_cas_40/ln401.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_LN_43"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_cas_43/ln43.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Noreclair"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_cas_47/noreclair.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Baroundeur"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_cas_50/baroudeur.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Taon"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_cas_55/taon.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Etendard_VIM"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_cas_60/etendardvim.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Mirage_IVM"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_cas_60/mirageivm.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Vultur"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_nav_50/vultur.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Epaulard"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_nav_55/epaulard.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Alize"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/light/cv_nav_60/alize.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_NC_270"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_45/nc270.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Grognard"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_47/grognard.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Vautour"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_50/vautour.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Vautour_IIB"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_55/vautouriib.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Atlantic"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_60/atlantic.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Minerve"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_60/minerve.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Super_Vautour"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_60/super_vautour.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Mirage_IV"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/medium/bomber_60/mirageiv.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Super_Mirage_IV"
+		texturefile = "gfx/interface/equipmentdesigner/planes/FRA/large/strat_60/supermirageiv.dds"
+	}
+	
+	######################## JAP								░░░░░██╗░█████╗░██████╗░
+	######################## JAP								░░░░░██║██╔══██╗██╔══██╗
+	######################## JAP								░░░░░██║███████║██████╔╝
+	######################## JAP								██╗░░██║██╔══██║██╔═══╝░
+	######################## JAP								╚█████╔╝██║░░██║██║░░░░░
+	######################## JAP								░╚════╝░╚═╝░░╚═╝╚═╝░░░░░
+	
+	SpriteType = {
+		name = "GFX_JAP_Ki_10"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_33/ki10.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Type_91"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_33/type91.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_33"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_36/ki33.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_27"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_36/ki27.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A5M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_36/a5m.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_61"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_40/ki61.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_43"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_40/ki43.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A6M_inline_engine_1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_40/a6m_inline_engine.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A6M_inline_engine_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_40/a6m_inline_engine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A6M5"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_40/a6m5.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A6M3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_40/a6m3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A6M1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_40/a6m1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A6M2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_40/a6m2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_E16"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_43/e16.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_N1KJ"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_43/n1kj.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_84"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_43/ki84.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_J2M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_43/j2m.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_44"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_43/ki44.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A7M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_43/a7m.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_87"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_45/ki87.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_100B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_45/ki100b.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_100"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_45/ki100.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_201"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_45/ki201.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Kikka"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_45/kikka.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A8M_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_45/a8m.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A9_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_45/a9.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_R2Y1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_47/r2y1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_J7W"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_47/j7w.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A10_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_47/a10.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_273_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_50/ki273.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_252_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_50/ki252.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A11_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_50/a11.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_T1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_55/t1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_233_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_55/ki233.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A12_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_55/a12.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_475_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_60/ki475.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_500_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/fighter_60/ki500.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A13_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_60/a13.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_B5N"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_nav_36/b5n.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_B6N"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_nav_40/b6n.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_B7B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_nav_43/B7B.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_B7A"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_nav_43/b7a.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_C6N"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_nav_45/c6n.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_BD8_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/nav_47/bd8.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_B8A_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_nav_47/b8A.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_32"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cas_36/ki32.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_51"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cas_40/ki51.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_D4Y"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_cas_43/d4y.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_M6A"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cas_45/m6a.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_98"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cas_45/ki98.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_D1A2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_cas_36/d1a2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_B5N_bomb"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_cas_36/b5n_bomb.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_D3A"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_cas_40/d3a.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_D4Y"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_cas_43/d4y.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Super_D4Y_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_cas_45/superd4y.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_D6Y_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_cas_47/d6y.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A11_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_50/a11.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A12_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_55/a12.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_A13_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/light/cv_fighter_60/a13.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_21"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_36/ki21.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_49"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_40/ki49.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_48"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_40/ki48.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_G4M"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_40/g4m.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_P1Y"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_43/p1y.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_67B"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_45/ki67b.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_67"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_45/ki67.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_R2Y2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/bomber_47/r2y2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_J1N1SA"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/heavy_fighter_40/j1n1sa.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_J1N1S"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/heavy_fighter_40/j1n1s.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_45"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/heavy_fighter_40/ki45.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_102"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/heavy_fighter_43/ki102.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_96"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/heavy_fighter_43/ki96.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_J5N"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/heavy_fighter_45/j5n.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_93"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/heavy_fighter_45/ki93.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_83"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/medium/heavy_fighter_45/ki83.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_H6K"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_36/h6k.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_G5N"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_36/g5n.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_G8N1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_40/g8n1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_H8K"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_43/h8k.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_91"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_43/ki91.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_G10N"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_45/g10n.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_KX3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_47/kx3.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_180B_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_47/ki180b.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_180_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_47/ki180.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Ki_185_fictional"
+		texturefile = "gfx/interface/equipmentdesigner/planes/JAP/large/strat_50/Ki-185.dds"
+	}
+	
+	######################## ITA								██╗████████╗░█████╗░
+	######################## ITA								██║╚══██╔══╝██╔══██╗
+	######################## ITA								██║░░░██║░░░███████║
+	######################## ITA								██║░░░██║░░░██╔══██║
+	######################## ITA								██║░░░██║░░░██║░░██║
+	######################## ITA								╚═╝░░░╚═╝░░░╚═╝░░╚═╝
+	
+	SpriteType = {
+		name = "GFX_ITA_G50"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_36/g.50.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Re2000"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_40/re.2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_C1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_43/c.1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Re2005"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_43/re.2005.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_G55"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_43/g.55.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_P146"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_45/p.146.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SM108"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_45/sm.108.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Vindex"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_47/vindex.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Sagittario_I"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_47/sagittario-i.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_SM133"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_50/sm.133.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_MB324"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_50/mb324.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Leone"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_55/leone.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_MB327"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_55/mb327.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_G95_6I"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_60/g95-6i.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_G91"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/fighter_60/g91.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_MC205"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/cv_fighter_43/mc.205.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ITA_G95_3N"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/cv_fighter_60/fiatg95-3n.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_G57"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/cas_45/g.57.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Sagittario_CA"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/cas_47/sagittario-ca.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_G80_3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/cas_50/g.80-3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_G84"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/cas_55/g.84.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_MB336"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/cas_60/mb.336.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Re2001G_H"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/cv_cas_40/re.2001g-h.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_G95_4"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/cv_cas_60/g.95-4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_G55S"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/light/nav_43/g.55s.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_P133"
+		texturefile = "gfx/interface/equipmentdesigner/planes/ITA/large/strat_43/p.133.dds"
+	}
+	
+	############################								░██████╗░███████╗███╗░░██╗███████╗██████╗░██╗░█████╗░
+	############################								██╔════╝░██╔════╝████╗░██║██╔════╝██╔══██╗██║██╔══██╗
+	############################								██║░░██╗░█████╗░░██╔██╗██║█████╗░░██████╔╝██║██║░░╚═╝
+	############################								██║░░╚██╗██╔══╝░░██║╚████║██╔══╝░░██╔══██╗██║██║░░██╗
+	############################								╚██████╔╝███████╗██║░╚███║███████╗██║░░██║██║╚█████╔╝
+	############################								░╚═════╝░╚══════╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝╚═╝░╚════╝░
+	
+	SpriteType = {
+		name = "GFX_Generic_Jet_Interceptor_5"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/jet_interceptor5.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Jet_Fighter_5"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/jet_fighter5.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Jet_Interceptor_4"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/jet_interceptor4.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Jet_Fighter_4"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/jet_fighter4.dds"				
+	}
+	SpriteType = {
+		name = "GFX_Generic_Jet_Interceptor_3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/jet_interceptor3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Jet_Fighter_3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/jet_fighter3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Jet_Interceptor_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/jet_interceptor2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Jet_Fighter_2"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/jet_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Jet_Interceptor_1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/jet_interceptor1.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Jet_Fighter_1"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/cv_jet_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_12"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/cv_fighter4.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_11"
+		texturefile = "gfx/interface/technologies/yug_fighter3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_10"
+		texturefile = "gfx/interface/technologies/pol_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_9"
+		texturefile = "gfx/interface/technologies/chi_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_8"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/ENG_interceptor3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_7"
+		texturefile = "gfx/interface/technologies/spr_fighter_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_6"
+		texturefile = "gfx/interface/technologies/rom_fighter3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_5"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/SOV_interceptor2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_4"
+		texturefile = "gfx/interface/technologies/chi_fighter3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_3"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/FRA_interceptor1.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_1"
+		texturefile = "gfx/interface/technologies/yug_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Fighter_0"
+		texturefile = "gfx/interface/technologies/cze_early_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Medium_Bomber_8"
+		texturefile = "gfx/interface/technologies/mach2stratbomber.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Medium_Bomber_7"
+		texturefile = "gfx/interface/equipmentdesigner/planes/pre-bba_pool/USA_jet_tactical_bomber3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Medium_Bomber_6"
+		texturefile = "gfx/interface/technologies/jet_tactical_bomber3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Medium_Bomber_5"
+		texturefile = "gfx/interface/technologies/jet_tactical_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Medium_Bomber_4"
+		texturefile = "gfx/interface/technologies/jet_tactical_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Heavy_Fighter_3"
+		texturefile = "gfx/interface/technologies/fra_heavy_fighter3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Medium_Bomber_3"
+		texturefile = "gfx/interface/technologies/rom_tactical_bomber3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Heavy_Fighter_2"
+		texturefile = "gfx/interface/technologies/cze_heavy_fighter2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Medium_Bomber_2"
+		texturefile = "gfx/interface/technologies/por_tactical_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Heavy_Fighter_1"
+		texturefile = "gfx/interface/technologies/hun_heavy_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Medium_Bomber_1"
+		texturefile = "gfx/interface/technologies/yug_tactical_bomber1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_Generic_Strat_Bomber_6"
+		texturefile = "gfx/interface/technologies/jet_strategic_bomber4.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Strat_Bomber_5"
+		texturefile = "gfx/interface/technologies/jet_strategic_bomber3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Strat_Bomber_4"
+		texturefile = "gfx/interface/technologies/jet_strategic_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Strat_Bomber_3"
+		texturefile = "gfx/interface/technologies/cze_strategic_bomber3.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Strat_Bomber_2"
+		texturefile = "gfx/interface/technologies/YUG_strategic_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Strat_Bomber_1"
+		texturefile = "gfx/interface/technologies/CHI_strategic_bomber1.dds"	
+	}
+}
