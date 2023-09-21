@@ -607,284 +607,6 @@ technologies = {
 		}
 	}
 
-	interwar_antiair = {
-
-		enable_equipments = {
-			anti_air_equipment_1
-		}
-
-		enable_equipment_modules = {
-			ship_anti_air_2
-			tank_auto_cannon
-			tank_anti_air_cannon
-			tank_heavy_cannon
-		}
-
-		enable_building = {
-			building = anti_air_building
-			level = 5
-		}
-
-		path = {
-			leads_to_tech = antiair1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		start_year = 1936
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 2 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 0.5
-
-				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
-				}
-			}
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_air
-		}
-	}
-
-	antiair1 = {
-
-		anti_air = {
-			air_attack = 0.1
-		}
-		anti_air_brigade = {
-			air_attack = 0.1
-		}
-		mot_anti_air_brigade = {
-			air_attack = 0.1
-		}
-
-		tech_air_damage_factor = -0.02
-
-		path = {
-			leads_to_tech = antiair2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1939
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_air
-		}
-	}
-
-	antiair2 = {
-
-		enable_equipments = {
-			anti_air_equipment_2
-		}
-
-		static_anti_air_damage_factor = 0.1
-
-		enable_equipment_modules = {
-			ship_anti_air_3
-			tank_auto_cannon_2
-			tank_anti_air_cannon_2
-		}
-
-		path = {
-			leads_to_tech = antiair3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1940
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 6 }
-		}
-
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_air
-		}
-	}
-
-	antiair3 = {
-
-		anti_air = {
-			air_attack = 0.1
-		}
-		anti_air_brigade = {
-			air_attack = 0.1
-		}
-		mot_anti_air_brigade = {
-			air_attack = 0.1
-		}
-
-		enable_equipment_modules = {
-			tank_heavy_cannon_2
-		}
-
-		tech_air_damage_factor = -0.02
-
-		path = {
-			leads_to_tech = antiair4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1941
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_air
-		}
-	}
-
-	antiair4 = {
-
-		anti_air = {
-			air_attack = 0.1
-		}
-		anti_air_brigade = {
-			air_attack = 0.1
-		}
-		mot_anti_air_brigade = {
-			air_attack = 0.1
-		}
-
-		tech_air_damage_factor = -0.02
-
-		path = {
-			leads_to_tech = antiair5
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-
-		start_year = 1942
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 10 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				OR = {
-					tag = JAP
-					tag = ENG
-					tag = USA
-				}
-				OR = {
-					has_war_with = JAP
-					has_war_with = USA
-					has_war_with = ENG
-				}
-				factor = 5
-			}
-		}
-
-		categories = {
-			artillery
-			cat_anti_air
-		}
-	}
-
 	antiair5 = {
 
 		enable_equipments = {
@@ -900,6 +622,11 @@ technologies = {
 			auto_loader
 		}
 
+		path = {
+			leads_to_tech = antiair6
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1
 
 		start_year = 1943
@@ -907,6 +634,210 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = -3 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_air
+		}
+	}
+
+	antiair6 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+
+		tech_air_damage_factor = -0.02
+
+		path = {
+			leads_to_tech = antiair7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1944
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 14 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_air
+		}
+	}
+
+	antiair7 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+
+		tech_air_damage_factor = -0.02
+
+		path = {
+			leads_to_tech = antiair8
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1945
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 16 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_air
+		}
+	}
+
+	antiair8 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+
+		tech_air_damage_factor = -0.02
+
+		path = {
+			leads_to_tech = antiair9
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1946
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_air
+		}
+	}
+
+	antiair9 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+
+		tech_air_damage_factor = -0.02
+
+		#path = {
+		#	leads_to_tech = antiair10
+		#	research_cost_coeff = 1
+		#}
+
+		research_cost = 1
+
+		start_year = 1947
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 20 }
 		}
 
 		ai_will_do = {
