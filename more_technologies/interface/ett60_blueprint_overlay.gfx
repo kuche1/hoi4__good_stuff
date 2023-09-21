@@ -1,9 +1,0 @@
-spriteTypes = {
-
-	spriteType = {
-		name = "GFX_TC_small_plane_airframe_5_ger"
-		textureFile = "gfx/interface/equipmentdesigner/planes/ger/ger_fighter_5.dds"
-		legacy_lazy_load = no
-	}
-
-}
