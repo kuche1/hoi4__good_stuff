@@ -1,5 +1,9 @@
 technologies = {
 
+	##########################################################################
+	########################################################################## atrillery
+	##########################################################################
+
 	artillery5 = {
 
 		artillery = {
@@ -357,10 +361,10 @@ technologies = {
 			soft_attack = 0.05
 		}
 
-		#path = {
-		#	leads_to_tech = artillery10
-		#	research_cost_coeff = 1
-		#}
+		path = {
+			leads_to_tech = artillery10
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1
 
@@ -394,6 +398,205 @@ technologies = {
 			}
 		}
 	}
+
+	artillery10 = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		modern_sp_artillery_brigade= {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = artillery11
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1948
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 22 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				date > "1948.1.6"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1949.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "1950.1.1"
+			}
+		}
+	}
+
+	artillery11 = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		modern_sp_artillery_brigade= {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = artillery12
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1949
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 24 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				date > "1949.1.6"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1950.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "1951.1.1"
+			}
+		}
+	}
+
+	artillery12 = {
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		light_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		medium_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		heavy_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		super_heavy_sp_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		modern_sp_artillery_brigade= {
+			soft_attack = 0.05
+		}
+
+		#path = {
+		#	leads_to_tech = artillery13
+		#	research_cost_coeff = 1
+		#}
+
+		research_cost = 1
+
+		start_year = 1950
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 26 }
+		}
+
+		categories = {
+			artillery
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 2
+				date > "1950.1.6"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1951.1.1"
+			}
+
+			modifier = {
+				factor = 5
+				date > "1952.1.1"
+			}
+		}
+	}
+
+	##########################################################################
+	########################################################################## rocker atrillery
+	##########################################################################
 
 	rocket_artillery4 = {
 
@@ -579,10 +782,10 @@ technologies = {
 			soft_attack = 0.15
 		}
 
-		#path = {
-		#	leads_to_tech = rocket_artillery9
-		#	research_cost_coeff = 1
-		#}
+		path = {
+			leads_to_tech = rocket_artillery9
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1
 
@@ -606,6 +809,139 @@ technologies = {
 			rocketry
 		}
 	}
+
+	rocket_artillery9 = {
+
+		rocket_artillery = {
+			soft_attack = 0.15
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		mot_rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = rocket_artillery10
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1948
+
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 22 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+		}
+
+		categories = {
+			rocketry
+		}
+	}
+
+	rocket_artillery10 = {
+
+		rocket_artillery = {
+			soft_attack = 0.15
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		mot_rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = rocket_artillery11
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1949
+
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+		}
+
+		categories = {
+			rocketry
+		}
+	}
+
+	rocket_artillery11 = {
+
+		rocket_artillery = {
+			soft_attack = 0.15
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		mot_rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.15
+		}
+
+		#path = {
+		#	leads_to_tech = rocket_artillery12
+		#	research_cost_coeff = 1
+		#}
+
+		research_cost = 1
+
+		start_year = 1950
+
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 26 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+		}
+
+		categories = {
+			rocketry
+		}
+	}
+
+	##########################################################################
+	########################################################################## anti-air
+	##########################################################################
 
 	antiair5 = {
 
@@ -826,10 +1162,10 @@ technologies = {
 
 		tech_air_damage_factor = -0.02
 
-		#path = {
-		#	leads_to_tech = antiair10
-		#	research_cost_coeff = 1
-		#}
+		path = {
+			leads_to_tech = antiair10
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1
 
@@ -862,6 +1198,163 @@ technologies = {
 			cat_anti_air
 		}
 	}
+
+	antiair10 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+
+		tech_air_damage_factor = -0.02
+
+		path = {
+			leads_to_tech = antiair11
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1948
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 22 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_air
+		}
+	}
+
+	antiair11 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+
+		tech_air_damage_factor = -0.02
+
+		path = {
+			leads_to_tech = antiair12
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1949
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_air
+		}
+	}
+
+	antiair12 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+
+		tech_air_damage_factor = -0.02
+
+		#path = {
+		#	leads_to_tech = antiair13
+		#	research_cost_coeff = 1
+		#}
+
+		research_cost = 1
+
+		start_year = 1950
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 26 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = ENG
+					tag = USA
+				}
+				OR = {
+					has_war_with = JAP
+					has_war_with = USA
+					has_war_with = ENG
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_air
+		}
+	}
+
+	##########################################################################
+	########################################################################## anti-tank
+	##########################################################################
 
 	antitank5 = {
 
@@ -1231,10 +1724,10 @@ technologies = {
 			ap_attack = 0.05
 		}
 
-		#path = {
-		#	leads_to_tech = antitank10
-		#	research_cost_coeff = 1
-		#}
+		path = {
+			leads_to_tech = antitank10
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1
 
@@ -1265,6 +1758,270 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1947.1.1"
+			}
+			modifier = {
+				factor = 10
+				any_enemy_country = {
+					ROOT = {
+						estimated_intel_max_armor = {
+							tag = PREV
+							value > 35
+						}
+					}
+				}
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+
+	antitank10 = {
+		anti_tank = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		mot_anti_tank_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		light_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		medium_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		heavy_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		super_heavy_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		modern_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = antitank11
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1948
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 22 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1947.1.6"
+			}
+			modifier = {
+				tag = JAP
+				not = {
+					OR = {
+						has_War_with = SOV
+						has_war_with = USA
+					}
+				}
+				factor = 0.5
+			}
+			modifier = {
+				factor = 5
+				date > "1948.1.1"
+			}
+			modifier = {
+				factor = 10
+				any_enemy_country = {
+					ROOT = {
+						estimated_intel_max_armor = {
+							tag = PREV
+							value > 35
+						}
+					}
+				}
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+
+	antitank11 = {
+		anti_tank = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		mot_anti_tank_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		light_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		medium_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		heavy_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		super_heavy_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		modern_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = antitank12
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1949
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 24 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1948.1.6"
+			}
+			modifier = {
+				tag = JAP
+				not = {
+					OR = {
+						has_War_with = SOV
+						has_war_with = USA
+					}
+				}
+				factor = 0.5
+			}
+			modifier = {
+				factor = 5
+				date > "1949.1.1"
+			}
+			modifier = {
+				factor = 10
+				any_enemy_country = {
+					ROOT = {
+						estimated_intel_max_armor = {
+							tag = PREV
+							value > 35
+						}
+					}
+				}
+			}
+		}
+
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+
+	antitank12 = {
+		anti_tank = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		mot_anti_tank_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		light_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		medium_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		heavy_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		super_heavy_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+		modern_tank_destroyer_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.05
+		}
+
+		#path = {
+		#	leads_to_tech = antitank13
+		#	research_cost_coeff = 1
+		#}
+
+		research_cost = 1
+
+		start_year = 1950
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 26 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1949.1.6"
+			}
+			modifier = {
+				tag = JAP
+				not = {
+					OR = {
+						has_War_with = SOV
+						has_war_with = USA
+					}
+				}
+				factor = 0.5
+			}
+			modifier = {
+				factor = 5
+				date > "1950.1.1"
 			}
 			modifier = {
 				factor = 10
