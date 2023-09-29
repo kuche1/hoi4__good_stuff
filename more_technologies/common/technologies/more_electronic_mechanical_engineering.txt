@@ -1,0 +1,300 @@
+technologies = {
+
+	advanced_computing_machine = {
+
+		# small boost to research speed
+		research_speed_factor = 0.08
+		
+		path = {
+			leads_to_tech = advanced_computing_machine2
+			research_cost_coeff = 1
+		}
+		#path = {
+		#	leads_to_tech = advanced_encryption 
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = advanced_decryption 
+		#	research_cost_coeff = 1
+		#}
+		
+		research_cost = 2.5
+		start_year = 1942
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1942.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1943.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+
+
+
+	advanced_computing_machine2 = {
+
+		# small boost to research speed
+		research_speed_factor = 0.08
+		
+		path = {
+			leads_to_tech = advanced_computing_machine3
+			research_cost_coeff = 1
+		}
+		#path = {
+		#	leads_to_tech = advanced_encryption 
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = advanced_decryption 
+		#	research_cost_coeff = 1
+		#}
+		
+		research_cost = 2.5
+		start_year = 1944
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1944.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1945.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+
+
+	advanced_computing_machine3 = {
+
+		# small boost to research speed
+		research_speed_factor = 0.08
+		
+		path = {
+			leads_to_tech = advanced_computing_machine4
+			research_cost_coeff = 1
+		}
+		#path = {
+		#	leads_to_tech = advanced_encryption 
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = advanced_decryption 
+		#	research_cost_coeff = 1
+		#}
+		
+		research_cost = 2.5
+		start_year = 1946
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1946.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1947.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+
+
+	advanced_computing_machine4 = {
+
+		# small boost to research speed
+		research_speed_factor = 0.08
+		
+		path = {
+			leads_to_tech = advanced_computing_machine5
+			research_cost_coeff = 1
+		}
+		#path = {
+		#	leads_to_tech = advanced_encryption 
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = advanced_decryption 
+		#	research_cost_coeff = 1
+		#}
+		
+		research_cost = 2.5
+		start_year = 1948
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1948.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1949.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+
+
+
+	advanced_computing_machine5 = {
+
+		# small boost to research speed
+		research_speed_factor = 0.08
+		
+		path = {
+			leads_to_tech = advanced_computing_machine6
+			research_cost_coeff = 1
+		}
+		#path = {
+		#	leads_to_tech = advanced_encryption 
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = advanced_decryption 
+		#	research_cost_coeff = 1
+		#}
+		
+		research_cost = 2.5
+		start_year = 1950
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 30 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1950.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1951.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+
+
+	advanced_computing_machine6 = {
+
+		# small boost to research speed
+		research_speed_factor = 0.08
+		
+		#path = {
+		#	leads_to_tech = advanced_computing_machine7
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = advanced_encryption 
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = advanced_decryption 
+		#	research_cost_coeff = 1
+		#}
+		
+		research_cost = 2.5
+		start_year = 1952
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 34 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				factor = 3
+				date > "1952.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1953.1.1"
+			}
+		}
+		
+		categories = {
+			electronics
+			encryption_tech
+			decryption_tech
+			computing_tech
+		}
+	}
+
+
+
+}
