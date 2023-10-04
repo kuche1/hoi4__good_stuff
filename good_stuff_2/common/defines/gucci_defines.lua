@@ -56,5 +56,5 @@ NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = 80 -- default 5
 --NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 30 -- default 10
 --NDefines.NGame.LAG_DAYS_FOR_PAUSE = 18 -- default 25
 
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100 -- default 10
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 250 -- default 25
+-- NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100 -- default 10
+-- NDefines.NGame.LAG_DAYS_FOR_PAUSE = 250 -- default 25
