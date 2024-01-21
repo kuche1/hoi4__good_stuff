@@ -19,6 +19,9 @@ cp -r optimise_map* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"speed-buttons-adjustment-for-5600g*
 cp -r speed-buttons-adjustment-for-5600g* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
+rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"increase_consumer_goods*
+cp -r increase_consumer_goods* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+
 ##################
 
 # rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"better_resources*

@@ -1,0 +1,13 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			for_each_scope_loop = {
+				array = global.countries
+
+				add_dynamic_modifier = { modifier = increase_consumer_goods_modifier }
+			}
+		}
+	}
+
+}

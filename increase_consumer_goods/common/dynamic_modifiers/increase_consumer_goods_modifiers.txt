@@ -1,0 +1,10 @@
+
+increase_consumer_goods_modifier = {
+	enable = { always = yes }
+
+	# comment out to disable icon
+	#icon = GFX_idea_unknown
+	icon = GFX_goal_generic_consumer_goods
+
+	consumer_goods_factor = 0.2
+}
