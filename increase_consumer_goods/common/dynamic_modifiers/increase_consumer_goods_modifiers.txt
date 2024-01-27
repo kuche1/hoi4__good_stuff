@@ -11,7 +11,7 @@ increase_consumer_goods_modifier = {
 	# current=33% + 0.1 -> 33% * 1.1 -> 36.300000000000004%
 	# (unless there are other such modifiers at play - https://hoi4.paradoxwikis.com/Modifiers)
 
-	consumer_goods_expected_value = 0.15
+	consumer_goods_expected_value = 0.1
 	# will increase consuler goods by flat percentace
 	# current=33% + 0.1 -> 33% + 10% -> 43%
 }
