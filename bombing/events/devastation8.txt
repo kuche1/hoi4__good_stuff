@@ -1,0 +1,42 @@
+
+add_namespace = rcmm8
+
+country_event = {
+	id = rcmm.8
+	fire_only_once = no
+	mean_time_to_happen = { hours = 0 }
+	hidden = yes
+	
+	title = "test8"
+	desc = "test8"
+	
+	trigger = {
+		any_state = {
+			AND = {
+				is_controlled_by = FROM
+				NOT = { is_core_of = FROM }
+				NOT = { is_owned_by = FROM }
+				NOT = { has_state_flag = devastated_by_@FROM }
+			}
+		}
+	}
+
+	option = {
+		name = "nothing8"
+		random_state = {
+			limit = {
+				AND = {
+					is_controlled_by = FROM
+					state_population > 3500000
+					NOT = { state_population > 4000000 }
+					NOT = { is_core_of = FROM }
+					NOT = { is_owned_by = FROM }
+					NOT = { has_state_flag = devastated_by_@FROM }
+				}
+			}
+			set_state_flag = devastated_by_@FROM
+			goto_state = {add_manpower = -160000}
+		}
+	}	
+
+	}

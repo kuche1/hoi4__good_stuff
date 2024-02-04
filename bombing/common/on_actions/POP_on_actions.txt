@@ -1,0 +1,30 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				country_event = { id = POP.10 }
+			}
+		}
+	}
+	
+	on_nuke_drop = {
+		effect = {
+			FROM = { state_event = { id = POP.22 } }
+		}
+	}
+	
+	on_monthly = {
+		effect = {
+			every_state = { state_event = { POP.21 } }
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			#state
+			FROM.FROM = { 
+				state_event = { POP.20 } 
+		}
+	}
+}

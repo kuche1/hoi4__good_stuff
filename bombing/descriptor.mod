@@ -1,0 +1,9 @@
+version="1.13.6"
+tags={
+	"Fixes"
+	"Balance"
+	"Military"
+}
+name="bombing"
+supported_version="1.13.6"
+remote_file_id="3153829955"

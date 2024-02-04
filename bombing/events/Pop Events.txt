@@ -1,0 +1,1000 @@
+add_namespace = POP
+
+country_event = {
+	id = POP.10
+	title = POP.10.t
+	desc = POP.10.d
+	picture = GFX_report_event_europe_funeral
+	#hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = POP.10.a
+		set_variable = { colonists = 5 }
+		set_variable = { migrants = 5 }
+		every_controlled_state = { 
+			set_variable = { damaged = 0 }
+			set_variable = { starting_pop = state_population_k }
+			set_variable = { civilian_casualties = 1 }
+			set_variable = { civilian_casualties_nuke = 1 }
+			if = {	
+				limit = { is_core_of = PREV }
+				set_variable = { core_ratio = 1 }
+				set_variable = { foreign_ratio = 0 }
+				set_variable = { core_citizens = state_population_k }
+				set_variable = { foreign_citizens = 0 }
+				set_variable = { civilian_casualties = 2 }
+				add_dynamic_modifier = { modifier = POP_core_ratio }
+				else = {
+					set_variable = { core_ratio = 0 }
+					add_dynamic_modifier = { modifier = POP_noncore_ratio }
+					set_variable = { civilian_casualties = 3 }
+					set_variable = { foreign_citizens = state_population_k }
+					set_variable = { core_citizens = 0 }	
+				}
+			}
+		}
+	}
+}
+#######################Trigger Bombing Damage#######################
+state_event = {
+	id = POP.11
+	title = POP.11.t
+	desc = POP.11.d
+	picture = GFX_report_event_europe_funeral
+	hidden = yes
+
+	trigger = {
+			days_since_last_strategic_bombing < 2
+			NOT = { has_state_flag = bomb_pop_loss }
+	}
+	
+	fire_only_once = no
+
+	mean_time_to_happen = { hours = 1 }
+	
+	option = {
+		name = POP.11.a
+		set_state_flag = {
+			flag = bomb_pop_loss
+			days = 10
+		}
+		state_event = { id = POP.20 }
+	}
+}
+#############Inflict the pain#######################
+state_event = {
+	id = POP.20
+	title = POP.20.t
+	desc = POP.20.d
+	picture = GFX_report_event_europe_funeral
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = POP.20.a
+#######################calculate new damage#######################
+		set_variable = { prev_damaged = damaged }
+#######################Damaged buildings#######################	
+		set_variable = { num_damaged = damaged_building_level@infrastructure }
+		add_to_variable = { num_damaged = damaged_building_level@arms_factory }
+		add_to_variable = { num_damaged = damaged_building_level@industrial_complex }
+		add_to_variable = { num_damaged = damaged_building_level@air_base }
+		add_to_variable = { num_damaged = damaged_building_level@naval_base }
+		add_to_variable = { num_damaged = damaged_building_level@bunker }
+		add_to_variable = { num_damaged = damaged_building_level@coastal_bunker }
+		add_to_variable = { num_damaged = damaged_building_level@dockyard }
+		add_to_variable = { num_damaged = damaged_building_level@anti_air_building }
+		add_to_variable = { num_damaged = damaged_building_level@synthetic_refinery }
+		add_to_variable = { num_damaged = damaged_building_level@fuel_silo }
+		add_to_variable = { num_damaged = damaged_building_level@radar_station }
+		add_to_variable = { num_damaged = damaged_building_level@rocket_site }
+		add_to_variable = { num_damaged = damaged_building_level@nuclear_reactor }
+		set_variable = { damaged = num_damaged }
+#######################Total buildings#######################
+		set_variable = { num_total = building_level@infrastructure }
+		add_to_variable = { num_total = building_level@arms_factory }
+		add_to_variable = { num_total = building_level@industrial_complex }
+		add_to_variable = { num_total = building_level@air_base }
+		add_to_variable = { num_total = building_level@naval_base }
+		add_to_variable = { num_total = building_level@bunker }
+		add_to_variable = { num_total = building_level@coastal_bunker }
+		add_to_variable = { num_total = building_level@dockyard }
+		add_to_variable = { num_total = building_level@anti_air_building }
+		add_to_variable = { num_total = building_level@synthetic_refinery }
+		add_to_variable = { num_total = building_level@fuel_silo }
+		add_to_variable = { num_total = building_level@radar_station }
+		add_to_variable = { num_total = building_level@rocket_site }
+		add_to_variable = { num_total = building_level@nuclear_reactor }
+#######################counting % damage#######################
+		set_variable = { percent_damaged = num_damaged }
+		divide_variable = { percent_damaged = num_total }
+		set_variable = { devastation_mod = percent_damaged }
+		add_to_variable = { devastation_mod = 1 }
+#######################Is there any change#######################
+		set_variable = { new_damaged = num_damaged }
+		subtract_from_variable = { new_damaged = prev_damaged }
+		set_variable = { new_percent_damaged = new_damaged }
+		divide_variable = { new_percent_damaged = num_total }
+#######################Calculate severity#######################
+		if = { 
+			limit = {
+				check_variable = { new_percent_damaged > 0 }
+			}
+			set_variable = { percent_killed = new_percent_damaged }
+			multiply_variable = { percent_killed = devastation_mod }
+			divide_variable = { percent_killed = 10 }
+			set_variable = { num_killed = state_population_k }
+			multiply_variable = { num_killed = percent_killed }
+			else = {
+				set_variable = { num_killed = 0.01 }
+				divide_variable = { num_killed = devastation_mod }
+				divide_variable = { num_killed = devastation_mod }
+				multiply_variable = { num_killed = state_population_k }
+			}
+		}
+		controller = { 
+			set_variable = { nat_manpower = manpower_k }
+		}
+		multiply_variable = { num_killed = -1000 }
+		add_manpower = var:num_killed
+		controller = { 
+			set_variable = { nat_manpower2 = manpower_k }
+			subtract_from_variable = { nat_manpower = nat_manpower2 }
+			multiply_variable = { nat_manpower = 1000 }
+			if = {
+				limit = {
+					check_variable = { nat_manpower < 0 }
+				}
+				add_manpower = var:nat_manpower
+			}
+		}
+		add_to_variable = { civilian_casualties = num_killed }
+	}
+}
+
+#######################Inflict the nuclear pain#######################
+state_event = {
+	id = POP.22
+	title = POP.22.t
+	desc = POP.22.d
+	picture = GFX_report_event_europe_funeral
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = POP.22.a
+#######################Damaged buildings#######################
+		set_variable = { prev_damaged = damaged }
+		set_variable = { num_damaged = damaged_building_level@infrastructure }
+		add_to_variable = { num_damaged = damaged_building_level@arms_factory }
+		add_to_variable = { num_damaged = damaged_building_level@industrial_complex }
+		add_to_variable = { num_damaged = damaged_building_level@air_base }
+		add_to_variable = { num_damaged = damaged_building_level@naval_base }
+		add_to_variable = { num_damaged = damaged_building_level@bunker }
+		add_to_variable = { num_damaged = damaged_building_level@coastal_bunker }
+		add_to_variable = { num_damaged = damaged_building_level@dockyard }
+		add_to_variable = { num_damaged = damaged_building_level@anti_air_building }
+		add_to_variable = { num_damaged = damaged_building_level@synthetic_refinery }
+		add_to_variable = { num_damaged = damaged_building_level@fuel_silo }
+		add_to_variable = { num_damaged = damaged_building_level@radar_station }
+		add_to_variable = { num_damaged = damaged_building_level@rocket_site }
+		add_to_variable = { num_damaged = damaged_building_level@nuclear_reactor }
+		set_variable = { damaged = num_damaged }
+#######################Total buildings#######################
+		set_variable = { num_total = building_level@infrastructure }
+		add_to_variable = { num_total = building_level@arms_factory }
+		add_to_variable = { num_total = building_level@industrial_complex }
+		add_to_variable = { num_total = building_level@air_base }
+		add_to_variable = { num_total = building_level@naval_base }
+		add_to_variable = { num_total = building_level@bunker }
+		add_to_variable = { num_total = building_level@coastal_bunker }
+		add_to_variable = { num_total = building_level@dockyard }
+		add_to_variable = { num_total = building_level@anti_air_building }
+		add_to_variable = { num_total = building_level@synthetic_refinery }
+		add_to_variable = { num_total = building_level@fuel_silo }
+		add_to_variable = { num_total = building_level@radar_station }
+		add_to_variable = { num_total = building_level@rocket_site }
+		add_to_variable = { num_total = building_level@nuclear_reactor }
+#######################counting % damage#######################
+		set_variable = { percent_damaged = num_damaged }
+		divide_variable = { percent_damaged = num_total }
+		set_variable = { devastation_mod = percent_damaged }
+		add_to_variable = { devastation_mod = 1 }
+#######################Is there any change#######################
+		set_variable = { new_damaged = num_damaged }
+		subtract_from_variable = { new_damaged = prev_damaged }
+		set_variable = { new_percent_damaged = new_damaged }
+		divide_variable = { new_percent_damaged = num_total }
+#######################Calculate severity#######################
+		if = { 
+			limit = {
+				check_variable = { new_percent_damaged > 0 }
+			}
+			add_to_variable = { new_percent_damaged = 0.5 }
+			set_variable = { percent_killed = new_percent_damaged }
+			multiply_variable = { percent_killed = devastation_mod }
+			divide_variable = { percent_killed = 10 }
+			set_variable = { num_killed = state_population_k }
+			set_variable = { pop = state_population_k }
+			multiply_variable = { num_killed = percent_killed }
+			else = {
+				set_variable = { num_killed = 0.5 }
+				divide_variable = { num_killed = devastation_mod }
+				divide_variable = { num_killed = devastation_mod }
+				multiply_variable = { num_killed = state_population_k }
+				set_variable = { pop = state_population_k }
+			}
+		}
+		multiply_variable = { num_killed = -10 }
+		controller = { 
+			set_variable = { nat_manpower = manpower_k }
+		}
+		add_manpower = var:num_killed
+		add_manpower = var:num_killed
+		add_manpower = var:num_killed
+		add_manpower = var:num_killed
+		add_manpower = var:num_killed
+		add_manpower = var:num_killed
+		add_manpower = var:num_killed
+		add_manpower = var:num_killed
+		add_manpower = var:num_killed
+		add_manpower = var:num_killed
+		random_list = {
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@industrial_complex > 0 }
+					}
+					remove_building = { type = industrial_complex level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@arms_factory > 0 }
+						}
+						remove_building = { type = arms_factory level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@dockyard > 0 }
+							}
+							remove_building = { type = dockyard level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@arms_factory > 0 }
+					}
+					remove_building = { type = arms_factory level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@industrial_complex > 0 }
+						}
+						remove_building = { type = industrial_complex level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@dockyard > 0 }
+							}
+							remove_building = { type = dockyard level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@dockyard > 0 }
+					}
+					remove_building = { type = dockyard level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@arms_factory > 0 }
+						}
+						remove_building = { type = arms_factory level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@industrial_complex > 0 }
+							}
+							remove_building = { type = industrial_complex level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@bunker > 0 }
+					}
+					remove_building = { type = bunker level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@coastal_bunker > 0 }
+						}
+						remove_building = { type = coastal_bunker level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@naval_base > 0 }
+							}
+							remove_building = { type = naval_base level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@coastal_bunker > 0 }
+					}
+					remove_building = { type = coastal_bunker level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@bunker > 0 }
+						}
+						remove_building = { type = bunker level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@naval_base > 0 }
+							}
+							remove_building = { type = naval_base level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@naval_base > 0 }
+					}
+					remove_building = { type = naval_base level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@coastal_bunker > 0 }
+						}
+						remove_building = { type = coastal_bunker level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@bunker > 0 }
+							}
+							remove_building = { type = bunker level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@anti_air_building > 0 }
+					}
+					remove_building = { type = anti_air_building level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@infrastructure > 0 }
+						}
+						remove_building = { type = infrastructure level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@radar_station > 0 }
+							}
+							remove_building = { type = radar_station level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@infrastructure > 0 }
+					}
+					remove_building = { type = infrastructure level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@anti_air_building > 0 }
+						}
+						remove_building = { type = anti_air_building level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@radar_station > 0 }
+							}
+							remove_building = { type = radar_station level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@radar_station > 0 }
+					}
+					remove_building = { type = radar_station level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@infrastructure > 0 }
+						}
+						remove_building = { type = infrastructure level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@anti_air_building > 0 }
+							}
+							remove_building = { type = anti_air_building level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@synthetic_refinery > 0 }
+					}
+					remove_building = { type = synthetic_refinery level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@fuel_silo > 0 }
+						}
+						remove_building = { type = fuel_silo level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@nuclear_reactor > 0 }
+							}
+							remove_building = { type = nuclear_reactor level = 1 }
+						}
+					}
+				}
+			}
+		}
+		random_list = {
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@fuel_silo > 0 }
+					}
+					remove_building = { type = fuel_silo level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@synthetic_refinery > 0 }
+						}
+						remove_building = { type = synthetic_refinery level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@nuclear_reactor > 0 }
+							}
+							remove_building = { type = nuclear_reactor level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@nuclear_reactor > 0 }
+					}
+					remove_building = { type = nuclear_reactor level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@fuel_silo > 0 }
+						}
+						remove_building = { type = fuel_silo level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@synthetic_refinery > 0 }
+							}
+							remove_building = { type = synthetic_refinery level = 1 }
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { building_level@arms_factory > 0 }
+					}
+					remove_building = { type = arms_factory level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@industrial_complex > 0 }
+						}
+						remove_building = { type = industrial_complex level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@dockyard > 0 }
+							}
+							remove_building = { type = dockyard level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@rocket_site > 0 }
+					}
+					remove_building = { type = rocket_site level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@air_base > 0 }
+						}
+						remove_building = { type = air_base level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@bunker > 0 }
+							}
+							remove_building = { type = bunker level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@air_base > 0 }
+					}
+					remove_building = { type = rocket_site level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@rocket_site > 0 }
+						}
+						remove_building = { type = air_base level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@coastal_bunker > 0 }
+							}
+							remove_building = { type = bunker level = 1 }
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { building_level@arms_factory > 0 }
+					}
+					remove_building = { type = arms_factory level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@industrial_complex > 0 }
+						}
+						remove_building = { type = industrial_complex level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@dockyard > 0 }
+							}
+							remove_building = { type = dockyard level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@naval_base > 0 }
+					}
+					remove_building = { type = rocket_site level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@bunker > 0 }
+						}
+						remove_building = { type = air_base level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@coastal_bunker > 0 }
+							}
+							remove_building = { type = bunker level = 1 }
+						}
+					}
+				}
+			}
+			10 = {
+				if = {
+					limit = {
+						check_variable = { building_level@bunker > 0 }
+					}
+					remove_building = { type = rocket_site level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@coastal_bunker > 0 }
+						}
+						remove_building = { type = air_base level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@naval_base > 0 }
+							}
+							remove_building = { type = bunker level = 1 }
+						}
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { building_level@industrial_complex > 0 }
+					}
+					remove_building = { type = industrial_complex level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@arms_factory > 0 }
+						}
+						remove_building = { type = arms_factory level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@dockyard > 0 }
+							}
+							remove_building = { type = dockyard level = 1 }
+						}
+					}
+				}
+			}
+			20 = {
+				if = {
+					limit = {
+						check_variable = { building_level@infrastructure > 0 }
+					}
+					remove_building = { type = rocket_site level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@bunker > 0 }
+						}
+						remove_building = { type = air_base level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@coastal_bunker > 0 }
+							}
+							remove_building = { type = bunker level = 1 }
+						}
+					}
+				}
+			}
+			20 = {
+				if = {
+					limit = {
+						check_variable = { building_level@coastal_bunker > 0 }
+					}
+					remove_building = { type = rocket_site level = 1 }
+					else_if = {
+						limit = {
+							check_variable = { building_level@naval_base > 0 }
+						}
+						remove_building = { type = air_base level = 1 }
+						else_if = {
+							limit = {
+								check_variable = { building_level@bunker > 0 }
+							}
+							remove_building = { type = bunker level = 1 }
+						}
+					}
+				}
+			}
+		}
+		controller = { 
+			set_variable = { nat_manpower2 = manpower_k }
+			subtract_from_variable = { nat_manpower = nat_manpower2 }
+			multiply_variable = { nat_manpower = 1200 }
+			if = {
+				limit = {
+					check_variable = { nat_manpower < 0 }
+				}
+				add_manpower = var:nat_manpower
+			}
+		}
+		add_to_variable = { civilian_casualties = num_killed }
+		add_to_variable = { civilian_casualties_nuke = num_killed }
+		set_variable = { current_pop = state_population_k }
+		subtract_from_variable = { current_pop = starting_pop }
+		set_variable = { pop_ratio = current_pop }
+		divide_variable = { pop_ratio = starting_pop }
+		if = {
+			limit = { 
+				check_variable = { pop_ratio < -0.5 }
+			}
+			if = {
+				limit = {
+					has_state_category = pastoral
+				}
+				set_state_category = wasteland
+				set_variable = { starting_pop = state_population_k }
+				else_if = {
+					limit = { has_state_category = small_island }
+					set_state_category = tiny_island
+					set_variable = { starting_pop = state_population_k }
+					else_if = {
+						limit = {
+							has_state_category = rural
+							check_variable = { island = 1 }
+						}
+						set_state_category = small_island
+						set_variable = { starting_pop = state_population_k }
+						else_if = {
+							limit = {
+								has_state_category = rural
+							}
+							set_state_category = pastoral
+							set_variable = { starting_pop = state_population_k }
+							else_if = {
+								limit = {
+									has_state_category = town
+								}
+								set_state_category = rural
+								set_variable = { starting_pop = state_population_k }
+								else_if = {
+									limit = {
+										has_state_category = large_town
+									}
+									set_state_category = town
+									set_variable = { starting_pop = state_population_k }
+									else_if = {
+										limit = {
+											has_state_category = city
+										}
+										set_state_category = large_town
+										set_variable = { starting_pop = state_population_k }
+										else_if = {
+											limit = {
+												has_state_category = large_city
+											}
+											set_state_category = city
+											set_variable = { starting_pop = state_population_k }
+											else_if = {
+												limit = {
+													has_state_category = metropolis
+												}
+												set_state_category = large_city
+												set_variable = { starting_pop = state_population_k }
+												else_if = {
+													limit = {
+														has_state_category = megalopolis
+													}
+													set_state_category = metropolis
+													set_variable = { starting_pop = state_population_k }
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+#######################Monthy updates#######################
+state_event = {
+	id = POP.21
+	title = POP.21.t
+	desc = POP.21.d
+	picture = GFX_report_event_europe_funeral
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = POP.21.a
+#Measure population#
+		set_variable = { current_pop = state_population_k }
+		subtract_from_variable = { current_pop = starting_pop }
+		set_variable = { pop_ratio = current_pop }
+		divide_variable = { pop_ratio = starting_pop }
+#######################Damaged buildings#######################	
+		set_variable = { prev_damaged = damaged }
+		set_variable = { num_damaged = damaged_building_level@infrastructure }
+		add_to_variable = { num_damaged = damaged_building_level@arms_factory }
+		add_to_variable = { num_damaged = damaged_building_level@industrial_complex }
+		add_to_variable = { num_damaged = damaged_building_level@air_base }
+		add_to_variable = { num_damaged = damaged_building_level@naval_base }
+		add_to_variable = { num_damaged = damaged_building_level@bunker }
+		add_to_variable = { num_damaged = damaged_building_level@coastal_bunker }
+		add_to_variable = { num_damaged = damaged_building_level@dockyard }
+		add_to_variable = { num_damaged = damaged_building_level@anti_air_building }
+		add_to_variable = { num_damaged = damaged_building_level@synthetic_refinery }
+		add_to_variable = { num_damaged = damaged_building_level@fuel_silo }
+		add_to_variable = { num_damaged = damaged_building_level@radar_station }
+		add_to_variable = { num_damaged = damaged_building_level@rocket_site }
+		add_to_variable = { num_damaged = damaged_building_level@nuclear_reactor }
+		set_variable = { damaged = num_damaged }
+#######################Total buildings#######################
+		set_variable = { num_total = building_level@infrastructure }
+		add_to_variable = { num_total = building_level@arms_factory }
+		add_to_variable = { num_total = building_level@industrial_complex }
+		add_to_variable = { num_total = building_level@air_base }
+		add_to_variable = { num_total = building_level@naval_base }
+		add_to_variable = { num_total = building_level@bunker }
+		add_to_variable = { num_total = building_level@coastal_bunker }
+		add_to_variable = { num_total = building_level@dockyard }
+		add_to_variable = { num_total = building_level@anti_air_building }
+		add_to_variable = { num_total = building_level@synthetic_refinery }
+		add_to_variable = { num_total = building_level@fuel_silo }
+		add_to_variable = { num_total = building_level@radar_station }
+		add_to_variable = { num_total = building_level@rocket_site }
+		add_to_variable = { num_total = building_level@nuclear_reactor }
+#######################counting % damage#######################
+		set_variable = { percent_damaged = num_damaged }
+		divide_variable = { percent_damaged = num_total }
+		set_variable = { devastation_mod = percent_damaged }
+		add_to_variable = { devastation_mod = 1 }
+#######################Catch all for any cause of new damage#######################	
+		if = {
+			limit = {
+				check_variable = { num_damaged > prev_damaged }
+			}
+			set_variable = { new_damaged = damaged }
+			subtract_from_variable = { new_damaged = prev_damaged }
+			set_variable = { new_percent_damaged = new_damaged }
+			divide_variable = { new_percent_damaged = num_total }
+			set_variable = { percent_killed = new_percent_damaged }
+			multiply_variable = { percent_killed = devastation_mod }
+			divide_variable = { percent_killed = 10 }
+			set_variable = { num_killed = state_population_k }
+			multiply_variable = { num_killed = percent_killed }
+			multiply_variable = { num_killed = -1 }
+			controller = { 
+				set_variable = { nat_manpower = manpower_k }
+			}
+			add_manpower = var:num_killed
+			controller = { 
+				set_variable = { nat_manpower2 = manpower_k }
+				subtract_from_variable = { nat_manpower = nat_manpower2 }
+				multiply_variable = { nat_manpower = 1000 }
+				if = {
+					limit = {
+						check_variable = { nat_manpower < 0 }
+					}
+					add_manpower = var:nat_manpower
+				}
+			}
+		}
+		if = {
+			limit = { 
+				OR = {
+					check_variable = { current_pop > 500 } 
+					check_variable = { pop_ratio > 0.5 }
+				}
+				check_variable = { state_population_k > 100 }
+				else_if = { 
+					limit = {
+						OR = {
+							has_state_category = wasteland
+							has_state_category = enclave
+						}
+					}
+					set_state_category = pastoral
+					set_variable = { starting_pop = state_population_k }
+					else_if = {
+						limit = { has_state_category = tiny_island }
+						set_state_category = small_island
+						set_variable = { starting_pop = state_population_k }
+						else_if = {
+							limit = {
+								has_state_category = small_island 
+							}
+							set_state_category = rural
+							set_variable = { starting_pop = state_population_k }
+							set_variable = { island = 1 }
+							else_if = {
+								limit = {
+									has_state_category = pastoral 
+								}
+								set_state_category = rural
+								set_variable = { starting_pop = state_population_k }
+								else_if = {
+									limit = {
+										has_state_category = rural 
+									}
+									set_state_category = town
+									set_variable = { starting_pop = state_population_k }
+									else_if = {
+										limit = {
+											has_state_category = town
+											NOT = { check_variable = { island = 1 } }
+										}
+										set_state_category = large_town
+										set_variable = { starting_pop = state_population_k }
+										else_if = {
+											limit = {
+												has_state_category = large_town
+											}
+											set_state_category = city
+											set_variable = { starting_pop = state_population_k }
+											else_if = {
+												limit = {
+													has_state_category = city
+												}
+												set_state_category = large_city
+												set_variable = { starting_pop = state_population_k }
+												else_if = {
+													limit = {
+														has_state_category = large_city
+													}
+													set_state_category = metropolis
+													set_variable = { starting_pop = state_population_k }
+													else_if = {
+														limit = {
+															has_state_category = metropolis
+														}
+														set_state_category = megalopolis
+														set_variable = { starting_pop = state_population_k }
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = { 
+				check_variable = { pop_ratio < -0.5 }
+			}
+			if = {
+				limit = {
+					has_state_category = pastoral
+				}
+				set_state_category = wasteland
+				set_variable = { starting_pop = state_population_k }
+				else_if = {
+					limit = { has_state_category = small_island }
+					set_state_category = tiny_island
+					set_variable = { starting_pop = state_population_k }
+					else_if = {
+						limit = {
+							has_state_category = rural
+							check_variable = { island = 1 }
+						}
+						set_state_category = small_island
+						set_variable = { starting_pop = state_population_k }
+						else_if = {
+							limit = {
+								has_state_category = rural
+							}
+							set_state_category = pastoral
+							set_variable = { starting_pop = state_population_k }
+							else_if = {
+								limit = {
+									has_state_category = town
+								}
+								set_state_category = rural
+								set_variable = { starting_pop = state_population_k }
+								else_if = {
+									limit = {
+										has_state_category = large_town
+									}
+									set_state_category = town
+									set_variable = { starting_pop = state_population_k }
+									else_if = {
+										limit = {
+											has_state_category = city
+										}
+										set_state_category = large_town
+										set_variable = { starting_pop = state_population_k }
+										else_if = {
+											limit = {
+												has_state_category = large_city
+											}
+											set_state_category = city
+											set_variable = { starting_pop = state_population_k }
+											else_if = {
+												limit = {
+													has_state_category = metropolis
+												}
+												set_state_category = large_city
+												set_variable = { starting_pop = state_population_k }
+												else_if = {
+													limit = {
+														has_state_category = megalopolis
+													}
+													set_state_category = metropolis
+													set_variable = { starting_pop = state_population_k }
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}		
+}

@@ -1,0 +1,41 @@
+﻿
+add_namespace = rcmm
+
+country_event = {
+	id = rcmm.1
+	fire_only_once = no
+	mean_time_to_happen = { hours = 0 }
+	hidden = yes
+	
+	title = "test"
+	desc = "test"
+	
+	trigger = {
+		any_state = {
+			AND = {
+				is_controlled_by = FROM
+				NOT = { is_core_of = FROM }
+				NOT = { is_owned_by = FROM }
+				NOT = { has_state_flag = devastated_by_@FROM }
+			}
+		}
+	}
+	
+	option = {
+		name = "nothing"
+		random_state = {
+			limit = {
+				AND = {
+					is_controlled_by = FROM
+					state_population > 1
+					NOT = { state_population > 500000 }
+					NOT = { is_core_of = FROM }
+					NOT = { is_owned_by = FROM }
+					NOT = { has_state_flag = devastated_by_@FROM }
+				}
+			}
+			set_state_flag = devastated_by_@FROM
+			goto_state = {add_manpower = -20000}
+		}
+	}
+	}
