@@ -14,4 +14,7 @@ increase_consumer_goods_modifier = {
 	consumer_goods_expected_value = 0.1
 	# will increase consuler goods by flat percentace
 	# current=33% + 0.1 -> 33% + 10% -> 43%
+
+	industrial_capacity_factory = -0.25
+	industrial_capacity_dockyard = -0.25
 }
