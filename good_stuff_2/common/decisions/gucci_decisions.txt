@@ -106,5 +106,40 @@ gucci_efforts = {
 
 	}
 
-}
+	gucci_add_building_slots_timeout_mission = {
 
+		icon = generic_construction
+
+		days_mission_timeout = 30 # days until mission is removed
+
+		days_re_enable = 0 # days until mission is activated again
+
+		days_remove = 0 # how many days the mission will be in the remove phase
+
+		is_good = yes # determines timeout bar color (red or green)
+
+        available = { # condition that will allow the player/ai to click the mission and execute it's effects
+            always = no
+        }
+
+        fire_only_once = no
+
+		# would be better if we did actually check for this but I'm afraid it might reduce performance
+		#visible = {
+		#	any_owned_state = {
+		#		is_fully_controlled_by = ROOT
+		#	}
+		#}
+
+        timeout_effect = { # what to do if the mission fails (if the timeout expires)
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+
+    }
+
+}
