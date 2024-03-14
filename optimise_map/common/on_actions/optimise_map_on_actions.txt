@@ -6,7 +6,26 @@ on_actions = {
 
 			# curiosity: you can use `this` instead of a country tag
 
-			######################### brazil
+			######################### south america
+
+			set_temp_variable = {taker = bol}
+
+			set_temp_variable = {ROOT.marks = bra}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
 
 			set_temp_variable = {ROOT.marks = urg}
 			var:marks = {
@@ -17,7 +36,6 @@ on_actions = {
 					set_state_flag = marked_for_transfer
 				}
 			}
-			set_temp_variable = {taker = bra}
 			every_state = {
 				limit = {
 					has_state_flag = marked_for_transfer
@@ -35,7 +53,6 @@ on_actions = {
 					set_state_flag = marked_for_transfer
 				}
 			}
-			set_temp_variable = {taker = bra}
 			every_state = {
 				limit = {
 					has_state_flag = marked_for_transfer
@@ -53,7 +70,6 @@ on_actions = {
 					set_state_flag = marked_for_transfer
 				}
 			}
-			set_temp_variable = {taker = bra}
 			every_state = {
 				limit = {
 					has_state_flag = marked_for_transfer
@@ -71,7 +87,6 @@ on_actions = {
 					set_state_flag = marked_for_transfer
 				}
 			}
-			set_temp_variable = {taker = bra}
 			every_state = {
 				limit = {
 					has_state_flag = marked_for_transfer
@@ -89,7 +104,6 @@ on_actions = {
 					set_state_flag = marked_for_transfer
 				}
 			}
-			set_temp_variable = {taker = bra}
 			every_state = {
 				limit = {
 					has_state_flag = marked_for_transfer
@@ -107,7 +121,6 @@ on_actions = {
 					set_state_flag = marked_for_transfer
 				}
 			}
-			set_temp_variable = {taker = bra}
 			every_state = {
 				limit = {
 					has_state_flag = marked_for_transfer
@@ -125,7 +138,6 @@ on_actions = {
 					set_state_flag = marked_for_transfer
 				}
 			}
-			set_temp_variable = {taker = bra}
 			every_state = {
 				limit = {
 					has_state_flag = marked_for_transfer
@@ -143,7 +155,6 @@ on_actions = {
 					set_state_flag = marked_for_transfer
 				}
 			}
-			set_temp_variable = {taker = bra}
 			every_state = {
 				limit = {
 					has_state_flag = marked_for_transfer
@@ -161,7 +172,6 @@ on_actions = {
 					set_state_flag = marked_for_transfer
 				}
 			}
-			set_temp_variable = {taker = bra}
 			every_state = {
 				limit = {
 					has_state_flag = marked_for_transfer
@@ -170,7 +180,7 @@ on_actions = {
 				clr_state_flag = marked_for_transfer
 			}
 
-			######################### mexico
+			######################### central america
 
 			set_temp_variable = {ROOT.marks = gua}
 			var:marks = {
