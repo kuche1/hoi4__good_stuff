@@ -5,5 +5,5 @@
 
 -- mil and doc output
 --NDefines.NProduction.BASE_FACTORY_SPEED = 5 -- default 5 -- make civs produce less
-NDefines.NProduction.BASE_FACTORY_SPEED_MIL = NDefines.NProduction.BASE_FACTORY_SPEED_MIL * 0.7 -- default 4.5 -- make mils produce less
-NDefines.NProduction.BASE_FACTORY_SPEED_NAV = NDefines.NProduction.BASE_FACTORY_SPEED_NAV * 0.7 -- default 2.5 -- make docs produce less
+NDefines.NProduction.BASE_FACTORY_SPEED_MIL = NDefines.NProduction.BASE_FACTORY_SPEED_MIL * 0.75 -- default 4.5 -- make mils produce less
+NDefines.NProduction.BASE_FACTORY_SPEED_NAV = NDefines.NProduction.BASE_FACTORY_SPEED_NAV * 0.75 -- default 2.5 -- make docs produce less
