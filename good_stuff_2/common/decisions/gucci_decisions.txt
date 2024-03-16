@@ -131,6 +131,11 @@ gucci_efforts = {
 		#	}
 		#}
 
+		# this doesn't work
+		# visible = {
+		# 	always = no
+		# }
+
         timeout_effect = { # what to do if the mission fails (if the timeout expires)
 			random_owned_state = {
 				limit = {
