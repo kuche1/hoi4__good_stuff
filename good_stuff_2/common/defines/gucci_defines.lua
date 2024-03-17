@@ -34,7 +34,7 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35 -- default 10
 -- NDefines.NDiplomacy.TENSION_SIZE_FACTOR = 0.8 -- default 1.0
 -- NDefines.NDiplomacy.TENSION_TIME_SCALE_MIN = 0 -- default 0.25
 
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR * 0.8 -- default 2
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR * 0.7 -- default 2
 -- NDefines.NTechnology.MIN_RESEARCH_SPEED = 0.1 -- default 0.1
 
 -------- can't remember
@@ -50,5 +50,5 @@ NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = NDefines.NResistance.COMPLIAN
 --NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = 0 -- wtf does this even do? the following comment is not true -- `-0.5` stands for loose half your compliance on controller change (this does include changing ideology) -- default -0.5
 
 -------- puppets
-NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR / 8 -- default 0.005 -- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
+NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR / 7 -- default 0.005 -- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
 -- TODO ideally this ^^^ we would not change, instead we would make it so that it is possible to trade for less than 80 with a puppet
