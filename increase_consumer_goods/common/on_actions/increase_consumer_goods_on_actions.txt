@@ -3,10 +3,54 @@ on_actions = {
 	on_startup = {
 		effect = {
 			for_each_scope_loop = {
-				array = global.countries
+				array = global.countries # I think there's one called every possible nation or something like that
 
-				#add_dynamic_modifier = { modifier = increase_consumer_goods_modifier }
+				add_dynamic_modifier = { modifier = increase_consumer_goods_modifier }
 			}
+		}
+	}
+
+	on_weekly = {
+		effect = {
+
+			# mils
+
+			set_variable = {
+				var = BOGGLE_DOWN_ECONOMY_mil_production_modifier
+				value = num_of_military_factories
+			}
+			subtract_from_variable = {
+				var = BOGGLE_DOWN_ECONOMY_mil_production_modifier
+				value = num_of_available_military_factories
+			}
+			multiply_variable = {
+				var = BOGGLE_DOWN_ECONOMY_mil_production_modifier
+				value = -0.001 # penalty for each mil; -0.1 means -10%
+			}
+			clamp_variable = {
+				var = BOGGLE_DOWN_ECONOMY_mil_production_modifier
+				min = -0.5
+			}
+
+			# docs
+
+			set_variable = {
+				var = BOGGLE_DOWN_ECONOMY_doc_production_modifier
+				value = num_of_naval_factories
+			}
+			subtract_from_variable = {
+				var = BOGGLE_DOWN_ECONOMY_doc_production_modifier
+				value = num_of_available_naval_factories
+			}
+			multiply_variable = {
+				var = BOGGLE_DOWN_ECONOMY_doc_production_modifier
+				value = -0.001 # penalty for each doc; -0.1 means -10%
+			}
+			clamp_variable = {
+				var = BOGGLE_DOWN_ECONOMY_doc_production_modifier
+				min = -0.5
+			}
+
 		}
 	}
 
