@@ -27,10 +27,10 @@ on_actions = {
 				var = BOGGLE_DOWN_ECONOMY_mil_production_modifier
 				value = -0.001 # penalty for each mil; -0.1 means -10%
 			}
-			clamp_variable = {
-				var = BOGGLE_DOWN_ECONOMY_mil_production_modifier
-				min = -0.5
-			}
+			# clamp_variable = {
+			# 	var = BOGGLE_DOWN_ECONOMY_mil_production_modifier
+			# 	min = -0.5
+			# }
 
 			# docs
 
@@ -46,10 +46,10 @@ on_actions = {
 				var = BOGGLE_DOWN_ECONOMY_doc_production_modifier
 				value = -0.001 # penalty for each doc; -0.1 means -10%
 			}
-			clamp_variable = {
-				var = BOGGLE_DOWN_ECONOMY_doc_production_modifier
-				min = -0.5
-			}
+			# clamp_variable = {
+			# 	var = BOGGLE_DOWN_ECONOMY_doc_production_modifier
+			# 	min = -0.5
+			# }
 
 		}
 	}

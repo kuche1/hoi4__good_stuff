@@ -1,17 +1,27 @@
 #! /usr/bin/env python3
 
-FACTORIES = 550
+FACTORIES = 1_000
 
-raw_factory_production = 0
+UNFAIR_PENALTY_AT = 600 # factories
+# the moment where building more factories actually reduces your output
+# it's really not that bad since you'll get factory output from reasearch
+# and you'll get this at much higher factory count
+
+# PENALTY = - (0.5/UNFAIR_PENALTY_AT)
+PENALTY = -0.001
+
+ADDITIONAL_PRODUCTION = 0 # 0.4
 
 for num_factories in range(FACTORIES):
     num_factories += 1
 
-    modifier = num_factories * -0.001
-    if modifier < -0.5:
-        modifier = -0.5
+    modifier = num_factories * PENALTY
+    # if modifier < -0.7:
+    #     modifier = -0.7
 
-    raw_factory_production += 1
+    # modifier
+    # facs = num_factories
+    # if facs >= 50:
 
-    factory_production = raw_factory_production * (1+modifier)
-    print(f'{num_factories=} {modifier=} {factory_production=}')
+    factory_production = num_factories * (1+modifier+ADDITIONAL_PRODUCTION)
+    print(f'{PENALTY=} {num_factories=} {factory_production=} {100*modifier=}')
