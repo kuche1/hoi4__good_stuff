@@ -1,5 +1,5 @@
 
-increase_consumer_goods_modifier = {
+BOGGLE_DOWN_ECONOMY_modifier = {
 	enable = { always = yes }
 
 	# comment out to disable icon; keep in mind that factory count can be infered if the icon is enabled

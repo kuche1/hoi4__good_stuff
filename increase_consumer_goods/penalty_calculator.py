@@ -10,7 +10,7 @@ UNFAIR_PENALTY_AT = 600 # factories
 # PENALTY = - (0.5/UNFAIR_PENALTY_AT)
 PENALTY = -0.001
 
-ADDITIONAL_PRODUCTION = 0 # 0.4
+ADDITIONAL_PRODUCTION = 0.35
 
 for num_factories in range(FACTORIES):
     num_factories += 1
@@ -24,4 +24,5 @@ for num_factories in range(FACTORIES):
     # if facs >= 50:
 
     factory_production = num_factories * (1+modifier+ADDITIONAL_PRODUCTION)
-    print(f'{PENALTY=} {num_factories=} {factory_production=} {100*modifier=}')
+    factory_production_without_modifier = num_factories * (1+ADDITIONAL_PRODUCTION)
+    print(f'{PENALTY=} {num_factories=:4} {factory_production_without_modifier:=15.10f} {factory_production:=15.10f} {100*modifier=}')
