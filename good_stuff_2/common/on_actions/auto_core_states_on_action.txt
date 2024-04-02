@@ -8,7 +8,7 @@ on_actions = {
 						NOT = {
 							is_core_of = THIS.controller
 						}
-						compliance > 49
+						compliance > 54
 					}
 				}
 				add_core_of = THIS.controller

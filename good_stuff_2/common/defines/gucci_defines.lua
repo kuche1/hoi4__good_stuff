@@ -10,14 +10,14 @@ NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 400 -- disables special forces limit 
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 33 -- makes naval invasions take less time -- default 168
 
 -- template editing cost
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 8 -- default 20
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 2 -- default 20
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 2 -- default 5
-NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 4 -- default 10
+NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 2 -- default 10
 
 -- max armiy size
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 26 -- default 24
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 26 -- setting this to 0 brakes the AI -- default 24
-NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 11 -- default 5
+NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 16 -- default 5
 
 -- max experience and pp
 NDefines.NCountry.POLITICAL_POWER_UPPER_CAP = 6000.0 -- default 2000.0
@@ -45,10 +45,10 @@ NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = NDefines.NTechnology.BASE_
 
 -------- compliance
 -- NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.075 -- base compliance grow
-NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE * 16 -- `10` stands for `10%` -- default 10
-NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM * 16 -- default 5
+NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE * 15 -- `10` stands for `10%` -- default 10
+NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM * 15 -- default 5
 --NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = 0 -- wtf does this even do? the following comment is not true -- `-0.5` stands for loose half your compliance on controller change (this does include changing ideology) -- default -0.5
 
 -------- puppets
-NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR / 7 -- default 0.005 -- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
+NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR / 6 -- default 0.005 -- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
 -- TODO ideally this ^^^ we would not change, instead we would make it so that it is possible to trade for less than 80 with a puppet
