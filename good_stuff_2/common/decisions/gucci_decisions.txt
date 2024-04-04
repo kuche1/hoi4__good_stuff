@@ -110,7 +110,7 @@ gucci_efforts = {
 
 		icon = generic_construction
 
-		days_mission_timeout = 40 # days until mission is removed
+		days_mission_timeout = 45 # days until mission is removed
 
 		days_re_enable = 0 # days until mission is activated again
 
