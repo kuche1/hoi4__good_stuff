@@ -21,4 +21,7 @@ BOGGLE_DOWN_ECONOMY_modifier = {
 	# note this this is not multiplicative, rather it's additive
 	industrial_capacity_factory = BOGGLE_DOWN_ECONOMY_mil_production_modifier
 	industrial_capacity_dockyard = BOGGLE_DOWN_ECONOMY_doc_production_modifier
+
+	# reduce manpower as well
+	monthly_population = -0.1
 }
