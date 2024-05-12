@@ -23,5 +23,6 @@ BOGGLE_DOWN_ECONOMY_modifier = {
 	industrial_capacity_dockyard = BOGGLE_DOWN_ECONOMY_doc_production_modifier
 
 	# reduce manpower as well
-	monthly_population = -0.1
+	# monthly_population = -0.1 # this can be dealth with using defines, rather than modifiers
+	recruitable_population_factor = -0.1
 }
