@@ -43,12 +43,6 @@ NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = NDefines.NTechnology.BASE_
 -- NDefines_Graphics.NGraphics.LAND_UNIT_MOVEMENT_SPEED = 9999 -- default 12
 -- NDefines_Graphics.NGraphics.NAVAL_UNIT_MOVEMENT_SPEED = 9999 -- default 12
 
--------- compliance
--- NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.075 -- base compliance grow
-NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE * 15 -- `10` stands for `10%` -- default 10
-NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM * 15 -- default 5
---NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = 0 -- wtf does this even do? the following comment is not true -- `-0.5` stands for loose half your compliance on controller change (this does include changing ideology) -- default -0.5
-
 -------- puppets
 NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR / 6 -- default 0.005 -- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
 -- TODO ideally this ^^^ we would not change, instead we would make it so that it is possible to trade for less than 80 with a puppet

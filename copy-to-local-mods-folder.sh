@@ -1,5 +1,7 @@
 #! /usr/bin/env bash
 
+set -euo pipefail
+
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"good_stuff_2*
 cp -r good_stuff_2* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
@@ -24,6 +26,9 @@ cp -r increase_consumer_goods* ~/".local/share/Paradox Interactive/Hearts of Iro
 
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"bombing*
 cp -r bombing* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+
+rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"compliance*
+cp -r compliance* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
 ##################
 
