@@ -3,8 +3,16 @@ on_actions = {
 	on_startup = {
 		effect = {
 			for_each_scope_loop = {
-				array = global.countries # I think there's one called every possible nation or something like that
+				array = global.countries # I think there's one called every possible nations or something like that
+				add_dynamic_modifier = { modifier = BOGGLE_DOWN_ECONOMY_modifier }
+			}
+		}
+	}
 
+	on_monthly = { # on_yearly doesn't exist
+		effect = {
+			for_each_scope_loop = {
+				array = global.countries
 				add_dynamic_modifier = { modifier = BOGGLE_DOWN_ECONOMY_modifier }
 			}
 		}
