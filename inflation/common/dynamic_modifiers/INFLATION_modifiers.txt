@@ -1,0 +1,16 @@
+
+INFLATION_modifier = {
+	enable = { always = yes }
+
+	# comment out to disable icon
+	# icon search `https://yard1.github.io/HoI4-GFX-Search/` and keep in mind that you have to prefix with GFX and the type (idea, goal, ...)
+	# icon = GFX_idea_unknown
+	# icon = GFX_goal_generic_consumer_goods
+	icon = GFX_idea_generic_economic_crisis
+	# icon = chi_hyper_inflation
+	# icon = GFX_idea_general_staff
+
+	# the formula is: value * (1 + modifier)
+	industrial_capacity_factory = INFLATION_mil_production_modifier
+	industrial_capacity_dockyard = INFLATION_doc_production_modifier
+}

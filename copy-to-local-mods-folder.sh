@@ -30,6 +30,9 @@ cp -r bombing* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"compliance*
 cp -r compliance* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
+rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"inflation*
+cp -r inflation* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+
 ##################
 
 # rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"better_resources*

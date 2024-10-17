@@ -1,0 +1,137 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			for_each_scope_loop = {
+				array = global.countries # I think there's one called every possible nations or something like that
+				add_dynamic_modifier = { modifier = INFLATION_modifier }
+			}
+		}
+	}
+
+	on_monthly = { # on_yearly doesn't exist
+		effect = {
+			for_each_scope_loop = {
+				array = global.countries
+				add_dynamic_modifier = { modifier = INFLATION_modifier }
+			}
+		}
+	}
+
+	on_monthly = {
+		effect = {
+
+			########
+			######## inflation increase
+			########
+
+			# this is the value by which inflation will increase each run
+			# in 10 years there are 521.7857142857143 weeks
+			# in 10 years there are 120 months weeks
+			
+			# the value will be treated as percent
+			# so 0.5 would mean 50%
+
+			add_to_variable = {
+				var = INFLATION_inflation_penalty_percent # the first run it will not exist, so it will be set to 0
+				value = 0.008 # WARNING: anything more accurate than 0.001 makes the game shit itself
+			}
+
+			########
+			######## mils
+			########
+
+			# get all additional modifiers
+			# you example, 0.18 for a modifier of 18%
+
+			set_variable = {
+				var = tmp
+				value = modifier@industrial_capacity_factory
+			}
+
+			# add base value (of 100%)
+
+			add_to_variable = {
+				var = tmp
+				value = 1.0
+			}
+
+			# subtract our modifier to get the actual base value
+
+			subtract_from_variable = {
+				var = tmp
+				value = INFLATION_mil_production_modifier
+			}
+
+			# miltiply base value by given percent
+
+			multiply_variable = {
+				var = tmp
+				value = INFLATION_inflation_penalty_percent
+			}
+
+			# make penalty value a negative number
+
+			multiply_variable = {
+				var = tmp
+				value = -1
+			}
+
+			# apply that penalty
+
+			set_variable = {
+				var = INFLATION_mil_production_modifier
+				value = tmp
+			}
+
+			########
+			######## docs
+			########
+
+			# get all additional modifiers
+			# you example, 0.18 for a modifier of 18%
+
+			set_variable = {
+				var = tmp
+				value = modifier@industrial_capacity_dockyard
+			}
+
+			# add base value (of 100%)
+
+			add_to_variable = {
+				var = tmp
+				value = 1.0
+			}
+
+			# subtract our modifier to get the actual base value
+
+			subtract_from_variable = {
+				var = tmp
+				value = INFLATION_doc_production_modifier
+			}
+
+			# miltiply base value by given percent
+
+			multiply_variable = {
+				var = tmp
+				value = INFLATION_inflation_penalty_percent
+			}
+
+			# make penalty value a negative number
+
+			multiply_variable = {
+				var = tmp
+				value = -1
+			}
+
+			# apply that penalty
+
+			set_variable = {
+				var = INFLATION_doc_production_modifier
+				value = tmp
+			}
+
+		}
+	}
+
+}
