@@ -34,7 +34,7 @@ on_actions = {
 
 			add_to_variable = {
 				var = INFLATION_inflation_penalty_percent # the first run it will not exist, so it will be set to 0
-				value = 0.008 # WARNING: anything more accurate than 0.001 makes the game shit itself
+				value = 0.003 # WARNING: anything more accurate than 0.001 makes the game shit itself
 			}
 
 			########
