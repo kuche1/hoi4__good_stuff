@@ -1,0 +1,53 @@
+
+alternative_gameplay__decisions = {
+
+	alternative_gameplay__auto_declare_war = {
+
+		icon = generic_construction
+
+		days_mission_timeout = 30
+
+		days_re_enable = 0 # days until mission is activated again
+
+		days_remove = 0 # how many days the mission will be in the remove phase
+
+		is_good = no # determines timeout bar color (red or green)
+
+        available = { # condition that will allow the player/ai to click the mission and execute it's effects
+            always = no
+        }
+
+        fire_only_once = no
+
+		# would be better if we did actually check for this but I'm afraid it might reduce performance
+		#visible = {
+		#	any_owned_state = {
+		#		is_fully_controlled_by = ROOT
+		#	}
+		#}
+
+		timeout_effect = {
+
+			random = {
+
+				chance = 85 # in percent
+
+				random_neighbor_country = {
+				# random_country = {
+				# every_country = {
+
+					ROOT = { # war will be declared by
+
+						declare_war_on = {
+							target = PREV # war will be delared on
+							type = annex_everything
+						}
+
+					}
+
+				}
+			}
+		}
+    }
+
+}

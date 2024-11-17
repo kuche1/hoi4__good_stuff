@@ -1,0 +1,6 @@
+
+alternative_gameplay__decisions = {
+	icon = generic_propaganda
+	visible = {
+	}
+}
