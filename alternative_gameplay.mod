@@ -6,3 +6,4 @@ tags={
 name="alternative_gameplay"
 supported_version="1.14.10"
 path="/home/me/.local/share/Paradox Interactive/Hearts of Iron IV/mod/alternative_gameplay"
+remote_file_id="3367634073"
