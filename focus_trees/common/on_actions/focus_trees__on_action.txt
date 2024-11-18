@@ -1,0 +1,204 @@
+
+on_actions = {
+	on_startup = {
+        effect = {
+
+			# change focus tree to generic
+
+			every_possible_country = {
+				load_focus_tree = generic_focus
+			}
+
+			# remove all ideas
+
+			every_possible_country = {
+				remove_ideas = {
+					AUS_widespread_unemployment
+					AUS_phonix_insurance
+					AUS_treaty_of_saint_germain_en_laye
+					AUS_recovering_from_the_depression
+					AUS_austrofascism_fake_ns
+					BEL_language_barriers_ns
+					BEL_chasseurs_ardennais_ns
+					BEL_scars_of_ww1_ns_fake
+					BEL_corruption_ns_fake
+					HUN_treaty_of_triannon_wuw
+					HUN_treaty_of_triannon_aat_wuw
+					HUN_gombos_trade_treaty
+					HUN_hungarian_national_defense_association
+					HUN_levente_associations
+					COG_the_invisible_roof
+					COG_force_publique_fake_idea
+					COG_vast_decentralized_state_idea
+					MTG_naval_treaty_cheating
+					MTG_naval_treaty_adherent
+					sour_loser
+					general_staff
+					GER_mefo_bills_1 HOL_wilhelmina
+					HOL_aloof_neutrality
+					HOL_shell_shocked_spectator_5
+					HOL_de_crisisjaren_5
+					HOL_weak_government
+					FRA_victors_of_wwi
+					FRA_disjointed_government
+					FRA_protected_by_the_maginot_line
+					FRA_full_employment
+					FRA_political_violence
+					FRA_inefficient_economy_2
+					SPA_carlism_1
+					SPR_military_disloyalty
+					SPR_political_violence
+					SPR_national_strikes_3
+					POR_unreliable_army
+					POR_unstable_republic
+					stiff_upper_lip
+					ENG_the_war_to_end_all_wars
+					george_v
+						SWI_swiss_neutrality
+						SWI_foreign_fascist_propaganda
+					vittorio_emanuele
+					vittoria_mutilata
+						CZE_skoda_works
+						CZE_divided_nation
+					HUN_treaty_of_triannon_aat
+					HUN_treaty_of_triannon
+						YUG_idea_croatian_opposition
+						YUG_idea_macedonian_opposition
+						YUG_idea_slovene_nationalism
+						YUG_idea_serbian_general_staff
+					anti_german_military
+					ROM_king_carol_ii_hedonist
+					neutrality_idea
+					BUL_army_restrictions_aat
+					BUL_army_restrictions
+						BUL_second_national_catastrophe
+						BUL_imro_01
+						GRE_george_ii
+						GRE_debt_to_the_ifc
+						GRE_foreign_monopolies
+						GRE_schachtplan
+						GRE_political_instability
+						GRE_agrarian_society
+						TUR_kemalist_army_officers_limited_power_loyal
+						TUR_sectarian_woes
+						TUR_disorganised_armed_forces
+						TUR_debt_council
+					uncontrolled_exports
+						POL_april_constitution_1
+						POL_looming_peasants_strike
+						POL_sanation_left_opposition_1
+						POL_sanation_right_opposition_1
+						LIT_iron_wolf_idea_bad_1
+						LIT_agrarian_society
+						LIT_military_idea_1
+						LIT_seimas_idea_1
+					LAT_perkonkrust_idea
+						democratic_opposition
+						EST_vaps_idea_1
+					home_of_revolution
+					trotskyite_plot_nsb
+					SOV_politicized_military
+					SWE_hungershield
+						SWE_severe_lack_of_ammunition
+						SWE_gustaf_v_idea
+					en_svensk_tiger 
+						NOR_complacent_cabinet_ns
+						NOR_obsolete_armed_forces_ns_1
+						NOR_the_hard_thirties_ns
+						NOR_anti_communist_sentiment_ns
+						NOR_crumbling_fortifications_ns
+						NOR_birger_ljungberg
+						NOR_kristian_laake
+					FIN_sisu_2
+					ICE_christian_x
+					PRC_government_corruption
+						CHI_ineffective_bureaucracy_warlord
+					german_advisors
+					CHI_communist_uprisings
+					CHI_nine_power_treaty
+						CHI_army_corruption_1
+						CHI_ineffective_bureaucracy
+						CHI_incompetent_officers
+						CHI_hyper_inflation_1
+						PRC_revolutionary_military_commission
+					PRC_the_long_march_1
+						PRC_low_popular_support_3
+						PRC_power_struggles
+						PRC_red_army_weakened
+					MAN_banditry
+					MAN_kwantung_veto
+					MAN_low_legitimacy_5
+					state_shintoism
+					JAP_zaibatsus
+					JAP_duplicate_research_efforts
+					JAP_militarism
+					JAP_interservice_rivalry_balanced
+					MTG_naval_treaty_adherent
+						RAJ_princely_states
+						RAJ_marginalized_muslim_community
+						RAJ_agrarian_society
+						RAJ_risk_of_famine
+					AST_great_depression_1
+					SAF_ossewabrandwag
+					SAF_history_of_segregation
+						ETH_conservative_high_command_idea
+						ETH_the_heroes_of_adwa_idea
+						ETH_chitet_law
+						ETH_christmas_offensive_idea
+					ETH_on_our_own_idea_aat
+					ETH_on_our_own_idea
+					CAN_great_depression_1
+					CAN_conscription_crisis
+					bureau_of_ordnance_spirit
+					undisturbed_isolation
+					great_depression
+					home_of_the_free
+					MEX_callistas
+						MEX_church_power_2
+						MEX_oil_concessions
+						MEX_politicised_army
+						MEX_cedillo_tension_2
+					bba_AFA_skilled_desert_warriors
+				}
+			}
+
+			# remove all dynamic modifiers
+
+			ITA = {remove_dynamic_modifier = {modifier = ITA_regio_esercito_dynamic_modifier}}
+			ITA = {remove_dynamic_modifier = {modifier = ITA_ricostruzione_industriale_dynamic_modifier}}
+			ITA = {remove_dynamic_modifier = {modifier = ITA_military_industry_dynamic_modifier}}
+			ITA = {remove_dynamic_modifier = {modifier = ITA_regia_aeronautica_dynamic_modifier}}
+			ITA = {remove_dynamic_modifier = {modifier = ITA_regia_marina_dynamic_modifier}}
+			SOV = {remove_dynamic_modifier = {modifier = SOV_second_five_year_plan_dynamic_modifier}}
+			SOV = {remove_dynamic_modifier = {modifier = SOV_soviet_airforce_dynamic_modifier}}
+			SOV = {remove_dynamic_modifier = {modifier = SOV_the_red_army_dynamic_modifier}}
+			DEN = {remove_dynamic_modifier = {modifier = DEN_industrial_capability_dynamic_modifier}}
+			DEN = {remove_dynamic_modifier = {modifier = DEN_economic_crisis_dynamic_modifier}}
+			DEN = {remove_dynamic_modifier = {modifier = DEN_neglected_military_dynamic_modifier}}
+			SWE = {remove_dynamic_modifier = {modifier = SWE_folkhemmet}}
+			ICE = {remove_dynamic_modifier = {modifier = ICE_the_icelandic_economy_modifier}}
+			ETH = {remove_dynamic_modifier = {modifier = ETH_corrupt_bureaucracy_dynamic_modifier}}
+			ETH = {remove_dynamic_modifier = {modifier = ETH_industrialization_dynamic_modifier}}
+			ETH = {remove_dynamic_modifier = {modifier = ETH_international_red_cross_dynamic_modifier}}
+			ETH = {remove_dynamic_modifier = {modifier = ETH_army_1_dynamic_modifier}}
+			ETH = {remove_dynamic_modifier = {modifier = ETH_navy_1_dynamic_modifier}}
+			ETH = {remove_dynamic_modifier = {modifier = ETH_airforce_1_dynamic_modifier}}
+			ETH = {remove_dynamic_modifier = {modifier = ETH_operative_modifier}}
+			RAJ = {remove_dynamic_modifier = {modifier = RAJ_agrarian_society_dynamic}}
+			GER = {remove_dynamic_modifier = { modifier = GER_mefo_bills_modifier }}
+			GER = {remove_dynamic_modifier = { modifier = GER_navy_fascist_modifier }}
+			GER = {remove_dynamic_modifier = { modifier = GER_airforce_modifier }}
+			GER = {remove_dynamic_modifier = { modifier = GER_army_modifier }}
+			BEL = {remove_dynamic_modifier = { modifier = BEL_scars_of_ww1_dynamic_modifier }}
+			BEL = {remove_dynamic_modifier = { modifier = BEL_corruption_dynamic_modifier }}
+			BEL = {remove_dynamic_modifier = { modifier = BEL_economic_downturn_dynamic_modifier }}
+			AUS = {remove_dynamic_modifier = { modifier = AUS_austrofascism }}
+			COG = {remove_dynamic_modifier = { modifier = COG_force_publique }}
+
+			# some other ideas
+
+			every_possible_country = {remove_ideas = {ENG_george_vi ENG_king_edward FRA_political_violence new_deal}}
+
+		}
+	}
+}
