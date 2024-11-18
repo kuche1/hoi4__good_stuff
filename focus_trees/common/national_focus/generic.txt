@@ -1,6 +1,7 @@
 ﻿
 # TODO
 # remove all `search_filters`
+# make it so that the chance of a country picking it's own ideology is higher
 
 search_filter_prios = {
 
