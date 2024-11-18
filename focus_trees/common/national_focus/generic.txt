@@ -1475,7 +1475,6 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 
-
 		ai_will_do = {
 			factor = 2
 		}
@@ -1547,62 +1546,21 @@ focus_tree = {
 	############
 
 	focus = {
-		id = research_industry
-		icon = GFX_goal_generic_production
-		x = 11
-		y = 0
-		cost = 10
-
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 1.0
-				uses = 1
-				category = industry
-			}
-		}
-
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				factor = 0
-				date < 1939.1.1
-				OR = { 
-					# we dont want chinese minors to go crazy on slots early since they get eaten
-					tag = GXC 
-					tag = YUN
-					tag = SHX
-					tag = XSM
-					tag = BEL
-					tag = LUX
-					tag = HOL
-					tag = DEN
-
-					# we also dont want tiny nations to go crazy with slots right away
-					num_of_controlled_states < 2
-				}				
-			}
-		}
-	}
-
-	focus = {
 		id = research_slot_1
 		icon = GFX_focus_research
-		prerequisite = { focus = research_industry }
-		relative_position_id = research_industry
 		cancel_if_invalid = no
 		continue_if_invalid = yes
-		x = 0
-		y = 1
+		x = 11
+		y = 0
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		
 		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 10
+		}
 
 		bypass = {
 			original_research_slots > 4
@@ -1632,6 +1590,10 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 
+		ai_will_do = {
+			factor = 10
+		}
+
 		bypass = {
 			original_research_slots > 3
 		}
@@ -1660,6 +1622,10 @@ focus_tree = {
 		
 		available_if_capitulated = yes
 
+		ai_will_do = {
+			factor = 10
+		}
+
 		bypass = {
 			original_research_slots > 2
 		}
@@ -1687,6 +1653,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		
 		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 10
+		}
 
 		bypass = {
 			original_research_slots > 1
@@ -2251,73 +2221,115 @@ focus_tree = {
 			custom_effect_tooltip = kamikaze_focus_tooltip
 		}
 	}
-	
-	focus = {
-		id = technology_sharing
-		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = ideological_fanaticism focus = why_we_fight }
-		available = {
-			has_war = yes
-			is_in_faction = yes
-			OR = {
-				num_of_factories > 50
-				any_other_country = {
-					is_in_faction_with = ROOT
-					num_of_factories > 50
-				}
-			}
-		}		
-		x = 2
-		y = 1
-		relative_position_id = ideological_fanaticism
-		cost = 10
-	
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
 
+	############
+	############
+	############
+	############
+	############ war
+	############
+	############
+	############
+	############
+
+	focus = {
+		id = war_1
+		icon = GFX_goal_generic_political_pressure
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 23
+		y = 0
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		
 		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+		}
 
 		completion_reward = {
 
-			if = {
-				limit = {
-					original_research_slots < 3
+			# gain war goal fora random neighbour
+			random_neighbor_country = {
+				ROOT = { # war will be declared by
+					create_wargoal = {
+						type = annex_everything
+						target = PREV # war will be delared on
+					}
 				}
-				add_research_slot = 1
 			}
 
-			if = {
-				limit = {
-					original_research_slots > 2
-				}
-				add_breakthrough_progress = {
-					specialization = specialization_air
-					value = 0.25
-				}
-				add_breakthrough_progress = {
-					specialization = specialization_nuclear
-					value = 0.25
-				}
-				add_tech_bonus = {
-					name = electronics_bonus
-					bonus = 1.0
-					uses = 1
-					category = electronics
-				}
-				add_tech_bonus = {
-					name = industrial_bonus
-					bonus = 1.0
-					uses = 1
-					category = industry
-				}	
-				add_tech_bonus = {
-					name = infantry_artillery_bonus #@#
-					bonus = 1.0
-					uses = 1
-					category = infantry_weapons
-					category = artillery
-				}				
-			}			
 		}
-	}	
+	}
+
+	focus = {
+		id = war_2
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = war_1 }
+		relative_position_id = war_1
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 0
+		y = 1
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+
+			# gain war goal fora random neighbour
+			random_neighbor_country = {
+				ROOT = { # war will be declared by
+					create_wargoal = {
+						type = annex_everything
+						target = PREV # war will be delared on
+					}
+				}
+			}
+
+		}
+	}
+
+	focus = {
+		id = war_3
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = war_2 }
+		relative_position_id = war_2
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		x = 0
+		y = 1
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+
+			# gain war goal fora random neighbour
+			random_neighbor_country = {
+				ROOT = { # war will be declared by
+					create_wargoal = {
+						type = annex_everything
+						target = PREV # war will be delared on
+					}
+				}
+			}
+
+		}
+	}
 
 }
