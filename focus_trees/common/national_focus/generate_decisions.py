@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-ITERATIONS = 40
+ITERATIONS = 20
 
 # [[[ITER]]]
 # [[[ITER_PREV]]]

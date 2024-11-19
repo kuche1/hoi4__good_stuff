@@ -1,0 +1,46 @@
+ideas = {
+
+	# Special ones that can be applied on other countries through focus system.
+	country = {
+		
+		focus_trees__idea_fascism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				fascism_drift = 0.4
+			}
+		}
+
+		focus_trees__idea_communism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				communism_drift = 0.4
+			}
+		}
+
+	}
+
+}

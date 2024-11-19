@@ -6,7 +6,7 @@ on_actions = {
 			# change focus tree to generic
 
 			every_possible_country = {
-				load_focus_tree = generic_focus
+				load_focus_tree = focus_trees__focus_generic_1
 			}
 
 			# remove all ideas
