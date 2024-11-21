@@ -195,10 +195,12 @@ on_actions = {
 			AUS = {remove_dynamic_modifier = { modifier = AUS_austrofascism }}
 			COG = {remove_dynamic_modifier = { modifier = COG_force_publique }}
 
-			# some other ideas
+		}
+	}
 
+	on_monthly = {
+		effect = {
 			every_possible_country = {remove_ideas = {ENG_george_vi ENG_king_edward FRA_political_violence new_deal}}
-
 		}
 	}
 }
