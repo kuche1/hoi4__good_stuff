@@ -13,4 +13,5 @@ INFLATION_modifier = {
 	# the formula is: value * (1 + modifier)
 	industrial_capacity_factory = INFLATION_mil_production_modifier
 	industrial_capacity_dockyard = INFLATION_doc_production_modifier
+	recruitable_population  = INFLATION_recruitable_population_modifier
 }
