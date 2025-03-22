@@ -1,0 +1,207 @@
+
+technologies={
+
+    # defines
+	@1918 = 0
+	@1924 = 1
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+    @1947 = 22
+    @1948 = 24
+    @1949 = 26
+    @1950 = 28
+
+    gucci_infantry_1 = {
+        folder={
+            name = infantry_folder
+            position = {
+                x = 0
+                y = @1945
+            }
+        }
+
+        start_year = 1945 # for ahead of time penalty
+        research_cost = 2.0 # 1 = 100 days
+
+		categories = {
+			infantry_weapons
+		}
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		category_cavalry = {
+			soft_attack = 0.05
+		}
+		category_vehicle_infantry = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_infantry_2
+		}
+    }
+
+    gucci_infantry_2 = {
+        folder={
+            name = infantry_folder
+            position = {
+                x = 0
+                y = @1946
+            }
+        }
+
+        start_year = 1946
+        research_cost = 2.0
+
+		categories = {
+			infantry_weapons
+		}
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		category_cavalry = {
+			soft_attack = 0.05
+		}
+		category_vehicle_infantry = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_infantry_3
+		}
+    }
+
+    gucci_infantry_3 = {
+        folder={
+            name = infantry_folder
+            position = {
+                x = 0
+                y = @1947
+            }
+        }
+
+        start_year = 1947
+        research_cost = 2.0
+
+		categories = {
+			infantry_weapons
+		}
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		category_cavalry = {
+			soft_attack = 0.05
+		}
+		category_vehicle_infantry = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_infantry_4
+		}
+    }
+
+    gucci_infantry_4 = {
+        folder={
+            name = infantry_folder
+            position = {
+                x = 0
+                y = @1948
+            }
+        }
+
+        start_year = 1948
+        research_cost = 2.0
+
+		categories = {
+			infantry_weapons
+		}
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		category_cavalry = {
+			soft_attack = 0.05
+		}
+		category_vehicle_infantry = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_infantry_5
+		}
+    }
+
+    gucci_infantry_5 = {
+        folder={
+            name = infantry_folder
+            position = {
+                x = 0
+                y = @1949
+            }
+        }
+
+        start_year = 1949
+        research_cost = 2.0
+
+		categories = {
+			infantry_weapons
+		}
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		category_cavalry = {
+			soft_attack = 0.05
+		}
+		category_vehicle_infantry = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_infantry_6
+		}
+    }
+
+    gucci_infantry_6 = {
+        folder={
+            name = infantry_folder
+            position = {
+                x = 0
+                y = @1950
+            }
+        }
+
+        start_year = 1950
+        research_cost = 2.0
+
+		categories = {
+			infantry_weapons
+		}
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		category_cavalry = {
+			soft_attack = 0.05
+		}
+		category_vehicle_infantry = {
+			soft_attack = 0.05
+		}
+
+		# path = {
+		# 	leads_to_tech = gucci_infantry_7
+		# }
+    }
+}
