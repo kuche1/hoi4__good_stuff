@@ -1,0 +1,241 @@
+
+technologies={
+
+	gucci_artillery_1 = {
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 14 }
+		}
+
+		research_cost = 1.0
+		start_year = 1944
+		
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		category_self_propelled_artillery = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_artillery_2
+		}
+	}
+
+	gucci_artillery_2 = {
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 16 }
+		}
+
+		research_cost = 1.0
+		start_year = 1945
+		
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		category_self_propelled_artillery = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_artillery_3
+		}
+	}
+
+	gucci_artillery_3 = {
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 18 }
+		}
+
+		research_cost = 1.0
+		start_year = 1946
+		
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		category_self_propelled_artillery = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_artillery_4
+		}
+	}
+
+	gucci_artillery_4 = {
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 20 }
+		}
+
+		research_cost = 1.0
+		start_year = 1947
+		
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		category_self_propelled_artillery = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_artillery_5
+		}
+	}
+
+	gucci_artillery_5 = {
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 22 }
+		}
+
+		research_cost = 1.0
+		start_year = 1948
+		
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		category_self_propelled_artillery = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_artillery_6
+		}
+	}
+
+	gucci_artillery_6 = {
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 24 }
+		}
+
+		research_cost = 1.0
+		start_year = 1949
+		
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		category_self_propelled_artillery = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = gucci_artillery_7
+		}
+	}
+
+	gucci_artillery_7 = {
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 26 }
+		}
+
+		research_cost = 1.0
+		start_year = 1950
+		
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+
+		artillery = {
+			soft_attack = 0.1
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		category_self_propelled_artillery = {
+			soft_attack = 0.05
+		}
+
+		# path = {
+		# 	leads_to_tech = gucci_artillery_8
+		# }
+	}
+}
