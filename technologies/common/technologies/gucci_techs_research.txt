@@ -1,0 +1,181 @@
+
+technologies={
+
+	@computing = 3
+
+	gucci_research_1 = {
+		folder = {
+			name = electronics_folder
+			position = { x = @computing y = 16 }
+		}
+
+		research_cost = 2.5
+		start_year = 1943
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+		special_project_specialization = { specialization_nuclear }
+
+		research_speed_factor = 0.08
+
+		path = {
+			leads_to_tech = gucci_research_2
+		}
+	}
+
+	gucci_research_2 = {
+		folder = {
+			name = electronics_folder
+			position = { x = @computing y = 18 }
+		}
+
+		research_cost = 2.5
+		start_year = 1944
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+		special_project_specialization = { specialization_nuclear }
+
+		research_speed_factor = 0.08
+
+		path = {
+			leads_to_tech = gucci_research_3
+		}
+	}
+
+	gucci_research_3 = {
+		folder = {
+			name = electronics_folder
+			position = { x = @computing y = 20 }
+		}
+
+		research_cost = 2.5
+		start_year = 1945
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+		special_project_specialization = { specialization_nuclear }
+
+		research_speed_factor = 0.08
+
+		path = {
+			leads_to_tech = gucci_research_4
+		}
+	}
+
+	gucci_research_4 = {
+		folder = {
+			name = electronics_folder
+			position = { x = @computing y = 22 }
+		}
+
+		research_cost = 2.5
+		start_year = 1946
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+		special_project_specialization = { specialization_nuclear }
+
+		research_speed_factor = 0.08
+
+		path = {
+			leads_to_tech = gucci_research_5
+		}
+	}
+
+	gucci_research_5 = {
+		folder = {
+			name = electronics_folder
+			position = { x = @computing y = 24 }
+		}
+
+		research_cost = 2.5
+		start_year = 1947
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+		special_project_specialization = { specialization_nuclear }
+
+		research_speed_factor = 0.08
+
+		path = {
+			leads_to_tech = gucci_research_6
+		}
+	}
+
+	gucci_research_6 = {
+		folder = {
+			name = electronics_folder
+			position = { x = @computing y = 26 }
+		}
+
+		research_cost = 2.5
+		start_year = 1948
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+		special_project_specialization = { specialization_nuclear }
+
+		research_speed_factor = 0.08
+
+		path = {
+			leads_to_tech = gucci_research_7
+		}
+	}
+
+	gucci_research_7 = {
+		folder = {
+			name = electronics_folder
+			position = { x = @computing y = 28 }
+		}
+
+		research_cost = 2.5
+		start_year = 1949
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+		special_project_specialization = { specialization_nuclear }
+
+		research_speed_factor = 0.08
+
+		path = {
+			leads_to_tech = gucci_research_8
+		}
+	}
+
+	gucci_research_8 = {
+		folder = {
+			name = electronics_folder
+			position = { x = @computing y = 30 }
+		}
+
+		research_cost = 2.5
+		start_year = 1950
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+		special_project_specialization = { specialization_nuclear }
+
+		research_speed_factor = 0.08
+
+		# path = {
+		# 	leads_to_tech = gucci_research_9
+		# }
+	}
+}
