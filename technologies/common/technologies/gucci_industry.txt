@@ -1,0 +1,178 @@
+
+technologies={
+
+	gucci_industry_1 = {
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 12 }
+		}
+
+		research_cost = 2
+		start_year = 1944
+
+		categories = {
+			industry
+		}
+
+		global_building_slots_factor = 0.20
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.01
+		production_factory_start_efficiency_factor = 0.01
+		industry_air_damage_factor = -0.01
+
+		path = {
+			leads_to_tech = gucci_industry_2
+		}
+	}
+
+	gucci_industry_2 = {
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 14 }
+		}
+
+		research_cost = 2
+		start_year = 1945
+
+		categories = {
+			industry
+		}
+
+		global_building_slots_factor = 0.20
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.01
+		production_factory_start_efficiency_factor = 0.01
+		industry_air_damage_factor = -0.01
+
+		path = {
+			leads_to_tech = gucci_industry_3
+		}
+	}
+
+	gucci_industry_3 = {
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 16 }
+		}
+
+		research_cost = 2
+		start_year = 1946
+
+		categories = {
+			industry
+		}
+
+		global_building_slots_factor = 0.20
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.01
+		production_factory_start_efficiency_factor = 0.01
+		industry_air_damage_factor = -0.01
+
+		path = {
+			leads_to_tech = gucci_industry_4
+		}
+	}
+
+	gucci_industry_4 = {
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 18 }
+		}
+
+		research_cost = 2
+		start_year = 1947
+
+		categories = {
+			industry
+		}
+
+		global_building_slots_factor = 0.20
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.01
+		production_factory_start_efficiency_factor = 0.01
+		industry_air_damage_factor = -0.01
+
+		path = {
+			leads_to_tech = gucci_industry_5
+		}
+	}
+
+	gucci_industry_5 = {
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 20 }
+		}
+
+		research_cost = 2
+		start_year = 1948
+
+		categories = {
+			industry
+		}
+
+		global_building_slots_factor = 0.20
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.01
+		production_factory_start_efficiency_factor = 0.01
+		industry_air_damage_factor = -0.01
+
+		path = {
+			leads_to_tech = gucci_industry_6
+		}
+	}
+
+	gucci_industry_6 = {
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 22 }
+		}
+
+		research_cost = 2
+		start_year = 1949
+
+		categories = {
+			industry
+		}
+
+		global_building_slots_factor = 0.20
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.01
+		production_factory_start_efficiency_factor = 0.01
+		industry_air_damage_factor = -0.01
+
+		path = {
+			leads_to_tech = gucci_industry_7
+		}
+	}
+
+	gucci_industry_7 = {
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 24 }
+		}
+
+		research_cost = 2
+		start_year = 1950
+
+		categories = {
+			industry
+		}
+
+		global_building_slots_factor = 0.20
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		line_change_production_efficiency_factor = 0.01
+		production_factory_start_efficiency_factor = 0.01
+		industry_air_damage_factor = -0.01
+
+		# path = {
+		# 	leads_to_tech = gucci_industry_8
+		# }
+	}
+}
