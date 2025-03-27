@@ -86,26 +86,50 @@ def extend_industry(file, extensions):
 	content += 'technologies = {\n'
 
 	for idx in range(extensions):
+		is_first = (idx == 0)
+		is_last = (idx == extensions - 1)
+		is_regular = (not is_first) and (not is_last)
 
-		name_current = f'gucci_industry_{idx+1}'
-		name_next = f'gucci_industry_{idx+2}'
+		ind_name_current = f'gucci_industry_{idx+1}'
+		ind_name_next = f'gucci_industry_{idx+2}'
+
+		prod_name_current = f'guci_production_{idx+1}'
+		prod_name_next = f'guci_production_{idx+2}'
 
 		pos_y = 12 + idx * 2
 
 		year = 1944 + idx * 1
 
-		if idx == extensions - 1: # if last
-			path = ''
-		else:
-			path = f'''
+		if is_first:
+			ind_path = f'''
 				path = {{
-					leads_to_tech = {name_next}
+					leads_to_tech = {ind_name_next}
+				}}
+				path = {{
+					leads_to_tech = {prod_name_current}
 				}}
 			'''
+		elif is_regular:
+			ind_path = f'''
+				path = {{
+					leads_to_tech = {ind_name_next}
+				}}
+			'''
+		else: # last
+			ind_path = ''
+
+		if is_first or is_regular:
+			prod_path = f'''
+				path = {{
+					leads_to_tech = {prod_name_next}
+				}}
+			'''
+		else: # last
+			prod_path = ''
 
 		content += f'''
 
-			{name_current} = {{
+			{ind_name_current} = {{
 				folder = {{
 					name = industry_folder
 					position = {{ x = 5 y = {pos_y} }}
@@ -125,7 +149,26 @@ def extend_industry(file, extensions):
 				production_factory_start_efficiency_factor = 0.01
 				industry_air_damage_factor = -0.01
 
-				{path}
+				{ind_path}
+			}}
+
+			{prod_name_current} = {{
+				folder = {{
+					name = industry_folder
+					position = {{ x = 0 y = {pos_y} }}
+				}}
+
+				research_cost = 2
+				start_year = {year}
+
+				categories = {{
+					industry
+					cat_production
+				}}
+
+				production_factory_max_efficiency_factor = 0.1
+
+				{prod_path}
 			}}
 		'''
 
