@@ -28,6 +28,9 @@ technologies = {
 				path = {
 					leads_to_tech = guci_production_1
 				}
+				path = {
+					leads_to_tech = gucci_construction_1
+				}
 			
 			}
 
@@ -50,6 +53,30 @@ technologies = {
 				
 				path = {
 					leads_to_tech = guci_production_2
+				}
+			
+			}
+
+			gucci_construction_1 = {
+				folder = {
+					name = industry_folder
+					position = { x = 8 y = 12 }
+				}
+
+				research_cost = 2
+				start_year = 1944
+
+				categories = {
+					industry
+					construction_tech
+				}
+
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.10
+				
+				
+				path = {
+					leads_to_tech = gucci_construction_2
 				}
 			
 			}
@@ -104,6 +131,30 @@ technologies = {
 				}
 			
 			}
+
+			gucci_construction_2 = {
+				folder = {
+					name = industry_folder
+					position = { x = 8 y = 14 }
+				}
+
+				research_cost = 2
+				start_year = 1945
+
+				categories = {
+					industry
+					construction_tech
+				}
+
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.10
+				
+				
+				path = {
+					leads_to_tech = gucci_construction_3
+				}
+			
+			}
 		
 
 			gucci_industry_3 = {
@@ -152,6 +203,30 @@ technologies = {
 				
 				path = {
 					leads_to_tech = guci_production_4
+				}
+			
+			}
+
+			gucci_construction_3 = {
+				folder = {
+					name = industry_folder
+					position = { x = 8 y = 16 }
+				}
+
+				research_cost = 2
+				start_year = 1946
+
+				categories = {
+					industry
+					construction_tech
+				}
+
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.10
+				
+				
+				path = {
+					leads_to_tech = gucci_construction_4
 				}
 			
 			}
@@ -206,6 +281,30 @@ technologies = {
 				}
 			
 			}
+
+			gucci_construction_4 = {
+				folder = {
+					name = industry_folder
+					position = { x = 8 y = 18 }
+				}
+
+				research_cost = 2
+				start_year = 1947
+
+				categories = {
+					industry
+					construction_tech
+				}
+
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.10
+				
+				
+				path = {
+					leads_to_tech = gucci_construction_5
+				}
+			
+			}
 		
 
 			gucci_industry_5 = {
@@ -254,6 +353,30 @@ technologies = {
 				
 				path = {
 					leads_to_tech = guci_production_6
+				}
+			
+			}
+
+			gucci_construction_5 = {
+				folder = {
+					name = industry_folder
+					position = { x = 8 y = 20 }
+				}
+
+				research_cost = 2
+				start_year = 1948
+
+				categories = {
+					industry
+					construction_tech
+				}
+
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.10
+				
+				
+				path = {
+					leads_to_tech = gucci_construction_6
 				}
 			
 			}
@@ -308,6 +431,30 @@ technologies = {
 				}
 			
 			}
+
+			gucci_construction_6 = {
+				folder = {
+					name = industry_folder
+					position = { x = 8 y = 22 }
+				}
+
+				research_cost = 2
+				start_year = 1949
+
+				categories = {
+					industry
+					construction_tech
+				}
+
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.10
+				
+				
+				path = {
+					leads_to_tech = gucci_construction_7
+				}
+			
+			}
 		
 
 			gucci_industry_7 = {
@@ -349,6 +496,26 @@ technologies = {
 
 				production_factory_max_efficiency_factor = 0.1
 
+				
+			}
+
+			gucci_construction_7 = {
+				folder = {
+					name = industry_folder
+					position = { x = 8 y = 24 }
+				}
+
+				research_cost = 2
+				start_year = 1950
+
+				categories = {
+					industry
+					construction_tech
+				}
+
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.10
+				
 				
 			}
 		}

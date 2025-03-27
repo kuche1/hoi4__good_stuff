@@ -90,15 +90,20 @@ def extend_industry(file, extensions):
 		is_last = (idx == extensions - 1)
 		is_regular = (not is_first) and (not is_last)
 
+		pos_y = 12 + idx * 2
+
+		year = 1944 + idx * 1
+
 		ind_name_current = f'gucci_industry_{idx+1}'
 		ind_name_next = f'gucci_industry_{idx+2}'
 
 		prod_name_current = f'guci_production_{idx+1}'
 		prod_name_next = f'guci_production_{idx+2}'
 
-		pos_y = 12 + idx * 2
+		cons_name_current = f'gucci_construction_{idx+1}'
+		cons_name_next = f'gucci_construction_{idx+2}'
 
-		year = 1944 + idx * 1
+		# path: industry
 
 		if is_first:
 			ind_path = f'''
@@ -108,6 +113,9 @@ def extend_industry(file, extensions):
 				path = {{
 					leads_to_tech = {prod_name_current}
 				}}
+				path = {{
+					leads_to_tech = {cons_name_current}
+				}}
 			'''
 		elif is_regular:
 			ind_path = f'''
@@ -115,8 +123,10 @@ def extend_industry(file, extensions):
 					leads_to_tech = {ind_name_next}
 				}}
 			'''
-		else: # last
+		else:
 			ind_path = ''
+
+		# path: production
 
 		if is_first or is_regular:
 			prod_path = f'''
@@ -124,8 +134,21 @@ def extend_industry(file, extensions):
 					leads_to_tech = {prod_name_next}
 				}}
 			'''
-		else: # last
+		else:
 			prod_path = ''
+
+		# path: construction
+
+		if is_first or is_regular:
+			cons_path = f'''
+				path = {{
+					leads_to_tech = {cons_name_next}
+				}}
+			'''
+		else:
+			cons_path = ''
+
+		# save
 
 		content += f'''
 
@@ -169,6 +192,26 @@ def extend_industry(file, extensions):
 				production_factory_max_efficiency_factor = 0.1
 
 				{prod_path}
+			}}
+
+			{cons_name_current} = {{
+				folder = {{
+					name = industry_folder
+					position = {{ x = 8 y = {pos_y} }}
+				}}
+
+				research_cost = 2
+				start_year = {year}
+
+				categories = {{
+					industry
+					construction_tech
+				}}
+
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.10
+				
+				{cons_path}
 			}}
 		'''
 
