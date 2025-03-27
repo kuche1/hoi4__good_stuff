@@ -7,7 +7,7 @@ import os
 HERE = os.path.dirname(__file__)
 
 FILE_LAND_DOCTORINE = os.path.join(HERE, 'gucci_land_doctorine.txt')
-LAND_DOCTORINES = 6
+LAND_DOCTORINES = 12
 
 FILE_INDUSTRY = os.path.join(HERE, 'gucci_industry.txt')
 INDUSTRIES = 7

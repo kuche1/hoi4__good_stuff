@@ -246,5 +246,257 @@ technologies = {
 				planning_speed = 0.05
 
 				
+			path = {
+				leads_to_tech = gucci_warfare_7
+			}
+		
+			}
+		
+			gucci_warfare_7 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 34 }
+				}
+
+				
+
+				xp_research_type = army
+				xp_unlock_cost = 100
+
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+
+				categories = {
+					land_doctrine
+				}
+
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
+
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
+
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
+
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
+			path = {
+				leads_to_tech = gucci_warfare_8
+			}
+		
+			}
+		
+			gucci_warfare_8 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 36 }
+				}
+
+				
+
+				xp_research_type = army
+				xp_unlock_cost = 100
+
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+
+				categories = {
+					land_doctrine
+				}
+
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
+
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
+
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
+
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
+			path = {
+				leads_to_tech = gucci_warfare_9
+			}
+		
+			}
+		
+			gucci_warfare_9 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 38 }
+				}
+
+				
+
+				xp_research_type = army
+				xp_unlock_cost = 100
+
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+
+				categories = {
+					land_doctrine
+				}
+
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
+
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
+
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
+
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
+			path = {
+				leads_to_tech = gucci_warfare_10
+			}
+		
+			}
+		
+			gucci_warfare_10 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 40 }
+				}
+
+				
+
+				xp_research_type = army
+				xp_unlock_cost = 100
+
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+
+				categories = {
+					land_doctrine
+				}
+
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
+
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
+
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
+
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
+			path = {
+				leads_to_tech = gucci_warfare_11
+			}
+		
+			}
+		
+			gucci_warfare_11 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 42 }
+				}
+
+				
+
+				xp_research_type = army
+				xp_unlock_cost = 100
+
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+
+				categories = {
+					land_doctrine
+				}
+
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
+
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
+
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
+
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
+			path = {
+				leads_to_tech = gucci_warfare_12
+			}
+		
+			}
+		
+			gucci_warfare_12 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 44 }
+				}
+
+				
+
+				xp_research_type = army
+				xp_unlock_cost = 100
+
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+
+				categories = {
+					land_doctrine
+				}
+
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
+
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
+
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
+
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
 			}
 		}
