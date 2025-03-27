@@ -90,7 +90,7 @@ def extend_industry(file, extensions):
 		is_last = (idx == extensions - 1)
 		is_regular = (not is_first) and (not is_last)
 
-		pos_y = 12 + idx * 2
+		pos_y = 14 + idx * 2
 
 		year = 1944 + idx * 1
 
@@ -102,6 +102,11 @@ def extend_industry(file, extensions):
 
 		cons_name_current = f'gucci_construction_{idx+1}'
 		cons_name_next = f'gucci_construction_{idx+2}'
+
+		if is_first:
+			ind_pos_y = pos_y - 2
+		else:
+			ind_pos_y = pos_y
 
 		# path: industry
 
@@ -155,7 +160,7 @@ def extend_industry(file, extensions):
 			{ind_name_current} = {{
 				folder = {{
 					name = industry_folder
-					position = {{ x = 5 y = {pos_y} }}
+					position = {{ x = 5 y = {ind_pos_y} }}
 				}}
 
 				research_cost = 2

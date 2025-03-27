@@ -37,7 +37,7 @@ technologies = {
 			guci_production_1 = {
 				folder = {
 					name = industry_folder
-					position = { x = 0 y = 12 }
+					position = { x = 0 y = 14 }
 				}
 
 				research_cost = 2
@@ -60,7 +60,7 @@ technologies = {
 			gucci_construction_1 = {
 				folder = {
 					name = industry_folder
-					position = { x = 8 y = 12 }
+					position = { x = 8 y = 14 }
 				}
 
 				research_cost = 2
@@ -85,7 +85,7 @@ technologies = {
 			gucci_industry_2 = {
 				folder = {
 					name = industry_folder
-					position = { x = 5 y = 14 }
+					position = { x = 5 y = 16 }
 				}
 
 				research_cost = 2
@@ -112,7 +112,7 @@ technologies = {
 			guci_production_2 = {
 				folder = {
 					name = industry_folder
-					position = { x = 0 y = 14 }
+					position = { x = 0 y = 16 }
 				}
 
 				research_cost = 2
@@ -135,7 +135,7 @@ technologies = {
 			gucci_construction_2 = {
 				folder = {
 					name = industry_folder
-					position = { x = 8 y = 14 }
+					position = { x = 8 y = 16 }
 				}
 
 				research_cost = 2
@@ -160,7 +160,7 @@ technologies = {
 			gucci_industry_3 = {
 				folder = {
 					name = industry_folder
-					position = { x = 5 y = 16 }
+					position = { x = 5 y = 18 }
 				}
 
 				research_cost = 2
@@ -187,7 +187,7 @@ technologies = {
 			guci_production_3 = {
 				folder = {
 					name = industry_folder
-					position = { x = 0 y = 16 }
+					position = { x = 0 y = 18 }
 				}
 
 				research_cost = 2
@@ -210,7 +210,7 @@ technologies = {
 			gucci_construction_3 = {
 				folder = {
 					name = industry_folder
-					position = { x = 8 y = 16 }
+					position = { x = 8 y = 18 }
 				}
 
 				research_cost = 2
@@ -235,7 +235,7 @@ technologies = {
 			gucci_industry_4 = {
 				folder = {
 					name = industry_folder
-					position = { x = 5 y = 18 }
+					position = { x = 5 y = 20 }
 				}
 
 				research_cost = 2
@@ -262,7 +262,7 @@ technologies = {
 			guci_production_4 = {
 				folder = {
 					name = industry_folder
-					position = { x = 0 y = 18 }
+					position = { x = 0 y = 20 }
 				}
 
 				research_cost = 2
@@ -285,7 +285,7 @@ technologies = {
 			gucci_construction_4 = {
 				folder = {
 					name = industry_folder
-					position = { x = 8 y = 18 }
+					position = { x = 8 y = 20 }
 				}
 
 				research_cost = 2
@@ -310,7 +310,7 @@ technologies = {
 			gucci_industry_5 = {
 				folder = {
 					name = industry_folder
-					position = { x = 5 y = 20 }
+					position = { x = 5 y = 22 }
 				}
 
 				research_cost = 2
@@ -337,7 +337,7 @@ technologies = {
 			guci_production_5 = {
 				folder = {
 					name = industry_folder
-					position = { x = 0 y = 20 }
+					position = { x = 0 y = 22 }
 				}
 
 				research_cost = 2
@@ -360,7 +360,7 @@ technologies = {
 			gucci_construction_5 = {
 				folder = {
 					name = industry_folder
-					position = { x = 8 y = 20 }
+					position = { x = 8 y = 22 }
 				}
 
 				research_cost = 2
@@ -385,7 +385,7 @@ technologies = {
 			gucci_industry_6 = {
 				folder = {
 					name = industry_folder
-					position = { x = 5 y = 22 }
+					position = { x = 5 y = 24 }
 				}
 
 				research_cost = 2
@@ -412,7 +412,7 @@ technologies = {
 			guci_production_6 = {
 				folder = {
 					name = industry_folder
-					position = { x = 0 y = 22 }
+					position = { x = 0 y = 24 }
 				}
 
 				research_cost = 2
@@ -435,7 +435,7 @@ technologies = {
 			gucci_construction_6 = {
 				folder = {
 					name = industry_folder
-					position = { x = 8 y = 22 }
+					position = { x = 8 y = 24 }
 				}
 
 				research_cost = 2
@@ -460,7 +460,7 @@ technologies = {
 			gucci_industry_7 = {
 				folder = {
 					name = industry_folder
-					position = { x = 5 y = 24 }
+					position = { x = 5 y = 26 }
 				}
 
 				research_cost = 2
@@ -483,7 +483,7 @@ technologies = {
 			guci_production_7 = {
 				folder = {
 					name = industry_folder
-					position = { x = 0 y = 24 }
+					position = { x = 0 y = 26 }
 				}
 
 				research_cost = 2
@@ -502,7 +502,7 @@ technologies = {
 			gucci_construction_7 = {
 				folder = {
 					name = industry_folder
-					position = { x = 8 y = 24 }
+					position = { x = 8 y = 26 }
 				}
 
 				research_cost = 2
