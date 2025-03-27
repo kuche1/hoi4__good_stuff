@@ -1,5 +1,4 @@
-
-technologies={
+technologies = {
 
 	gucci_warfare_1 = {
 		folder = {
@@ -13,7 +12,7 @@ technologies={
 		xp_unlock_cost = 300
 
 		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code
+		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
 		categories = {
 			land_doctrine
@@ -21,20 +20,26 @@ technologies={
 
 		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 		category_army = {
+
 			soft_attack = 0.06 # 0.1
 			hard_attack = 0.06
 			breakthrough = 0.06 # 0.20
-			default_morale = 0.04 # 0.2 # recovery rate
-			# defense = 0.04 # 0.10
+
+			default_morale = 0.01 # recovery rate
+			defense = 0.01
+
 			# supply_consumption = -0.02
+			max_organisation = 1
 	    }
 		supply_consumption_factor = -0.01
 		army_speed_factor = 0.01
 		planning_speed = 0.05
 
+		
 		path = {
 			leads_to_tech = gucci_warfare_2
 		}
+
 	}
 
 	gucci_warfare_2 = {
@@ -43,29 +48,40 @@ technologies={
 			position = { x = 12 y = 24 }
 		}
 
+		
+
 		xp_research_type = army
 		xp_unlock_cost = 100
 
 		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code
+		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
 		categories = {
 			land_doctrine
 		}
 
+		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 		category_army = {
-			soft_attack = 0.06
+
+			soft_attack = 0.06 # 0.1
 			hard_attack = 0.06
-			breakthrough = 0.06
-			defense = 0.04
+			breakthrough = 0.06 # 0.20
+
+			default_morale = 0.01 # recovery rate
+			defense = 0.01
+
+			# supply_consumption = -0.02
+			max_organisation = 1
 	    }
 		supply_consumption_factor = -0.01
 		army_speed_factor = 0.01
 		planning_speed = 0.05
 
+		
 		path = {
 			leads_to_tech = gucci_warfare_3
 		}
+
 	}
 
 	gucci_warfare_3 = {
@@ -74,29 +90,40 @@ technologies={
 			position = { x = 12 y = 26 }
 		}
 
+		
+
 		xp_research_type = army
 		xp_unlock_cost = 100
 
 		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code
+		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
 		categories = {
 			land_doctrine
 		}
 
+		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 		category_army = {
-			soft_attack = 0.06
+
+			soft_attack = 0.06 # 0.1
 			hard_attack = 0.06
-			breakthrough = 0.06
-			defense = 0.04
+			breakthrough = 0.06 # 0.20
+
+			default_morale = 0.01 # recovery rate
+			defense = 0.01
+
+			# supply_consumption = -0.02
+			max_organisation = 1
 	    }
 		supply_consumption_factor = -0.01
 		army_speed_factor = 0.01
 		planning_speed = 0.05
 
+		
 		path = {
 			leads_to_tech = gucci_warfare_4
 		}
+
 	}
 
 	gucci_warfare_4 = {
@@ -105,29 +132,40 @@ technologies={
 			position = { x = 12 y = 28 }
 		}
 
+		
+
 		xp_research_type = army
 		xp_unlock_cost = 100
 
 		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code
+		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
 		categories = {
 			land_doctrine
 		}
 
+		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 		category_army = {
-			soft_attack = 0.06
+
+			soft_attack = 0.06 # 0.1
 			hard_attack = 0.06
-			breakthrough = 0.06
-			defense = 0.04
+			breakthrough = 0.06 # 0.20
+
+			default_morale = 0.01 # recovery rate
+			defense = 0.01
+
+			# supply_consumption = -0.02
+			max_organisation = 1
 	    }
 		supply_consumption_factor = -0.01
 		army_speed_factor = 0.01
 		planning_speed = 0.05
 
+		
 		path = {
 			leads_to_tech = gucci_warfare_5
 		}
+
 	}
 
 	gucci_warfare_5 = {
@@ -136,29 +174,40 @@ technologies={
 			position = { x = 12 y = 30 }
 		}
 
+		
+
 		xp_research_type = army
 		xp_unlock_cost = 100
 
 		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code
+		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
 		categories = {
 			land_doctrine
 		}
 
+		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 		category_army = {
-			soft_attack = 0.06
+
+			soft_attack = 0.06 # 0.1
 			hard_attack = 0.06
-			breakthrough = 0.06
-			defense = 0.04
+			breakthrough = 0.06 # 0.20
+
+			default_morale = 0.01 # recovery rate
+			defense = 0.01
+
+			# supply_consumption = -0.02
+			max_organisation = 1
 	    }
 		supply_consumption_factor = -0.01
 		army_speed_factor = 0.01
 		planning_speed = 0.05
 
+		
 		path = {
 			leads_to_tech = gucci_warfare_6
 		}
+
 	}
 
 	gucci_warfare_6 = {
@@ -167,28 +216,35 @@ technologies={
 			position = { x = 12 y = 32 }
 		}
 
+		
+
 		xp_research_type = army
 		xp_unlock_cost = 100
 
 		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code
+		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
 		categories = {
 			land_doctrine
 		}
 
+		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 		category_army = {
-			soft_attack = 0.06
+
+			soft_attack = 0.06 # 0.1
 			hard_attack = 0.06
-			breakthrough = 0.06
-			defense = 0.04
+			breakthrough = 0.06 # 0.20
+
+			default_morale = 0.01 # recovery rate
+			defense = 0.01
+
+			# supply_consumption = -0.02
+			max_organisation = 1
 	    }
 		supply_consumption_factor = -0.01
 		army_speed_factor = 0.01
 		planning_speed = 0.05
 
-		# path = {
-		# 	leads_to_tech = gucci_warfare_7
-		# }
+		
 	}
 }
