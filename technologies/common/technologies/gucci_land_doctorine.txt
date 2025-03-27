@@ -1,250 +1,250 @@
 technologies = {
 
-	gucci_warfare_1 = {
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 12 y = 22 }
-		}
+			gucci_warfare_1 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 22 }
+				}
 
-		doctrine_name = "GUCCI_WARFARE_DOCTRINE"
+				doctrine_name = "GUCCI_WARFARE_DOCTRINE"
 
-		xp_research_type = army
-		xp_unlock_cost = 300
+				xp_research_type = army
+				xp_unlock_cost = 300
 
-		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
-		categories = {
-			land_doctrine
-		}
+				categories = {
+					land_doctrine
+				}
 
-		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
-		category_army = {
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
 
-			soft_attack = 0.06 # 0.1
-			hard_attack = 0.06
-			breakthrough = 0.06 # 0.20
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
 
-			default_morale = 0.01 # recovery rate
-			defense = 0.01
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
 
-			# supply_consumption = -0.02
-			max_organisation = 1
-	    }
-		supply_consumption_factor = -0.01
-		army_speed_factor = 0.01
-		planning_speed = 0.05
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
 
+				
+			path = {
+				leads_to_tech = gucci_warfare_2
+			}
 		
-		path = {
-			leads_to_tech = gucci_warfare_2
-		}
-
-	}
-
-	gucci_warfare_2 = {
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 12 y = 24 }
-		}
-
+			}
 		
+			gucci_warfare_2 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 24 }
+				}
 
-		xp_research_type = army
-		xp_unlock_cost = 100
+				
 
-		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+				xp_research_type = army
+				xp_unlock_cost = 100
 
-		categories = {
-			land_doctrine
-		}
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
-		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
-		category_army = {
+				categories = {
+					land_doctrine
+				}
 
-			soft_attack = 0.06 # 0.1
-			hard_attack = 0.06
-			breakthrough = 0.06 # 0.20
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
 
-			default_morale = 0.01 # recovery rate
-			defense = 0.01
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
 
-			# supply_consumption = -0.02
-			max_organisation = 1
-	    }
-		supply_consumption_factor = -0.01
-		army_speed_factor = 0.01
-		planning_speed = 0.05
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
 
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
+			path = {
+				leads_to_tech = gucci_warfare_3
+			}
 		
-		path = {
-			leads_to_tech = gucci_warfare_3
-		}
-
-	}
-
-	gucci_warfare_3 = {
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 12 y = 26 }
-		}
-
+			}
 		
+			gucci_warfare_3 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 26 }
+				}
 
-		xp_research_type = army
-		xp_unlock_cost = 100
+				
 
-		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+				xp_research_type = army
+				xp_unlock_cost = 100
 
-		categories = {
-			land_doctrine
-		}
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
-		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
-		category_army = {
+				categories = {
+					land_doctrine
+				}
 
-			soft_attack = 0.06 # 0.1
-			hard_attack = 0.06
-			breakthrough = 0.06 # 0.20
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
 
-			default_morale = 0.01 # recovery rate
-			defense = 0.01
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
 
-			# supply_consumption = -0.02
-			max_organisation = 1
-	    }
-		supply_consumption_factor = -0.01
-		army_speed_factor = 0.01
-		planning_speed = 0.05
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
 
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
+			path = {
+				leads_to_tech = gucci_warfare_4
+			}
 		
-		path = {
-			leads_to_tech = gucci_warfare_4
-		}
-
-	}
-
-	gucci_warfare_4 = {
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 12 y = 28 }
-		}
-
+			}
 		
+			gucci_warfare_4 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 28 }
+				}
 
-		xp_research_type = army
-		xp_unlock_cost = 100
+				
 
-		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+				xp_research_type = army
+				xp_unlock_cost = 100
 
-		categories = {
-			land_doctrine
-		}
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
-		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
-		category_army = {
+				categories = {
+					land_doctrine
+				}
 
-			soft_attack = 0.06 # 0.1
-			hard_attack = 0.06
-			breakthrough = 0.06 # 0.20
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
 
-			default_morale = 0.01 # recovery rate
-			defense = 0.01
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
 
-			# supply_consumption = -0.02
-			max_organisation = 1
-	    }
-		supply_consumption_factor = -0.01
-		army_speed_factor = 0.01
-		planning_speed = 0.05
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
 
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
+			path = {
+				leads_to_tech = gucci_warfare_5
+			}
 		
-		path = {
-			leads_to_tech = gucci_warfare_5
-		}
-
-	}
-
-	gucci_warfare_5 = {
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 12 y = 30 }
-		}
-
+			}
 		
+			gucci_warfare_5 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 30 }
+				}
 
-		xp_research_type = army
-		xp_unlock_cost = 100
+				
 
-		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+				xp_research_type = army
+				xp_unlock_cost = 100
 
-		categories = {
-			land_doctrine
-		}
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
 
-		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
-		category_army = {
+				categories = {
+					land_doctrine
+				}
 
-			soft_attack = 0.06 # 0.1
-			hard_attack = 0.06
-			breakthrough = 0.06 # 0.20
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
 
-			default_morale = 0.01 # recovery rate
-			defense = 0.01
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
 
-			# supply_consumption = -0.02
-			max_organisation = 1
-	    }
-		supply_consumption_factor = -0.01
-		army_speed_factor = 0.01
-		planning_speed = 0.05
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
 
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
+			path = {
+				leads_to_tech = gucci_warfare_6
+			}
 		
-		path = {
-			leads_to_tech = gucci_warfare_6
-		}
-
-	}
-
-	gucci_warfare_6 = {
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 12 y = 32 }
-		}
-
+			}
 		
+			gucci_warfare_6 = {
+				folder = {
+					name = land_doctrine_folder
+					position = { x = 12 y = 32 }
+				}
 
-		xp_research_type = army
-		xp_unlock_cost = 100
+				
 
-		doctrine = yes
-		research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+				xp_research_type = army
+				xp_unlock_cost = 100
 
-		categories = {
-			land_doctrine
+				doctrine = yes
+				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
+
+				categories = {
+					land_doctrine
+				}
+
+				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
+				category_army = {
+
+					soft_attack = 0.06 # 0.1
+					hard_attack = 0.06
+					breakthrough = 0.06 # 0.20
+
+					default_morale = 0.01 # recovery rate
+					defense = 0.01
+
+					# supply_consumption = -0.02
+					max_organisation = 1
+				}
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.01
+				planning_speed = 0.05
+
+				
+			}
 		}
-
-		# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
-		category_army = {
-
-			soft_attack = 0.06 # 0.1
-			hard_attack = 0.06
-			breakthrough = 0.06 # 0.20
-
-			default_morale = 0.01 # recovery rate
-			defense = 0.01
-
-			# supply_consumption = -0.02
-			max_organisation = 1
-	    }
-		supply_consumption_factor = -0.01
-		army_speed_factor = 0.01
-		planning_speed = 0.05
-
-		
-	}
-}
