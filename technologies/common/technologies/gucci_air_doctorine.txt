@@ -1,0 +1,526 @@
+technologies = {
+
+			air_superiority = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 20 }
+				}
+
+				doctrine_name = "TITLE_GUCCI_AIR_DOCTORINE"
+
+				xp_research_type = air
+				xp_unlock_cost = 250
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_2
+				}
+			
+			}
+		
+			gucci_air_doctorine_2 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 22 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_3
+				}
+			
+			}
+		
+			gucci_air_doctorine_3 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 24 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_4
+				}
+			
+			}
+		
+			gucci_air_doctorine_4 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 26 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_5
+				}
+			
+			}
+		
+			gucci_air_doctorine_5 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 28 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_6
+				}
+			
+			}
+		
+			gucci_air_doctorine_6 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 30 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_7
+				}
+			
+			}
+		
+			gucci_air_doctorine_7 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 32 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_8
+				}
+			
+			}
+		
+			gucci_air_doctorine_8 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 34 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_9
+				}
+			
+			}
+		
+			gucci_air_doctorine_9 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 36 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_10
+				}
+			
+			}
+		
+			gucci_air_doctorine_10 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 38 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_11
+				}
+			
+			}
+		
+			gucci_air_doctorine_11 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 40 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+				path = {
+					leads_to_tech = gucci_air_doctorine_12
+				}
+			
+			}
+		
+			gucci_air_doctorine_12 = {
+				folder = {
+					name = air_doctrine_folder
+					position = { x = 9 y = 42 }
+				}
+
+				
+
+				xp_research_type = air
+				xp_unlock_cost = 100
+
+				doctrine = yes	
+				research_cost = 2.25 # I think this is worthless
+
+				categories = {
+					air_doctrine
+				}
+
+				category_fighter = {
+					air_agility = 0.04
+				}
+				category_heavy_fighter = {
+					air_agility = 0.04
+				}
+				category_cas = {
+					air_agility = 0.04
+				}
+				tac_bomber = {
+					air_bombing = 0.04
+				}
+				air_superiority_detect_factor = 0.04
+				air_interception_detect_factor = 0.04
+				air_cas_present_factor = 0.04
+				air_strategic_bomber_bombing_factor = 0.04
+				ground_attack_factor = 0.04
+				air_strategic_bomber_defence_factor = 0.04
+
+				
+			}
+		}

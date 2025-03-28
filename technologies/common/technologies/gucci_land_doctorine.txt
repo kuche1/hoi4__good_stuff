@@ -9,7 +9,7 @@ technologies = {
 				doctrine_name = "GUCCI_WARFARE_DOCTRINE"
 
 				xp_research_type = army
-				xp_unlock_cost = 300
+				xp_unlock_cost = 250
 
 				doctrine = yes
 				research_cost = 4.5 # what the fuck ??? does this even do anything ??? this must be ancient code from the time where you used to need to research doctorines
@@ -21,9 +21,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -63,9 +63,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -105,9 +105,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -147,9 +147,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -189,9 +189,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -231,9 +231,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -273,9 +273,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -315,9 +315,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -357,9 +357,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -399,9 +399,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -441,9 +441,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
@@ -483,9 +483,9 @@ technologies = {
 				# we have `category_front_line`, `category_army`, and also we could just ignore putting a categoty
 				category_army = {
 
-					soft_attack = 0.06 # 0.1
+					soft_attack = 0.06
 					hard_attack = 0.06
-					breakthrough = 0.06 # 0.20
+					breakthrough = 0.06
 
 					default_morale = 0.01 # recovery rate
 					defense = 0.01
