@@ -1,241 +1,1031 @@
+technologies = {
 
-technologies={
+			gucci_artillery_1 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 0 y = 14 }
+				}
 
-	gucci_artillery_1 = {
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 14 }
-		}
+				research_cost = 1.0
+				start_year = 1944
 
-		research_cost = 1.0
-		start_year = 1944
+				categories = {
+					artillery
+					mio_cat_all_artillery_equipment
+					mio_cat_artillery #Only Artillery
+				}
+				special_project_specialization = { specialization_land }
+
+				artillery = {
+					soft_attack = 0.1
+				}
+				artillery_brigade = {
+					soft_attack = 0.1
+				}
+				mot_artillery_brigade = {
+					soft_attack = 0.1
+				}
+				category_self_propelled_artillery = {
+					soft_attack = 0.05
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_artillery_2
+				}
+				path = {
+					leads_to_tech = gucci_rocket_artillery_1
+				}
+				path = {
+					leads_to_tech = gucci_antiair_1
+				}
+				path = {
+					leads_to_tech = gucci_antitank_1
+				}
+			
+			}
 		
-		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
-		}
-		special_project_specialization = { specialization_land }
+			gucci_rocket_artillery_1 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 3 y = 16 }
+				}
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		category_self_propelled_artillery = {
-			soft_attack = 0.05
-		}
+				research_cost = 1.0
+				start_year = 1944
 
-		path = {
-			leads_to_tech = gucci_artillery_2
-		}
-	}
+				categories = {
+					rocketry
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_air }
 
-	gucci_artillery_2 = {
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 16 }
-		}
+				rocket_artillery = {
+					soft_attack = 0.15
+				}
+				rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				mot_rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				motorized_rocket_brigade = {
+					soft_attack = 0.15
+				}
 
-		research_cost = 1.0
-		start_year = 1945
+				
+				path = {
+					leads_to_tech = gucci_rocket_artillery_2
+				}
+			
+			}
 		
-		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
-		}
-		special_project_specialization = { specialization_land }
+			gucci_antiair_1 = {
+				folder = {
+					name = artillery_folder
+					position = { x = -7 y = 16 }
+				}
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		category_self_propelled_artillery = {
-			soft_attack = 0.05
-		}
+				research_cost = 1.0
+				start_year = 1944
 
-		path = {
-			leads_to_tech = gucci_artillery_3
-		}
-	}
+				categories = {
+					artillery
+					cat_anti_air
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land specialization_air }
 
-	gucci_artillery_3 = {
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 18 }
-		}
+				anti_air = {
+					air_attack = 0.1
+				}
+				anti_air_brigade = {
+					air_attack = 0.1
+				}
+				mot_anti_air_brigade = {
+					air_attack = 0.1
+				}
+				category_self_propelled_anti_air = {
+					air_attack = 0.05
+				}
+				tech_air_damage_factor = -0.02
 
-		research_cost = 1.0
-		start_year = 1946
+				
+				path = {
+					leads_to_tech = gucci_antiair_2
+				}
+			
+			}
 		
-		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
-		}
-		special_project_specialization = { specialization_land }
+			gucci_antitank_1 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 7 y = 16 }
+				}
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		category_self_propelled_artillery = {
-			soft_attack = 0.05
-		}
+				research_cost = 1.0
+				start_year = 1944
 
-		path = {
-			leads_to_tech = gucci_artillery_4
-		}
-	}
+				categories = {
+					artillery
+					cat_anti_tank
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land }
 
-	gucci_artillery_4 = {
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 20 }
-		}
+				anti_tank = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				anti_tank_brigade = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				mot_anti_tank_brigade = {
+					hard_attack = 0.05
+					ap_attack = 0.1
+				}
+				category_tank_destroyers = {
+					hard_attack = 0.05
+					ap_attack = 0.05
+				}
 
-		research_cost = 1.0
-		start_year = 1947
+				
+				path = {
+					leads_to_tech = gucci_antitank_2
+				}
+			
+			}
 		
-		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
-		}
-		special_project_specialization = { specialization_land }
+			gucci_artillery_2 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 0 y = 18 }
+				}
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		category_self_propelled_artillery = {
-			soft_attack = 0.05
-		}
+				research_cost = 1.0
+				start_year = 1945
 
-		path = {
-			leads_to_tech = gucci_artillery_5
-		}
-	}
+				categories = {
+					artillery
+					mio_cat_all_artillery_equipment
+					mio_cat_artillery #Only Artillery
+				}
+				special_project_specialization = { specialization_land }
 
-	gucci_artillery_5 = {
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 22 }
-		}
+				artillery = {
+					soft_attack = 0.1
+				}
+				artillery_brigade = {
+					soft_attack = 0.1
+				}
+				mot_artillery_brigade = {
+					soft_attack = 0.1
+				}
+				category_self_propelled_artillery = {
+					soft_attack = 0.05
+				}
 
-		research_cost = 1.0
-		start_year = 1948
+				
+				path = {
+					leads_to_tech = gucci_artillery_3
+				}
+			
+			}
 		
-		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
-		}
-		special_project_specialization = { specialization_land }
+			gucci_rocket_artillery_2 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 3 y = 18 }
+				}
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		category_self_propelled_artillery = {
-			soft_attack = 0.05
-		}
+				research_cost = 1.0
+				start_year = 1945
 
-		path = {
-			leads_to_tech = gucci_artillery_6
-		}
-	}
+				categories = {
+					rocketry
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_air }
 
-	gucci_artillery_6 = {
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 24 }
-		}
+				rocket_artillery = {
+					soft_attack = 0.15
+				}
+				rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				mot_rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				motorized_rocket_brigade = {
+					soft_attack = 0.15
+				}
 
-		research_cost = 1.0
-		start_year = 1949
+				
+				path = {
+					leads_to_tech = gucci_rocket_artillery_3
+				}
+			
+			}
 		
-		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
-		}
-		special_project_specialization = { specialization_land }
+			gucci_antiair_2 = {
+				folder = {
+					name = artillery_folder
+					position = { x = -7 y = 18 }
+				}
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		category_self_propelled_artillery = {
-			soft_attack = 0.05
-		}
+				research_cost = 1.0
+				start_year = 1945
 
-		path = {
-			leads_to_tech = gucci_artillery_7
-		}
-	}
+				categories = {
+					artillery
+					cat_anti_air
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land specialization_air }
 
-	gucci_artillery_7 = {
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 26 }
-		}
+				anti_air = {
+					air_attack = 0.1
+				}
+				anti_air_brigade = {
+					air_attack = 0.1
+				}
+				mot_anti_air_brigade = {
+					air_attack = 0.1
+				}
+				category_self_propelled_anti_air = {
+					air_attack = 0.05
+				}
+				tech_air_damage_factor = -0.02
 
-		research_cost = 1.0
-		start_year = 1950
+				
+				path = {
+					leads_to_tech = gucci_antiair_3
+				}
+			
+			}
 		
-		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
-		}
-		special_project_specialization = { specialization_land }
+			gucci_antitank_2 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 7 y = 18 }
+				}
 
-		artillery = {
-			soft_attack = 0.1
-		}
-		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		category_self_propelled_artillery = {
-			soft_attack = 0.05
-		}
+				research_cost = 1.0
+				start_year = 1945
 
-		# path = {
-		# 	leads_to_tech = gucci_artillery_8
-		# }
-	}
-}
+				categories = {
+					artillery
+					cat_anti_tank
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land }
+
+				anti_tank = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				anti_tank_brigade = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				mot_anti_tank_brigade = {
+					hard_attack = 0.05
+					ap_attack = 0.1
+				}
+				category_tank_destroyers = {
+					hard_attack = 0.05
+					ap_attack = 0.05
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_antitank_3
+				}
+			
+			}
+		
+			gucci_artillery_3 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 0 y = 20 }
+				}
+
+				research_cost = 1.0
+				start_year = 1946
+
+				categories = {
+					artillery
+					mio_cat_all_artillery_equipment
+					mio_cat_artillery #Only Artillery
+				}
+				special_project_specialization = { specialization_land }
+
+				artillery = {
+					soft_attack = 0.1
+				}
+				artillery_brigade = {
+					soft_attack = 0.1
+				}
+				mot_artillery_brigade = {
+					soft_attack = 0.1
+				}
+				category_self_propelled_artillery = {
+					soft_attack = 0.05
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_artillery_4
+				}
+			
+			}
+		
+			gucci_rocket_artillery_3 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 3 y = 20 }
+				}
+
+				research_cost = 1.0
+				start_year = 1946
+
+				categories = {
+					rocketry
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_air }
+
+				rocket_artillery = {
+					soft_attack = 0.15
+				}
+				rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				mot_rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				motorized_rocket_brigade = {
+					soft_attack = 0.15
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_rocket_artillery_4
+				}
+			
+			}
+		
+			gucci_antiair_3 = {
+				folder = {
+					name = artillery_folder
+					position = { x = -7 y = 20 }
+				}
+
+				research_cost = 1.0
+				start_year = 1946
+
+				categories = {
+					artillery
+					cat_anti_air
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land specialization_air }
+
+				anti_air = {
+					air_attack = 0.1
+				}
+				anti_air_brigade = {
+					air_attack = 0.1
+				}
+				mot_anti_air_brigade = {
+					air_attack = 0.1
+				}
+				category_self_propelled_anti_air = {
+					air_attack = 0.05
+				}
+				tech_air_damage_factor = -0.02
+
+				
+				path = {
+					leads_to_tech = gucci_antiair_4
+				}
+			
+			}
+		
+			gucci_antitank_3 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 7 y = 20 }
+				}
+
+				research_cost = 1.0
+				start_year = 1946
+
+				categories = {
+					artillery
+					cat_anti_tank
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land }
+
+				anti_tank = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				anti_tank_brigade = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				mot_anti_tank_brigade = {
+					hard_attack = 0.05
+					ap_attack = 0.1
+				}
+				category_tank_destroyers = {
+					hard_attack = 0.05
+					ap_attack = 0.05
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_antitank_4
+				}
+			
+			}
+		
+			gucci_artillery_4 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 0 y = 22 }
+				}
+
+				research_cost = 1.0
+				start_year = 1947
+
+				categories = {
+					artillery
+					mio_cat_all_artillery_equipment
+					mio_cat_artillery #Only Artillery
+				}
+				special_project_specialization = { specialization_land }
+
+				artillery = {
+					soft_attack = 0.1
+				}
+				artillery_brigade = {
+					soft_attack = 0.1
+				}
+				mot_artillery_brigade = {
+					soft_attack = 0.1
+				}
+				category_self_propelled_artillery = {
+					soft_attack = 0.05
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_artillery_5
+				}
+			
+			}
+		
+			gucci_rocket_artillery_4 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 3 y = 22 }
+				}
+
+				research_cost = 1.0
+				start_year = 1947
+
+				categories = {
+					rocketry
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_air }
+
+				rocket_artillery = {
+					soft_attack = 0.15
+				}
+				rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				mot_rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				motorized_rocket_brigade = {
+					soft_attack = 0.15
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_rocket_artillery_5
+				}
+			
+			}
+		
+			gucci_antiair_4 = {
+				folder = {
+					name = artillery_folder
+					position = { x = -7 y = 22 }
+				}
+
+				research_cost = 1.0
+				start_year = 1947
+
+				categories = {
+					artillery
+					cat_anti_air
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land specialization_air }
+
+				anti_air = {
+					air_attack = 0.1
+				}
+				anti_air_brigade = {
+					air_attack = 0.1
+				}
+				mot_anti_air_brigade = {
+					air_attack = 0.1
+				}
+				category_self_propelled_anti_air = {
+					air_attack = 0.05
+				}
+				tech_air_damage_factor = -0.02
+
+				
+				path = {
+					leads_to_tech = gucci_antiair_5
+				}
+			
+			}
+		
+			gucci_antitank_4 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 7 y = 22 }
+				}
+
+				research_cost = 1.0
+				start_year = 1947
+
+				categories = {
+					artillery
+					cat_anti_tank
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land }
+
+				anti_tank = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				anti_tank_brigade = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				mot_anti_tank_brigade = {
+					hard_attack = 0.05
+					ap_attack = 0.1
+				}
+				category_tank_destroyers = {
+					hard_attack = 0.05
+					ap_attack = 0.05
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_antitank_5
+				}
+			
+			}
+		
+			gucci_artillery_5 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 0 y = 24 }
+				}
+
+				research_cost = 1.0
+				start_year = 1948
+
+				categories = {
+					artillery
+					mio_cat_all_artillery_equipment
+					mio_cat_artillery #Only Artillery
+				}
+				special_project_specialization = { specialization_land }
+
+				artillery = {
+					soft_attack = 0.1
+				}
+				artillery_brigade = {
+					soft_attack = 0.1
+				}
+				mot_artillery_brigade = {
+					soft_attack = 0.1
+				}
+				category_self_propelled_artillery = {
+					soft_attack = 0.05
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_artillery_6
+				}
+			
+			}
+		
+			gucci_rocket_artillery_5 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 3 y = 24 }
+				}
+
+				research_cost = 1.0
+				start_year = 1948
+
+				categories = {
+					rocketry
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_air }
+
+				rocket_artillery = {
+					soft_attack = 0.15
+				}
+				rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				mot_rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				motorized_rocket_brigade = {
+					soft_attack = 0.15
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_rocket_artillery_6
+				}
+			
+			}
+		
+			gucci_antiair_5 = {
+				folder = {
+					name = artillery_folder
+					position = { x = -7 y = 24 }
+				}
+
+				research_cost = 1.0
+				start_year = 1948
+
+				categories = {
+					artillery
+					cat_anti_air
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land specialization_air }
+
+				anti_air = {
+					air_attack = 0.1
+				}
+				anti_air_brigade = {
+					air_attack = 0.1
+				}
+				mot_anti_air_brigade = {
+					air_attack = 0.1
+				}
+				category_self_propelled_anti_air = {
+					air_attack = 0.05
+				}
+				tech_air_damage_factor = -0.02
+
+				
+				path = {
+					leads_to_tech = gucci_antiair_6
+				}
+			
+			}
+		
+			gucci_antitank_5 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 7 y = 24 }
+				}
+
+				research_cost = 1.0
+				start_year = 1948
+
+				categories = {
+					artillery
+					cat_anti_tank
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land }
+
+				anti_tank = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				anti_tank_brigade = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				mot_anti_tank_brigade = {
+					hard_attack = 0.05
+					ap_attack = 0.1
+				}
+				category_tank_destroyers = {
+					hard_attack = 0.05
+					ap_attack = 0.05
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_antitank_6
+				}
+			
+			}
+		
+			gucci_artillery_6 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 0 y = 26 }
+				}
+
+				research_cost = 1.0
+				start_year = 1949
+
+				categories = {
+					artillery
+					mio_cat_all_artillery_equipment
+					mio_cat_artillery #Only Artillery
+				}
+				special_project_specialization = { specialization_land }
+
+				artillery = {
+					soft_attack = 0.1
+				}
+				artillery_brigade = {
+					soft_attack = 0.1
+				}
+				mot_artillery_brigade = {
+					soft_attack = 0.1
+				}
+				category_self_propelled_artillery = {
+					soft_attack = 0.05
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_artillery_7
+				}
+			
+			}
+		
+			gucci_rocket_artillery_6 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 3 y = 26 }
+				}
+
+				research_cost = 1.0
+				start_year = 1949
+
+				categories = {
+					rocketry
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_air }
+
+				rocket_artillery = {
+					soft_attack = 0.15
+				}
+				rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				mot_rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				motorized_rocket_brigade = {
+					soft_attack = 0.15
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_rocket_artillery_7
+				}
+			
+			}
+		
+			gucci_antiair_6 = {
+				folder = {
+					name = artillery_folder
+					position = { x = -7 y = 26 }
+				}
+
+				research_cost = 1.0
+				start_year = 1949
+
+				categories = {
+					artillery
+					cat_anti_air
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land specialization_air }
+
+				anti_air = {
+					air_attack = 0.1
+				}
+				anti_air_brigade = {
+					air_attack = 0.1
+				}
+				mot_anti_air_brigade = {
+					air_attack = 0.1
+				}
+				category_self_propelled_anti_air = {
+					air_attack = 0.05
+				}
+				tech_air_damage_factor = -0.02
+
+				
+				path = {
+					leads_to_tech = gucci_antiair_7
+				}
+			
+			}
+		
+			gucci_antitank_6 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 7 y = 26 }
+				}
+
+				research_cost = 1.0
+				start_year = 1949
+
+				categories = {
+					artillery
+					cat_anti_tank
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land }
+
+				anti_tank = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				anti_tank_brigade = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				mot_anti_tank_brigade = {
+					hard_attack = 0.05
+					ap_attack = 0.1
+				}
+				category_tank_destroyers = {
+					hard_attack = 0.05
+					ap_attack = 0.05
+				}
+
+				
+				path = {
+					leads_to_tech = gucci_antitank_7
+				}
+			
+			}
+		
+			gucci_artillery_7 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 0 y = 28 }
+				}
+
+				research_cost = 1.0
+				start_year = 1950
+
+				categories = {
+					artillery
+					mio_cat_all_artillery_equipment
+					mio_cat_artillery #Only Artillery
+				}
+				special_project_specialization = { specialization_land }
+
+				artillery = {
+					soft_attack = 0.1
+				}
+				artillery_brigade = {
+					soft_attack = 0.1
+				}
+				mot_artillery_brigade = {
+					soft_attack = 0.1
+				}
+				category_self_propelled_artillery = {
+					soft_attack = 0.05
+				}
+
+				
+			}
+		
+			gucci_rocket_artillery_7 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 3 y = 28 }
+				}
+
+				research_cost = 1.0
+				start_year = 1950
+
+				categories = {
+					rocketry
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_air }
+
+				rocket_artillery = {
+					soft_attack = 0.15
+				}
+				rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				mot_rocket_artillery_brigade = {
+					soft_attack = 0.15
+				}
+				motorized_rocket_brigade = {
+					soft_attack = 0.15
+				}
+
+				
+			}
+		
+			gucci_antiair_7 = {
+				folder = {
+					name = artillery_folder
+					position = { x = -7 y = 28 }
+				}
+
+				research_cost = 1.0
+				start_year = 1950
+
+				categories = {
+					artillery
+					cat_anti_air
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land specialization_air }
+
+				anti_air = {
+					air_attack = 0.1
+				}
+				anti_air_brigade = {
+					air_attack = 0.1
+				}
+				mot_anti_air_brigade = {
+					air_attack = 0.1
+				}
+				category_self_propelled_anti_air = {
+					air_attack = 0.05
+				}
+				tech_air_damage_factor = -0.02
+
+				
+			}
+		
+			gucci_antitank_7 = {
+				folder = {
+					name = artillery_folder
+					position = { x = 7 y = 28 }
+				}
+
+				research_cost = 1.0
+				start_year = 1950
+
+				categories = {
+					artillery
+					cat_anti_tank
+					mio_cat_all_artillery_equipment
+				}
+				special_project_specialization = { specialization_land }
+
+				anti_tank = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				anti_tank_brigade = {
+					hard_attack = 0.1
+					ap_attack = 0.1
+				}
+				mot_anti_tank_brigade = {
+					hard_attack = 0.05
+					ap_attack = 0.1
+				}
+				category_tank_destroyers = {
+					hard_attack = 0.05
+					ap_attack = 0.05
+				}
+
+				
+			}
+		}
