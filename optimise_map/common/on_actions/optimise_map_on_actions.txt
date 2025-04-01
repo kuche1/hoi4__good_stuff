@@ -4,7 +4,7 @@ on_actions = {
 
 			################################### optimize some of the map
 
-			# curiosity: you can use `this` instead of a country tag
+			# info: you can use `this` instead of a country tag
 
 			######################### south america
 
@@ -320,6 +320,120 @@ on_actions = {
 				}
 			}
 			set_temp_variable = {taker = sau}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			######################### UK
+
+			set_temp_variable = {ROOT.marks = pal}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = eng}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = jor}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = eng}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = kuw}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = eng}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			######################### tibet
+
+			set_temp_variable = {ROOT.marks = nep}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = tib}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			set_temp_variable = {ROOT.marks = bhu}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = tib}
+			every_state = {
+				limit = {
+					has_state_flag = marked_for_transfer
+				}
+				var:taker = { transfer_state = PREV }
+				clr_state_flag = marked_for_transfer
+			}
+
+			######################### soviet union
+
+			set_temp_variable = {ROOT.marks = tan}
+			var:marks = {
+				every_owned_state = {
+					limit = {
+						NOT = { has_state_flag = marked_for_transfer }
+					}
+					set_state_flag = marked_for_transfer
+				}
+			}
+			set_temp_variable = {taker = sov}
 			every_state = {
 				limit = {
 					has_state_flag = marked_for_transfer
