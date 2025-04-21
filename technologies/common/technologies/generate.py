@@ -231,7 +231,8 @@ def extend_air_doctorine(file, extensions):
 		pos_y = 20 + idx * 2
 
 		# NOTE:
-		# i'm taking advantage of `air_superiority` for the first doctorine so that I dont have to edin the stupid game files
+		# i'm taking advantage of `air_superiority` for the first doctorine so that I dont have to edit the stupid game files
+		# TODO this actually causes a bug where you are able to research the additional doctorines if you have the original `air_superiority` tdoctorine
 		if is_first:
 			name_cur = 'air_superiority'
 		else:
@@ -292,7 +293,7 @@ def extend_air_doctorine(file, extensions):
 				air_superiority_detect_factor = 0.04
 				air_interception_detect_factor = 0.04
 				air_cas_present_factor = 0.04
-				air_strategic_bomber_bombing_factor = 0.04
+				#air_strategic_bomber_bombing_factor = 0.04
 				ground_attack_factor = 0.04
 				air_strategic_bomber_defence_factor = 0.04
 
