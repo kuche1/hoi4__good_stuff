@@ -8,6 +8,7 @@ NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 10 -- default 20 -- how many 
 -------- convenience
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = NDefines.NCountry.SPECIAL_FORCES_CAP_MIN * 10 -- disables special forces limit -- default 24
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS / 5 -- makes naval invasions take less time -- default 168
+NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE / 7 -- required naval supremacy to perform invasions on an area -- default 0.5
 
 -- template editing cost
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 2 -- default 20
