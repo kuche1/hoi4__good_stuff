@@ -15,9 +15,9 @@ NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 2 -- default 5
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 2 -- default 10
 
 -- max armiy size
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 26 -- default 24
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 26 -- setting this to 0 brakes the AI -- default 24
-NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 16 -- default 5
+-- NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 26 -- default 24
+-- NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 26 -- setting this to 0 brakes the AI -- default 24
+-- NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 16 -- default 5
 
 -- max experience and pp
 NDefines.NCountry.POLITICAL_POWER_UPPER_CAP = NDefines.NCountry.POLITICAL_POWER_UPPER_CAP * 3 -- default 2000.0
