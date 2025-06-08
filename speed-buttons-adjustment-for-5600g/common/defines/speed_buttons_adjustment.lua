@@ -1,5 +1,5 @@
 
-NDefines.NGame.GAME_SPEED_SECONDS = {0.315, 0.12, 0.055, 0.04, 0.025} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
+NDefines.NGame.GAME_SPEED_SECONDS = {0.315, 0.12, 0.055, 0.04, 0.01} -- default { 2.0, 0.5, 0.2, 0.1, 0.0 }
 --  generate new indexes with:
 --      start = 0.022
 --      end = 0.22
