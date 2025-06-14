@@ -5,10 +5,8 @@ NDefines.NCountry.EVENT_PROCESS_OFFSET = 30 -- default 20 -- Events are checked 
 -- NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 8 -- default 12 -- used to be 36, but that seems to lower the performance
 NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 10 -- default 20 -- how many mapicons get processed per frame for grouping. more = quicker response, fewer = better performance
 
--------- convenience
-NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = NDefines.NCountry.SPECIAL_FORCES_CAP_MIN * 10 -- disables special forces limit -- default 24
--- (already in its own mod) NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS / 5 -- makes naval invasions take less time -- default 168
--- (already in its own mod) NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE / 7 -- required naval supremacy to perform invasions on an area -- default 0.5
+-------- special forces cap
+-- NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = NDefines.NCountry.SPECIAL_FORCES_CAP_MIN * 10 -- disables special forces limit -- default 24
 
 -- template editing cost
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 2 -- default 20
@@ -30,12 +28,13 @@ NDefines.NMilitary.MAX_AIR_EXPERIENCE = NDefines.NMilitary.MAX_AIR_EXPERIENCE * 
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED * 4 -- default 30.0
 NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35 -- default 10
 
--------- balance
+-------- world tension
 -- NDefines.NDiplomacy.TENSION_DECAY = 0.16 -- reports as 0.5, but works properly -- default 0.1
 -- NDefines.NDiplomacy.TENSION_SIZE_FACTOR = 0.8 -- default 1.0
 -- NDefines.NDiplomacy.TENSION_TIME_SCALE_MIN = 0 -- default 0.25
 
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR * 0.8 -- default 2
+-------- research
+-- NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR * 0.8 -- default 2
 -- NDefines.NTechnology.MIN_RESEARCH_SPEED = 0.1 -- default 0.1
 
 -------- can't remember
@@ -44,6 +43,6 @@ NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = NDefines.NTechnology.BASE_
 -- NDefines_Graphics.NGraphics.LAND_UNIT_MOVEMENT_SPEED = 9999 -- default 12
 -- NDefines_Graphics.NGraphics.NAVAL_UNIT_MOVEMENT_SPEED = 9999 -- default 12
 
--------- puppets
-NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR / 5 -- default 0.005 -- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
+-------- puppet trading
+-- NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = NDefines.NDiplomacy.RESOURCE_SENT_AUTONOMY_DAILY_FACTOR / 5 -- default 0.005 -- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
 -- TODO ideally this ^^^ we would not change, instead we would make it so that it is possible to trade for less than 80 with a puppet
