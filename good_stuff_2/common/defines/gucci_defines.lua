@@ -8,11 +8,6 @@ NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 10 -- default 20 -- how many 
 -------- special forces cap
 -- NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = NDefines.NCountry.SPECIAL_FORCES_CAP_MIN * 10 -- disables special forces limit -- default 24
 
--- template editing cost
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 2 -- default 20
-NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 2 -- default 5
-NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 2 -- default 10
-
 -- max armiy size
 -- NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 26 -- default 24
 -- NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 26 -- setting this to 0 brakes the AI -- default 24
