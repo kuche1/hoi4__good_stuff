@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_possible_country = {
+				army_experience = 10
+			}
+		}
+	}
+}
