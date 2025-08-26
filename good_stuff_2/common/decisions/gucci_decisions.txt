@@ -116,7 +116,7 @@ gucci_efforts = {
 		days_re_enable = 0
 		# days until mission is activated again
 
-		days_remove = 60
+		days_remove = 90
 		# how many days the mission will be in the remove phase
 		# it seems weird that we're using this timer instead of `days_mission_timeout`, however
 		#     if we are to use `days_mission_timeout` a timeout is going to constantly popup on
