@@ -33,6 +33,7 @@ cp -r speed-buttons-adjustment-for-5600g* ~/".local/share/Paradox Interactive/He
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"compliance*
 cp -r compliance* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
+# TODO: 2025.08.27: remove this later if the army upkeep turns out to be a good idea
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"inflation*
 cp -r inflation* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
@@ -44,3 +45,6 @@ cp -r naval-invasion* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/
 
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"template*
 cp -r template* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+
+rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"army_upkeep*
+cp -r army_upkeep* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
