@@ -6,7 +6,7 @@
 
 RANDOM_0_to_1 = 0.5
 NUMBER_OF_EQUIPMENT = 1_000
-ATTRITION = 0.01 # 0.01 = 1% attrition
+ATTRITION = 0.02 # 0.01 = 1% attrition
 RELIABILITY = 0.8
 
 def calc_equipment_lost_per_hour():
