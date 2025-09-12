@@ -48,3 +48,6 @@ cp -r template* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"army_upkeep*
 cp -r army_upkeep* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+
+rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"puppets*
+cp -r puppets* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
