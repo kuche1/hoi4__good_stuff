@@ -1,0 +1,11 @@
+version="69"
+tags={
+	"Balance"
+	"Fixes"
+	"Gameplay"
+	"Military"
+	"Technologies"
+}
+name="doctorine-extender"
+supported_version="*"
+remote_file_id="3589450543"

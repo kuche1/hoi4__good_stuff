@@ -1,0 +1,28 @@
+
+# see modifiers here
+# https://hoi4.paradoxwikis.com/Modifiers
+
+# see icons here
+# https://yard1.github.io/HoI4-GFX-Search/
+# https://hoi4.paradoxwikis.com/Category:National_spirit_icons
+
+DOCTORINE_EXTENDER_modifier = {
+	enable = { always = yes }
+
+	# comment out to disable icon; keep in mind that the doctorine progress can be inferred if the icon is enabled
+	# icon = GFX_idea_unknown
+	# icon = ARG_military_government
+	# icon = ETH_ethiopian_electric_power
+	# icon = BRA_air_force # wtf this doesn't work
+	# icon = CHL_conservative_party_in_power # this doesn't work too
+
+	icon = GFX_focus_BRA_air_force
+	# this one is awesome but it's too big
+
+	# icon = GFX_intelligence_agency_logo_AFG_communism # this one is uglier
+	# icon = NORDIC_army_democratic # doesn't work
+
+	# 0.01 = 1%
+	army_attack_factor = DOCTORINE_EXTENDER_bonus_stats
+	army_defence_factor = DOCTORINE_EXTENDER_bonus_stats
+}

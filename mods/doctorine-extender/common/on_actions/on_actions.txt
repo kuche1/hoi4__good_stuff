@@ -1,0 +1,47 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_possible_country = {
+				set_variable = {
+					var = DOCTORINE_EXTENDER_bonus_stats
+					value = 0.00
+				}
+
+				add_dynamic_modifier = { modifier = DOCTORINE_EXTENDER_modifier }
+			}
+		}
+	}
+
+	##### fix in case the "all possible nations" thing doesn't work
+	# on_monthly = { # on_yearly doesn't exist
+	# 	effect = {
+	# 		for_each_scope_loop = {
+	# 			array = global.countries
+	# 			add_dynamic_modifier = { modifier = DOCTORINE_EXTENDER_modifier }
+	# 		}
+	# 	}
+	# }
+
+	on_weekly = {
+	# I would love to use `on_monthly` with a while instead, but I can't find a while in this shit lang
+	# this is going to be more responsive anyways and should not slow the game down since it's so simple
+		effect = {
+
+			if = {
+				limit = {
+					has_army_experience > 450
+				}
+
+				army_experience = -50
+
+				add_to_variable = {
+					var = DOCTORINE_EXTENDER_bonus_stats
+					value = 0.01
+				}
+			}
+
+		}
+	}
+
+}
