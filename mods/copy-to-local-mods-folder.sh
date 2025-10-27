@@ -39,6 +39,8 @@ cp -r inflation* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"technologies*
 cp -r technologies* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+# TODO:
+# this also includes `technologies2`
 
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"naval-invasion*
 cp -r naval-invasion* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
