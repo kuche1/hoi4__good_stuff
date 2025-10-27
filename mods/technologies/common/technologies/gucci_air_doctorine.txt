@@ -11,7 +11,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 250
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -55,7 +55,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -99,7 +99,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -143,7 +143,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -187,7 +187,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -231,7 +231,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -275,7 +275,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -319,7 +319,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -363,7 +363,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -407,7 +407,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -451,7 +451,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
@@ -495,7 +495,7 @@ technologies = {
 				xp_research_type = air
 				xp_unlock_cost = 100
 
-				doctrine = yes	
+				doctrine = yes
 				research_cost = 2.25 # I think this is worthless
 
 				categories = {
