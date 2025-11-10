@@ -1,0 +1,5 @@
+random_wars_category = {
+	icon = generic_propaganda
+	visible = {
+	}
+}

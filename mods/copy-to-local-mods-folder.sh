@@ -20,7 +20,6 @@ cp -r optimise_map* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 #rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"factory_economy*
 #cp -r factory_economy* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
-
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"speed-buttons-adjustment-for-5600g*
 cp -r speed-buttons-adjustment-for-5600g* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
@@ -33,9 +32,8 @@ cp -r speed-buttons-adjustment-for-5600g* ~/".local/share/Paradox Interactive/He
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"compliance*
 cp -r compliance* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
-# TODO: 2025.08.27: remove this later if the army upkeep turns out to be a good idea
-rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"inflation*
-cp -r inflation* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+# rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"inflation*
+# cp -r inflation* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"technologies*
 cp -r technologies* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
@@ -56,3 +54,6 @@ cp -r puppets* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"doctorine-extender*
 cp -r doctorine-extender* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+
+rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"random_wars*
+cp -r random_wars* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"

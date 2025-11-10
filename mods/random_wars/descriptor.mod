@@ -1,0 +1,9 @@
+version="69"
+tags={
+	"Events"
+	"Military"
+	"Balance"
+}
+name="random_wars"
+supported_version="*"
+remote_file_id="3603404702"

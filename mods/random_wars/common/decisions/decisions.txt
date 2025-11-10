@@ -1,0 +1,67 @@
+
+random_wars_category = {
+
+	random_wars = {
+
+		icon = generic_construction
+
+		days_mission_timeout = 0
+		# days until mission is removed
+
+		days_re_enable = 0
+		# days until mission is activated again
+
+		days_remove = 100
+		# how many days the mission will be in the remove phase
+		# it seems weird that we're using this timer instead of `days_mission_timeout`, however
+		#     if we are to use `days_mission_timeout` a timeout is going to constantly popup on
+		#     the top bar ingame (this is annoying)
+
+		is_good = yes
+		# 1) determines timeout bar color (red or green)
+		# 2) if set to `no` the `days_remove` hack will stop working, so keep this as `no`
+
+        available = { # condition that will allow the player/ai to click the mission and execute it's effects
+            always = no
+        }
+
+        fire_only_once = no
+
+		# would be better if we did actually check for this but I'm afraid it might reduce performance
+		#visible = {
+		#	any_owned_state = {
+		#		is_fully_controlled_by = ROOT
+		#	}
+		#}
+
+		# this doesn't work
+		# visible = {
+		# 	always = no
+		# }
+
+		timeout_effect = {
+
+			random = {
+
+				chance = 20
+				# in percent
+
+				random_neighbor_country = {
+				# random_country = {
+				# every_country = {
+
+					ROOT = { # war will be declared by
+
+						declare_war_on = {
+							target = PREV # war will be delared on
+							type = annex_everything
+						}
+
+					}
+
+				}
+			}
+		}
+    }
+
+}
