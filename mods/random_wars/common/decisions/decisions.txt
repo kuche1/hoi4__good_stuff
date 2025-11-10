@@ -1,67 +1,69 @@
 
-random_wars_category = {
+##### using the decisions solution causes game freeze after some time
 
-	random_wars = {
+# random_wars_category = {
 
-		icon = generic_construction
+# 	random_wars = {
 
-		days_mission_timeout = 0
-		# days until mission is removed
+# 		icon = generic_construction
 
-		days_re_enable = 0
-		# days until mission is activated again
+# 		days_mission_timeout = 0
+# 		# days until mission is removed
 
-		days_remove = 100
-		# how many days the mission will be in the remove phase
-		# it seems weird that we're using this timer instead of `days_mission_timeout`, however
-		#     if we are to use `days_mission_timeout` a timeout is going to constantly popup on
-		#     the top bar ingame (this is annoying)
+# 		days_re_enable = 0
+# 		# days until mission is activated again
 
-		is_good = yes
-		# 1) determines timeout bar color (red or green)
-		# 2) if set to `no` the `days_remove` hack will stop working, so keep this as `no`
+# 		days_remove = 100
+# 		# how many days the mission will be in the remove phase
+# 		# it seems weird that we're using this timer instead of `days_mission_timeout`, however
+# 		#     if we are to use `days_mission_timeout` a timeout is going to constantly popup on
+# 		#     the top bar ingame (this is annoying)
 
-        available = { # condition that will allow the player/ai to click the mission and execute it's effects
-            always = no
-        }
+# 		is_good = yes
+# 		# 1) determines timeout bar color (red or green)
+# 		# 2) if set to `no` the `days_remove` hack will stop working, so keep this as `no`
 
-        fire_only_once = no
+#         available = { # condition that will allow the player/ai to click the mission and execute it's effects
+#             always = no
+#         }
 
-		# would be better if we did actually check for this but I'm afraid it might reduce performance
-		#visible = {
-		#	any_owned_state = {
-		#		is_fully_controlled_by = ROOT
-		#	}
-		#}
+#         fire_only_once = no
 
-		# this doesn't work
-		# visible = {
-		# 	always = no
-		# }
+# 		# would be better if we did actually check for this but I'm afraid it might reduce performance
+# 		#visible = {
+# 		#	any_owned_state = {
+# 		#		is_fully_controlled_by = ROOT
+# 		#	}
+# 		#}
 
-		timeout_effect = {
+# 		# this doesn't work
+# 		# visible = {
+# 		# 	always = no
+# 		# }
 
-			random = {
+# 		timeout_effect = {
 
-				chance = 20
-				# in percent
+# 			random = {
 
-				random_neighbor_country = {
-				# random_country = {
-				# every_country = {
+# 				chance = 20
+# 				# in percent
 
-					ROOT = { # war will be declared by
+# 				random_neighbor_country = {
+# 				# random_country = {
+# 				# every_country = {
 
-						declare_war_on = {
-							target = PREV # war will be delared on
-							type = annex_everything
-						}
+# 					ROOT = { # war will be declared by
 
-					}
+# 						declare_war_on = {
+# 							target = PREV # war will be delared on
+# 							type = annex_everything
+# 						}
 
-				}
-			}
-		}
-    }
+# 					}
 
-}
+# 				}
+# 			}
+# 		}
+#     }
+
+# }
