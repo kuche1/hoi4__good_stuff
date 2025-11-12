@@ -1,13 +1,13 @@
 on_actions = {
 	on_monthly = {
 		effect = {
-			random_neighbor_country = {
-			# random_country = {
+			# random_neighbor_country = {
+			random_country = {
 			# every_country = {
 				ROOT = { # war will be declared by
 					random = {
-						chance = 5 # in percent
-						declare_war_on = {
+						chance = 40 # in percent
+						declare_war_on = { # the war will be declared even if there is a NAP
 							target = PREV # war will be delared on
 							type = annex_everything
 						}
