@@ -1,4 +1,6 @@
-##### delare on your neighbours (quickly)
+##### get war goals on your neighbours
+##### hopefully this will stop Germany from taking over the continent
+##### by giving the other nations some time to prepare
 on_actions = {
 	on_monthly = {
 		effect = {
@@ -8,7 +10,8 @@ on_actions = {
 				ROOT = { # war will be declared by
 					random = {
 						chance = 40 # in percent
-						declare_war_on = { # the war will be declared even if there is a NAP
+						# declare_war_on = { # the war will be declared even if there is a NAP
+						create_wargoal = { # TODO: but what if there is a NAP
 							target = PREV # war will be delared on
 							type = annex_everything
 						}
@@ -18,6 +21,28 @@ on_actions = {
 		}
 	}
 }
+
+# ##### delare on your neighbours
+# ##### result: Germany beats everyone else
+# on_actions = {
+# 	on_monthly = {
+# 		effect = {
+# 			random_neighbor_country = {
+# 			# random_country = {
+# 			# every_country = {
+# 				ROOT = { # war will be declared by
+# 					random = {
+# 						chance = 40 # in percent
+# 						declare_war_on = { # the war will be declared even if there is a NAP
+# 							target = PREV # war will be delared on
+# 							type = annex_everything
+# 						}
+# 					}
+# 				}
+# 			}
+# 		}
+# 	}
+# }
 
 ##### declare on random countries
 # on_actions = {

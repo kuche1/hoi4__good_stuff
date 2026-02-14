@@ -30,10 +30,16 @@ on_actions = {
 
 			if = {
 				limit = {
-					has_army_experience > 450
+					has_army_experience > 350
+					# if this is too low it's going to make the game unplayable/mess with the ai
+					# for example:
+					#	china's army reform costs 100xp
+					#	france's doctorines cost 150xp
+					#	potentially something that they might add in the future or a mod that includes a decision that requires too much XP
 				}
 
-				army_experience = -50
+				army_experience = -40
+				# 50 seems a bit too much for the 1% attack and defence that you get in return
 
 				add_to_variable = {
 					var = DOCTORINE_EXTENDER_bonus_stats
