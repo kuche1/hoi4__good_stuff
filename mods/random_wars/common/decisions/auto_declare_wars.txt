@@ -1,0 +1,149 @@
+random_wars_category = {
+	declare_random_war = {
+
+		icon = generic_construction
+
+		days_mission_timeout = 32
+		# days until mission is removed
+
+		days_re_enable = 0
+		# days until mission is activated again
+
+		days_remove = 0
+		# how many days the mission will be in the remove phase
+        #
+        # using `days_remove` will hide the timer popup on the top bar, however it will hide the effect summary
+        # using `days_mission_timeout` will show the timer popup on the top bar, however it will show the effect summary
+
+		is_good = yes # determines timeout bar color (red or green)
+
+        available = { # condition that will allow the player/ai to click the mission and execute it's effects
+            always = no
+        }
+
+        fire_only_once = no
+
+        
+
+        timeout_effect = { # what to do if the mission fails (if the timeout expires)
+
+
+
+			random_country = {
+			# every_country = {
+
+				limit = { # declare only on ai countries
+					is_ai = yes
+				}
+	
+				ROOT = { # war will be declared by
+					if = { # not sure if I need this if here
+						limit = {
+							is_ai = no # only players will declare wars
+						}
+
+						random = {
+							chance = 100						# in percent
+							declare_war_on = {
+								# the war will be declared even if there is a NAP
+								target = PREV							# war will be delared on
+								type = annex_everything
+							}
+						}
+					}
+				}
+			}
+
+
+            if = {
+				limit = {
+					is_ai = no
+				}
+
+                add_offsite_building = {
+					type = arms_factory
+					level = 1
+				}
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+            }
+
+
+
+            # limit = {
+            #     is_ai = yes  # target only AI countries
+            #     NOT = { tag = ROOT }   # (untested) do not target self (this is fucking stupid but OK)
+            #     exists = yes # (untested)
+            #     is_subject = no  # (untested) do not attack puppets
+            # }
+
+            # ROOT = {
+            #     declare_war_on = {
+            #         target = PREV
+            #         type = annex_everything
+            #     }
+            # }
+
+
+
+
+
+
+			# random_owned_state = {
+			# 	limit = {
+			# 		is_fully_controlled_by = ROOT
+			# 	}
+			# 	add_extra_state_shared_building_slots = 1
+			# }
+
+
+		}
+
+    }
+
+    ### this sorta works
+    # declare_random_war = {
+
+    #     icon = generic_war_goal
+
+    #     allowed = {
+    #         original_tag = ROOT # IDK WTF this is
+    #     }
+
+    #     visible = {
+    #         is_ai = no # (untested) only visible to players
+    #     }
+
+    #     available = {
+    #         is_ai = no # (untested) only players can click it
+    #         # has_war = no # available only while at piece
+    #     }
+
+    #     # cost = 50 # political power cost
+
+    #     complete_effect = {
+
+    #         random_country = {
+    #             limit = {
+    #                 is_ai = yes  # target only AI countries
+    #                 # NOT = { tag = ROOT }   # (untested) do not target self (this is fucking stupid but OK)
+    #                 # exists = yes # (untested)
+    #                 # is_subject = no  # (untested) do not attack puppets
+    #             }
+
+    #             ROOT = {
+    #                 declare_war_on = {
+    #                     target = PREV
+    #                     type = annex_everything
+    #                 }
+    #             }
+    #         }
+    #     }
+
+    #     ai_will_do = {
+    #         factor = 0 # (untested) AI will never use this decision
+    #     }
+    # }
+}

@@ -1,35 +1,35 @@
-#### only players will declare on random AI countries
-on_actions = {
-	on_monthly = {
-		effect = {
-			# random_neighbor_country = {
-			random_country = {
-			# every_country = {
+# #### only players will declare on random AI countries
+# on_actions = {
+# 	on_monthly = {
+# 		effect = {
+# 			# random_neighbor_country = {
+# 			random_country = {
+# 			# every_country = {
 
-				limit = { # declare only on ai countries
-					is_ai = yes
-				}
+# 				limit = { # declare only on ai countries
+# 					is_ai = yes
+# 				}
 	
-				ROOT = { # war will be declared by
-					if = { # not sure if I need this if here
-						limit = {
-							is_ai = no # only players will declare wars
-						}
+# 				ROOT = { # war will be declared by
+# 					if = { # not sure if I need this if here
+# 						limit = {
+# 							is_ai = no # only players will declare wars
+# 						}
 
-						random = {
-							chance = 100						# in percent
-							declare_war_on = {
-								# the war will be declared even if there is a NAP
-								target = PREV							# war will be delared on
-								type = annex_everything
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
+# 						random = {
+# 							chance = 100						# in percent
+# 							declare_war_on = {
+# 								# the war will be declared even if there is a NAP
+# 								target = PREV							# war will be delared on
+# 								type = annex_everything
+# 							}
+# 						}
+# 					}
+# 				}
+# 			}
+# 		}
+# 	}
+# }
 
 # ##### get war goals on your neighbours
 # ##### hopefully this will stop Germany from taking over the continent
