@@ -1,7 +1,4 @@
 #### only players will declare on random AI countries
-#### (not fully tested)
-#### TODO?: make it so that declaring on countries you are already at war with is impossible
-#### TODO?: make this a decision so that [it's easier to debug] and [the player has some more time to prepare]
 on_actions = {
 	on_monthly = {
 		effect = {
@@ -14,7 +11,7 @@ on_actions = {
 				}
 	
 				ROOT = { # war will be declared by
-					if = {
+					if = { # not sure if I need this if here
 						limit = {
 							is_ai = no # only players will declare wars
 						}

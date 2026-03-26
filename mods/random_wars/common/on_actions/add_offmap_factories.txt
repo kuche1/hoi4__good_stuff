@@ -1,3 +1,51 @@
+##### give each player (3 offmap civs) and (3 offmap mils) at the beginning of the game
+##### and (1 offmap civ) and (1 offmap mil) every month
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+
+                add_offsite_building = {
+					type = arms_factory
+					level = 3
+				}
+				add_offsite_building = {
+					type = industrial_complex
+					level = 3
+				}
+			}
+		}
+	}
+
+	on_monthly = {
+		effect = {
+
+            ## this already happens once for each country, so if you uncomment this what
+            ## happens is you get (number of countries) factories instead of only one
+			# every_country = {
+
+				limit = {
+					is_ai = no
+				}
+
+                add_offsite_building = {
+					type = arms_factory
+					level = 1
+				}
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+
+			# }
+		}
+	}
+}
+
+##### give every country 3 offmap civs and 3 offmap mills at the beginning of the game
 # on_actions = {
 # 	on_startup = {
 # 		effect = {
