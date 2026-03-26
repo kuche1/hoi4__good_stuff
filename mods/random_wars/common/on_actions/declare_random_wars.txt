@@ -1,19 +1,30 @@
-##### get war goals on your neighbours
-##### hopefully this will stop Germany from taking over the continent
-##### by giving the other nations some time to prepare
+#### only players will declare on random AI countries
+#### (not fully tested)
+#### TODO?: make it so that declaring on countries you are already at war with is impossible
 on_actions = {
 	on_monthly = {
 		effect = {
-			random_neighbor_country = {
-			# random_country = {
+			# random_neighbor_country = {
+			random_country = {
 			# every_country = {
+
+				limit = { # declare only on ai countries
+					is_ai = yes
+				}
+	
 				ROOT = { # war will be declared by
-					random = {
-						chance = 40 # in percent
-						# declare_war_on = { # the war will be declared even if there is a NAP
-						create_wargoal = { # TODO: but what if there is a NAP
-							target = PREV # war will be delared on
-							type = annex_everything
+					if = {
+						limit = {
+							is_ai = no # only players will declare wars
+						}
+
+						random = {
+							chance = 35						# in percent
+							declare_war_on = {
+								# the war will be declared even if there is a NAP
+								target = PREV							# war will be delared on
+								type = annex_everything
+							}
 						}
 					}
 				}
@@ -22,6 +33,29 @@ on_actions = {
 	}
 }
 
+# ##### get war goals on your neighbours
+# ##### hopefully this will stop Germany from taking over the continent
+# ##### by giving the other nations some time to prepare
+# on_actions = {
+# 	on_monthly = {
+# 		effect = {
+# 			random_neighbor_country = {
+# 			# random_country = {
+# 			# every_country = {
+# 				ROOT = { # war will be declared by
+# 					random = {
+# 						chance = 40 # in percent
+# 						# declare_war_on = { # the war will be declared even if there is a NAP
+# 						create_wargoal = { # TODO: but what if there is a NAP
+# 							target = PREV # war will be delared on
+# 							type = annex_everything
+# 						}
+# 					}
+# 				}
+# 			}
+# 		}
+# 	}
+# }
 # ##### delare on your neighbours
 # ##### result: Germany beats everyone else
 # on_actions = {
@@ -43,7 +77,6 @@ on_actions = {
 # 		}
 # 	}
 # }
-
 ##### declare on random countries
 # on_actions = {
 # 	on_monthly = {
