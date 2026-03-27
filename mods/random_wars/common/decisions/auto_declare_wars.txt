@@ -23,14 +23,13 @@ random_wars_category = {
 
         fire_only_once = no
 
-        
-
         timeout_effect = { # what to do if the mission fails (if the timeout expires)
 
             if = {
                 # only execute the effect if it is at least this date
                 limit = {
-                    date > 1937.1.1
+                    date > 1936.9.1
+                    NOT = { has_war_with = ROOT } # not already at war with us
                 }
 
                 random_country = {
@@ -58,49 +57,21 @@ random_wars_category = {
                     }
                 }
 
+                # ### every player gets 1 civ and 1 mil
+                # if = {
+                #     limit = {
+                #         is_ai = no
+                #     }
 
-                if = {
-                    limit = {
-                        is_ai = no
-                    }
-
-                    add_offsite_building = {
-                        type = arms_factory
-                        level = 1
-                    }
-                    add_offsite_building = {
-                        type = industrial_complex
-                        level = 1
-                    }
-                }
-
-
-
-                # limit = {
-                #     is_ai = yes  # target only AI countries
-                #     NOT = { tag = ROOT }   # (untested) do not target self (this is fucking stupid but OK)
-                #     exists = yes # (untested)
-                #     is_subject = no  # (untested) do not attack puppets
-                # }
-
-                # ROOT = {
-                #     declare_war_on = {
-                #         target = PREV
-                #         type = annex_everything
+                #     add_offsite_building = {
+                #         type = arms_factory
+                #         level = 1
+                #     }
+                #     add_offsite_building = {
+                #         type = industrial_complex
+                #         level = 1
                 #     }
                 # }
-
-
-
-                
-
-                # random_owned_state = {
-                # 	limit = {
-                # 		is_fully_controlled_by = ROOT
-                # 	}
-                # 	add_extra_state_shared_building_slots = 1
-                # }
-
 
             }
 
