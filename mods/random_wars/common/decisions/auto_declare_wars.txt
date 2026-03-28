@@ -3,7 +3,7 @@ random_wars_category = {
 
 		icon = generic_construction
 
-		days_mission_timeout = 32
+		days_mission_timeout = 2 # 32
 		# days until mission is removed
 
 		days_re_enable = 0
@@ -26,17 +26,19 @@ random_wars_category = {
         timeout_effect = { # what to do if the mission fails (if the timeout expires)
 
             if = {
-                # only execute the effect if it is at least this date
+
                 limit = {
-                    date > 1936.9.1
-                    NOT = { has_war_with = ROOT } # not already at war with us
+                    date > 1936.1.1 # 1936.9.1 # only execute the effect if it is at least this date
                 }
 
                 random_country = {
                 # every_country = {
 
-                    limit = { # declare only on ai countries
-                        is_ai = yes
+                    limit = { 
+                        is_ai = yes # declare only on ai countries
+                        NOT = { has_war_with = ROOT } # not already at war with us
+                        is_subject = no # is not a subject (untested but should work)
+                        is_in_faction_with = no # not already in a faction with us (untested but should work)
                     }
         
                     ROOT = { # war will be declared by
@@ -46,10 +48,9 @@ random_wars_category = {
                             }
 
                             random = {
-                                chance = 100						# in percent
-                                declare_war_on = {
-                                    # the war will be declared even if there is a NAP
-                                    target = PREV							# war will be delared on
+                                chance = 100 # in percent
+                                declare_war_on = { # the war will be declared even if there is a NAP
+                                    target = PREV # war will be delared on
                                     type = annex_everything
                                 }
                             }
