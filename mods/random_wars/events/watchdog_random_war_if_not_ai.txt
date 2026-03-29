@@ -13,7 +13,7 @@ country_event = {
 
         if = {
             limit = {
-                date > 1937.1.1 # do not start declaring wars at or before this date
+                date > 1937.6.1 # do not start declaring wars at or before this date
             }
 
             country_event = {
@@ -23,7 +23,7 @@ country_event = {
 
 		country_event = {
 			id = watchdog_random_war_if_not_ai.1
-			days = 40 # declare new war after that much days have passed
+			days = 60 # declare new war after that much days have passed
 		}
 
     }
