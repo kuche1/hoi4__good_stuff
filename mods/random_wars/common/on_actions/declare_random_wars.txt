@@ -1,17 +1,32 @@
 
 on_actions = {
-    on_monthly = {
-        effect = {
-            if = {
-                limit = {
-                    # is_ai = no
-                    
-                    date > 1935.3.1
-                    # date > 1936.3.1
-                }
 
+    on_startup = {
+    # it seems that `on_startup` does not actually get executed once for each country
+    # like `on_monthly`, so you have to manually loop trough them
+
+        effect = {
+            every_possible_country = {
                 country_event = { id = func_random_war_if_not_ai.1 }
             }
         }
     }
 }
+
+
+# on_actions = {
+#     on_monthly = {
+#         effect = {
+#             if = {
+#                 limit = {
+#                     # is_ai = no
+                    
+#                     date > 1935.3.1
+#                     # date > 1936.3.1
+#                 }
+
+#                 country_event = { id = func_random_war_if_not_ai.1 }
+#             }
+#         }
+#     }
+# }
