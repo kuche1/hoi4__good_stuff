@@ -1,0 +1,73 @@
+add_namespace = func_random_raw # TODO: should be `war` not `raw`
+
+country_event = {
+    id = func_random_raw.1
+    title = "Random War"
+    desc = "Ignore the name of the country below this text. To see which country you will declare war on hoover over the button."
+    picture = GFX_report_event_japan_army_mountainside # GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+    #
+    # ### it seems that with these settings this happens once every month
+    # ### even tho `mean_time_to_happen={days=5}`
+    # is_triggered_only = no
+    # fire_only_once = no
+    # trigger = {
+    #     is_ai = no
+    # }
+    # mean_time_to_happen = {
+    #     days = 5
+    # }
+
+    immediate = { # it seems that the effects of an `immediate` block will automatically be pasted in the event description
+        random_country = {
+            limit = {
+                exists = yes # it exists
+                is_subject = no # not a puppet
+                NOT = { tag = ROOT } # do not declare on self
+
+                ## not already at war with
+                # has_war = no
+                NOT = { has_war_with = ROOT }
+
+                NOT = { is_in_faction_with = ROOT } # not already in a faction with
+                is_ai = yes # is ai
+            }
+
+            save_event_target_as = random_country_to_declare_on
+            # if I don't save it in an `immediate` block but call `random_country` in the `option` block,
+            # the button text says one country's name, but declares on another
+        }
+    }
+
+    option = {
+        name = "Ok"
+
+        declare_war_on = {
+            target = event_target:random_country_to_declare_on
+            type = annex_everything
+        }
+    }
+
+    # option = {
+    #     name = "Button text"
+
+    #     random_country = {
+    #     # every_country = {
+
+    #         add_political_power = 12
+    #     }
+
+    #     # if = {
+    #     #     limit = {
+    #     #         has_war = yes
+    #     #     }
+
+    #     #     add_political_power = 20
+    #     # }
+
+    #     # else = {
+    #     #     add_political_power = 30
+    #     # }
+    # }
+}
