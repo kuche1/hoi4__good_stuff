@@ -11,11 +11,15 @@ country_event = {
 
     immediate = {
 
-        # TODO: We can limit the date here BUT it would be
-        # ideal if instead had one more event for this
-		country_event = {
-			id = func_random_war_if_not_ai.1
-		}
+        if = {
+            limit = {
+                date > 1936.3.1 # do not start declaring wars at or before this date
+            }
+
+            country_event = {
+                id = func_random_war_if_not_ai.1
+            }
+        }
 
 		country_event = {
 			id = watchdog_random_war_if_not_ai.1
