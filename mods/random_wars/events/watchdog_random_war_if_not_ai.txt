@@ -1,0 +1,26 @@
+add_namespace = watchdog_random_war_if_not_ai
+
+country_event = {
+    id = watchdog_random_war_if_not_ai.1
+    title = "Watchdog: Random War If Not AI"
+    # desc = "Ignore the name of the country below this text. To see which country you will declare war on hoover over the button."
+    picture = GFX_report_event_japan_army_mountainside # GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+
+        # TODO: We can limit the date here BUT it would be
+        # ideal if instead had one more event for this
+		country_event = {
+			id = func_random_war_if_not_ai.1
+		}
+
+		country_event = {
+			id = watchdog_random_war_if_not_ai.1
+			days = 25 # declare new war after that much days have passed
+		}
+
+    }
+}
