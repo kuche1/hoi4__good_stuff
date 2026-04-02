@@ -3,7 +3,7 @@ add_namespace = func_random_war
 country_event = {
     id = func_random_war.1
     title = "Random War"
-    desc = "Ignore the name of the country below this text. To see which country you will declare war on hoover over the button."
+    desc = "Ignore the names of the listed countries below.\nTo see your actual options hoover over the buttons."
     picture = GFX_report_event_japan_army_mountainside # GFX_report_event_generic_read_write
 
     is_triggered_only = yes
@@ -34,17 +34,62 @@ country_event = {
                 is_ai = yes # is ai
             }
 
-            save_event_target_as = random_country_to_declare_on
+            save_event_target_as = random_country_to_declare_on_1
             # if I don't save it in an `immediate` block but call `random_country` in the `option` block,
             # the button text says one country's name, but declares on another
+        }
+
+        random_country = {
+            limit = {
+                exists = yes 
+                is_subject = no 
+                NOT = { tag = ROOT } 
+
+                NOT = { has_war_with = ROOT }
+
+                NOT = { is_in_faction_with = ROOT }
+                is_ai = yes 
+            }
+
+            save_event_target_as = random_country_to_declare_on_2
+        }
+
+        random_country = {
+            limit = {
+                exists = yes 
+                is_subject = no 
+                NOT = { tag = ROOT } 
+
+                NOT = { has_war_with = ROOT }
+
+                NOT = { is_in_faction_with = ROOT }
+                is_ai = yes 
+            }
+
+            save_event_target_as = random_country_to_declare_on_3
         }
     }
 
     option = {
-        name = "Ok"
-
+        name = "Country 1"
         declare_war_on = {
-            target = event_target:random_country_to_declare_on
+            target = event_target:random_country_to_declare_on_1
+            type = annex_everything
+        }
+    }
+
+    option = {
+        name = "Country 2"
+        declare_war_on = {
+            target = event_target:random_country_to_declare_on_2
+            type = annex_everything
+        }
+    }
+
+    option = {
+        name = "Country 3"
+        declare_war_on = {
+            target = event_target:random_country_to_declare_on_3
             type = annex_everything
         }
     }
