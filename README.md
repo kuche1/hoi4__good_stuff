@@ -13,3 +13,5 @@ default values for defines etc can be found under `~/.steam/steam/steamapps/comm
 ## Resources
 
 https://hoi4doc.dev/item/effect-random_neighbor_country
+
+https://mod-coop-hoi4.fandom.com/wiki/Triggers
