@@ -7,8 +7,14 @@ on_actions = {
 
         effect = {
             every_possible_country = {
-                country_event = {
-                    id = watchdog_random_war_if_not_ai.1
+                if = {
+                    limit = {
+                        is_ai = no
+                    }
+
+                    country_event = {
+                        id = watchdog_random_war.1
+                    }
                 }
             }
         }

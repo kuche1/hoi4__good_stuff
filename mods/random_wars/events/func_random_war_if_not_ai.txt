@@ -1,22 +1,22 @@
-add_namespace = func_random_war_if_not_ai
+# add_namespace = func_random_war_if_not_ai
 
-country_event = {
-    id = func_random_war_if_not_ai.1
-    title = "Random War If Not AI"
-    # desc = "Ignore the name of the country below this text. To see which country you will declare war on hoover over the button."
-    picture = GFX_report_event_japan_army_mountainside # GFX_report_event_generic_read_write
+# country_event = {
+#     id = func_random_war_if_not_ai.1
+#     title = "Random War If Not AI"
+#     # desc = "Ignore the name of the country below this text. To see which country you will declare war on hoover over the button."
+#     picture = GFX_report_event_japan_army_mountainside # GFX_report_event_generic_read_write
 
-    is_triggered_only = yes
-    hidden = yes
+#     is_triggered_only = yes
+#     hidden = yes
 
-    immediate = {
+#     immediate = {
 
-        if = {
-            limit = {
-                is_ai = no
-            }
+#         if = {
+#             limit = {
+#                 is_ai = no
+#             }
 
-            country_event = { id = func_random_war.1 }
-        }
-    }
-}
+#             country_event = { id = func_random_war.1 }
+#         }
+#     }
+# }
