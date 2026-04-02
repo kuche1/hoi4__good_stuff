@@ -3,7 +3,7 @@ add_namespace = func_random_war
 country_event = {
     id = func_random_war.1
     title = "Random War"
-    desc = "Ignore the names of the listed countries below.\nTo see your actual options hoover over the buttons."
+    desc = "Ignore the names of the listed countries below. To see your actual options hoover over the buttons."
     picture = GFX_report_event_japan_army_mountainside # GFX_report_event_generic_read_write
 
     is_triggered_only = yes

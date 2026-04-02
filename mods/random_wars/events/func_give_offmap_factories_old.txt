@@ -1,0 +1,47 @@
+# add_namespace = func_give_offmap_factories
+
+# country_event = {
+#     id = func_give_offmap_factories.1
+#     title = "Offmap Factories"
+#     desc = "You have been compensated a number of offmap factories based on how small your economy is.\nIf your economy is big enough you will get no factories.\nIt may take a couple of hours until the new factories are registered by the game."
+#     picture = GFX_report_event_generic_read_write # GFX_report_event_japan_army_mountainside
+
+#     is_triggered_only = yes
+
+#     immediate = {
+
+#         if = {
+#             limit = {
+#                 num_of_factories < 100
+#             }
+
+#             set_variable = { var = total_factories value = num_of_factories }
+        
+#             # (100 - total_factories) / 2 / 3
+#             subtract_from_variable = { var = total_factories value = 100 }
+#             multiply_variable = { var = total_factories value = -1 }
+#             divide_variable = { var = total_factories value = 6 } # it seems that this rounds up ?
+
+#             add_offsite_building = {
+#                 type = arms_factory
+#                 level = total_factories
+#             }
+#             add_offsite_building = {
+#                 type = industrial_complex
+#                 level = total_factories
+#             }
+#         }
+
+#         # add_offsite_building = {
+#         #     type = arms_factory
+#         #     level = 3
+#         # }
+        
+#         # add_offsite_building = {
+#         #     type = industrial_complex
+#         #     level = 3
+#         # }
+
+#     }
+
+# }
