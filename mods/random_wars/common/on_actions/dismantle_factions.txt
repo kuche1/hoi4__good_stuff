@@ -1,15 +1,7 @@
 
-on_actions = {
+# on_actions = {
 
-	on_startup = {
-		effect = {
-			every_country = {
-				dismantle_faction = yes
-			}
-		}
-	}
-
-# 	on_monthly = {
+# 	on_startup = {
 # 		effect = {
 # 			every_country = {
 # 				dismantle_faction = yes
@@ -17,4 +9,12 @@ on_actions = {
 # 		}
 # 	}
 
-}
+# # 	on_monthly = {
+# # 		effect = {
+# # 			every_country = {
+# # 				dismantle_faction = yes
+# # 			}
+# # 		}
+# # 	}
+
+# }
