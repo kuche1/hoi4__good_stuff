@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_possible_country = {
+				remove_ideas = {
+					USA_monroe_doctrine_idea
+					USA_monroe_doctrine_enforcer
+				}
+			}
+		}
+	}
+}
