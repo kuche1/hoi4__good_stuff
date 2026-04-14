@@ -15,3 +15,14 @@ default values for defines etc can be found under `~/.steam/steam/steamapps/comm
 https://hoi4doc.dev/item/effect-random_neighbor_country
 
 https://mod-coop-hoi4.fandom.com/wiki/Triggers
+
+Modifiers:
+```
+https://hoi4.paradoxwikis.com/Modifiers
+```
+
+Icons:
+```
+https://yard1.github.io/HoI4-GFX-Search/
+https://hoi4.paradoxwikis.com/Category:National_spirit_icons
+```

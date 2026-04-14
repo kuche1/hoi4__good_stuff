@@ -1,0 +1,28 @@
+on_actions = {
+
+	on_startup = {
+    # it seems that `on_startup` does not actually get executed once for each country
+    # like `on_monthly`, so you have to manually loop trough them
+
+		effect = {
+			every_possible_country = {
+				set_variable = {
+					var = BS_building_slots
+					value = 0.00
+				}
+
+				add_dynamic_modifier = { modifier = BS_modifier }
+			}
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			add_to_variable = {
+				var = BS_building_slots
+				value = 0.01 # 0.01 -> +1% max factories in state
+			}
+		}
+	}
+
+}

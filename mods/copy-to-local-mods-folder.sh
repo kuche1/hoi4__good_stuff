@@ -57,3 +57,6 @@ cp -r doctorine-extender* ~/".local/share/Paradox Interactive/Hearts of Iron IV/
 
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"random_wars*
 cp -r random_wars* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+
+rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"building-slots*
+cp -r building-slots* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
