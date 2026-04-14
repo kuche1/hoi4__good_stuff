@@ -60,3 +60,6 @@ cp -r random_wars* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
 
 rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"building-slots*
 cp -r building-slots* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+
+rm -rf ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"population-opinion*
+cp -r population-opinion* ~/".local/share/Paradox Interactive/Hearts of Iron IV/mod/"
