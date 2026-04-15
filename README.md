@@ -26,3 +26,7 @@ Icons:
 https://yard1.github.io/HoI4-GFX-Search/
 https://hoi4.paradoxwikis.com/Category:National_spirit_icons
 ```
+
+## Guide
+
+Use unique names for all your files (I don't think it's required for all, but I don't know which files specifically do require it), adding the mod name abbreviation as a filename prefix should be enough.
