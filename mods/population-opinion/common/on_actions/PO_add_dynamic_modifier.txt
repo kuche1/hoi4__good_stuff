@@ -21,8 +21,14 @@ on_actions = {
 
 			set_variable = { var = PO_effect value = num_of_civilian_factories }
 
-			subtract_from_variable = { var = PO_effect value = num_of_military_factories }
-			subtract_from_variable = { var = PO_effect value = num_of_naval_factories }
+			# subtract_from_variable = { var = PO_effect value = num_of_military_factories }
+			# subtract_from_variable = { var = PO_effect value = num_of_naval_factories }
+
+			set_temp_variable = { var = PO_calc_penalty value = num_of_military_factories }
+			add_to_temp_variable = { var = PO_calc_penalty value = num_of_naval_factories }
+			multiply_temp_variable = { var = PO_calc_penalty value = 1.5 }
+
+			subtract_from_variable = { var = PO_effect value = PO_calc_penalty }
 
 			multiply_variable = { var = PO_effect value = 0.004 }
 			# multiplying by 0.01 translates into 1% for each factory
